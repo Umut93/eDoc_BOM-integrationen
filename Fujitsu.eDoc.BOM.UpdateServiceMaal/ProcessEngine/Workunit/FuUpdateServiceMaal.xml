@@ -1,0 +1,5 @@
+﻿<invokes>
+  <invoke routing="route://Fujitsu.eDoc.BOM.UpdateServiceMaal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620//Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.ProcessServiceMaal/BatchServiceMaals">
+    <parameters/>
+  </invoke>
+</invokes>

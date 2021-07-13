@@ -1,0 +1,8 @@
+﻿<workUnit displayName="Stikprøvekontrol" id="798CB44B-6221-4689-AB8D-220AD8EBB61" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Sager, som bliver udtaget til stikprøve.</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"/>
+</workUnit>

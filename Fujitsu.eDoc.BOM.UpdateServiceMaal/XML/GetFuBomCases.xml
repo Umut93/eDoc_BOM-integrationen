@@ -1,0 +1,22 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="Case" SELECTTYPE="DATASET" TAG="RECORDS" DATASETFORMAT="XML" DISTINCT="-1" MAXROWS="-1">
+    <RELATIONS>
+      <RELATION NAME='ToCaseStatus' JOIN="EQUAL" >
+        <CRITERIA>
+          <METAITEM NAME='Closed' OPERATOR='='>
+            <VALUE>0</VALUE>
+          </METAITEM>
+        </CRITERIA>
+      </RELATION>
+      <RELATION NAME='ToBomCase' JOIN="EQUAL">
+        <RESULTFIELDS>
+          <METAITEM TAG="ToBomCase.ApplicationId">ApplicationId</METAITEM>
+        </RESULTFIELDS>
+        <CRITERIA>
+          <METAITEM NAME="ApplicationId" OPERATOR="IS NOT NULL" ANDOR="AND">
+          </METAITEM>
+        </CRITERIA>
+      </RELATION>
+    </RELATIONS>
+  </QUERYDESC>
+</operation>

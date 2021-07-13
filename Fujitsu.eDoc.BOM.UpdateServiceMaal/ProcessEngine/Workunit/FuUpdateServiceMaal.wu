@@ -1,0 +1,8 @@
+﻿<workUnit displayName="Opdatering af servicemålsstatistikken" id="094F9AF3-C3BB-4353-9DCB-2763BEEAA5DD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Opdater servicemål på byggesager på daglig basis </description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.OnceAfter4am" runAs="SystemDefault" resultType="none"/>
+</workUnit>
