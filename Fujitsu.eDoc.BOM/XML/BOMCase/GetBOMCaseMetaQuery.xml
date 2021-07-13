@@ -1,0 +1,42 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="FuBOMCase" DATASETFORMAT="XML" MAXROWS="0">
+    <RESULTFIELDS>
+      <METAITEM TAG="Recno">Recno</METAITEM>
+      <METAITEM TAG="ToCase">ToCase</METAITEM>
+      <METAITEM TAG="StatusCode">StatusCode</METAITEM>
+      <METAITEM TAG="OtherAuthorityCode">OtherAuthorityCode</METAITEM>
+      <METAITEM TAG="PhaseCode">PhaseCode</METAITEM>
+      <METAITEM TAG="InitiativeDuty">InitiativeDuty</METAITEM>
+      <METAITEM TAG="DeadlineNotificationKode">DeadlineNotificationKode</METAITEM>
+      <METAITEM TAG="Deadline">Deadline</METAITEM>
+      <METAITEM TAG="BFEnumber">BFEnumber</METAITEM>
+    </RESULTFIELDS>
+    <RELATIONS>
+      <RELATION NAME='InitiativeDuty'>
+        <RESULTFIELDS>
+          <METAITEM TAG='InitiativeDuty.Description'>Description</METAITEM>
+        </RESULTFIELDS>
+      </RELATION>
+      <RELATION NAME='OtherAuthorityCode'>
+        <RESULTFIELDS>
+          <METAITEM TAG='OtherAuthorityCode.Description'>Description</METAITEM>
+        </RESULTFIELDS>
+      </RELATION>
+      <RELATION NAME='PhaseCode'>
+        <RESULTFIELDS>
+          <METAITEM TAG='PhaseCode.Description'>Description</METAITEM>
+        </RESULTFIELDS>
+      </RELATION>
+      <RELATION NAME='StatusCode'>
+        <RESULTFIELDS>
+          <METAITEM TAG='StatusCode.Description'>Description</METAITEM>
+        </RESULTFIELDS>
+      </RELATION>
+    </RELATIONS>
+    <CRITERIA>
+      <METAITEM NAME="CaseId" OPERATOR="=">
+        <VALUE>#CaseId#</VALUE>
+      </METAITEM>
+    </CRITERIA>
+  </QUERYDESC>
+</operation>

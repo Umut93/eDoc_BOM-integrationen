@@ -1,0 +1,14 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="code table: Fu BOM Activity Type" DATASETFORMAT="XML" MAXROWS="0">
+    <RESULTFIELDS>
+      <METAITEM TAG="Recno">Recno</METAITEM>
+      <METAITEM TAG="Code">Code</METAITEM>
+      <METAITEM TAG="Description">Description</METAITEM>
+    </RESULTFIELDS>
+    <CRITERIA>
+      <METAITEM NAME="Expired" OPERATOR="=">
+        <VALUE>0</VALUE>
+      </METAITEM>
+    </CRITERIA>
+  </QUERYDESC>
+</operation>

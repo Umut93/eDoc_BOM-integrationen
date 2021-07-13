@@ -1,0 +1,10 @@
+﻿<operation>
+  <UPDATESTATEMENT NAMESPACE="SIRIUS" ENTITY="FuBOMCase" PRIMARYKEYVALUE="#RECNO#">
+    <METAITEM NAME="ServiceMaalDays">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="ServiceMaalStatus">
+      <VALUE></VALUE>
+    </METAITEM>
+  </UPDATESTATEMENT>
+</operation>

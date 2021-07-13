@@ -1,0 +1,13 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE='SIRIUS' ENTITY='Noark Subarchive' DATASETFORMAT='XML' LANGUAGE='DAN'>
+    <RESULTFIELDS>
+      <METAITEM TAG='Recno'>Recno</METAITEM>
+      <METAITEM TAG='ToArchive'>ToArchive</METAITEM>
+    </RESULTFIELDS>
+    <CRITERIA>
+      <METAITEM NAME='Code' OPERATOR='LIKE'>
+        <VALUE>#SUBARCHIVECODE#%</VALUE>
+      </METAITEM>
+    </CRITERIA>
+  </QUERYDESC>
+</operation>

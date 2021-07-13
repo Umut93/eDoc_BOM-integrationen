@@ -1,0 +1,10 @@
+﻿<operation>
+  <UPDATESTATEMENT NAMESPACE="SIRIUS" ENTITY="code table: Fu BOM Activity Type" PRIMARYKEYVALUE="#Recno#">
+    <METAITEM NAME="Description">
+      <VALUE>#Description#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ToDate">
+      <VALUE>#ToDate#</VALUE>
+    </METAITEM>
+  </UPDATESTATEMENT>
+</operation>

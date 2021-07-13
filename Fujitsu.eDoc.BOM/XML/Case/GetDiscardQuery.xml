@@ -1,0 +1,12 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="code table: System Code values" DATASETFORMAT="XML" LANGUAGE='DAN'>
+    <RESULTFIELDS>
+      <METAITEM TAG="Recno">Value</METAITEM>
+    </RESULTFIELDS>
+    <CRITERIA>
+      <METAITEM NAME="Code" OPERATOR="=">
+        <VALUE>#DISCARDCODE#</VALUE>
+      </METAITEM>
+    </CRITERIA>
+  </QUERYDESC>
+</operation>

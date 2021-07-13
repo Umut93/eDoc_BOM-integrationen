@@ -1,0 +1,14 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="Contact" DATASETFORMAT="XML">
+    <RESULTFIELDS>
+      <METAITEM TAG="Recno">Recno</METAITEM>
+      <METAITEM TAG="Domain">Domain</METAITEM>
+      <METAITEM TAG="ToEmployer">ToEmployer</METAITEM>
+    </RESULTFIELDS>
+    <CRITERIA>
+      <METAITEM NAME="Recno" OPERATOR="=">
+        <VALUE>#RECNO#</VALUE>
+      </METAITEM>
+    </CRITERIA>
+  </QUERYDESC>
+</operation>

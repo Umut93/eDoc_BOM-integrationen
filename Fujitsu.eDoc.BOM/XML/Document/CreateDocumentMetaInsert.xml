@@ -1,0 +1,73 @@
+﻿<operation>
+  <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="Document">
+    <METAITEM NAME='Title'>
+      <VALUE>#TITLE#</VALUE>
+    </METAITEM>
+    <METAITEM NAME='ToDocumentArchive'>
+      <VALUE>2</VALUE>
+    </METAITEM>
+    <METAITEM NAME='ToCase'>
+      <VALUE>#CASERECNO#</VALUE>
+    </METAITEM>
+    <METAITEM NAME='IsBomDocumentRead'>
+      <VALUE>#IsBomDocumentRead#</VALUE>
+    </METAITEM>
+    <METAITEM NAME='ToDocumentCategory'>
+      <VALUE>110</VALUE>
+    </METAITEM>
+    <METAITEM NAME="DocumentDate">
+      <VALUE>#DOCUMENTDATE#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ToOrgUnit">
+      <VALUE>#ORGUNIT#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="OurRef">
+      <VALUE>#OURREF#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="BomSubmissionNummer">
+      <VALUE>#BomSubmissionNummer#</VALUE>
+    </METAITEM>
+  </INSERTSTATEMENT>
+  <BATCH>
+    <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="File">
+      <METAITEM NAME="url">
+        <VALUE>#FILEPATH#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="ToRelationType">
+        <VALUE>1</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Comment">
+        <VALUE>#COMMENT#</VALUE>
+      </METAITEM>
+    </INSERTSTATEMENT>
+    <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="ActivityContact" >
+      <METAITEM NAME="Name">
+        <VALUE>#ContactName#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Email">
+        <VALUE>#ContactEmail#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Phone">
+        <VALUE>#ContactPhone#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Address">
+        <VALUE>#ContactAddress#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="ZipCode">
+        <VALUE>#ContactZipCode#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="ZipPlace">
+        <VALUE>#ContactZipPlace#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Country">
+        <VALUE>#ContactCountry#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="ToDomain">
+        <VALUE>0</VALUE>
+      </METAITEM>
+      <METAITEM NAME="ToRole">
+        <VALUE>5</VALUE>
+      </METAITEM>
+    </INSERTSTATEMENT>
+  </BATCH>
+</operation>

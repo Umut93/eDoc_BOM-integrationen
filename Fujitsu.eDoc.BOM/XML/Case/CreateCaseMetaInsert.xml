@@ -1,0 +1,115 @@
+﻿<operation>
+  <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="Case">
+    <METAITEM NAME="Recno">
+      <VALUE />
+    </METAITEM>
+    <METAITEM NAME="CaseType">
+      <VALUE>#CaseType#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="Description">
+      <VALUE>#TITLE#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ToAccessCode">
+      <VALUE>#ACCESSCODE#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ToAccessGroup">
+      <VALUE>#ACCESSGROUP#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ToOrgUnit">
+      <VALUE>#ORGUNIT#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="OurRef">
+      <VALUE>#OURREF#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ToSubArchive">
+      <VALUE>#SUBARCHIVERECNO#</VALUE>
+    </METAITEM>
+    <METAITEM NAME='ToScrapCode'>
+      <VALUE>#DISCARDCODERECNO#</VALUE>
+    </METAITEM>
+    <METAITEM NAME='ToCaseCategory'>
+      <VALUE>#ToCaseCategory#</VALUE>
+    </METAITEM>
+    <METAITEM NAME='LapseTemplate'>
+      <VALUE>#ToProgressPlan#</VALUE>
+    </METAITEM>
+	<METAITEM NAME='CF_ExtSystem'>
+	  <VALUE>BOM</VALUE>
+	</METAITEM>
+    <METAITEM NAME='FuBomRecno'>
+      <VALUE>#FuBomRecno#</VALUE>
+    </METAITEM>
+  </INSERTSTATEMENT>
+  <BATCH>
+    <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="connection: Case - Noark Classification code">
+      <METAITEM NAME="CaseID">
+        <VALUE />
+      </METAITEM>
+      <METAITEM NAME="Sort">
+        <VALUE>1</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Value">
+        <VALUE><![CDATA[#CLASSCODE1#]]></VALUE>
+      </METAITEM>
+    </INSERTSTATEMENT>
+    <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="connection: Case - Noark Classification code">
+      <METAITEM NAME="CaseID">
+        <VALUE />
+      </METAITEM>
+      <METAITEM NAME="Sort">
+        <VALUE>2</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Value">
+        <VALUE><![CDATA[#CLASSCODE2#]]></VALUE>
+      </METAITEM>
+    </INSERTSTATEMENT>
+    <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="connection: Case - Noark Classification code">
+      <METAITEM NAME="CaseID">
+        <VALUE />
+      </METAITEM>
+      <METAITEM NAME="Sort">
+        <VALUE>3</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Value">
+        <VALUE><![CDATA[#CLASSCODE3#]]></VALUE>
+      </METAITEM>
+    </INSERTSTATEMENT>
+    <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="connection: Estate - Case">
+      <METAITEM NAME="ToEstate">
+        <VALUE>#ESTATERECNO#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="ToRole">
+        <VALUE>1</VALUE>
+      </METAITEM>
+    </INSERTSTATEMENT>
+    <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="CaseContact" >
+      <METAITEM NAME="Name">
+        <VALUE>#ContactName#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Email">
+        <VALUE>#ContactEmail#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Phone">
+        <VALUE>#ContactPhone#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Address">
+        <VALUE>#ContactAddress#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="ZipCode">
+        <VALUE>#ContactZipCode#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="ZipPlace">
+        <VALUE>#ContactZipPlace#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Country">
+        <VALUE>#ContactCountry#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="ToDomain">
+        <VALUE>0</VALUE>
+      </METAITEM>
+      <METAITEM NAME="ToRole">
+        <VALUE>#ContactToRole#</VALUE>
+      </METAITEM>
+    </INSERTSTATEMENT>
+  </BATCH>
+</operation>

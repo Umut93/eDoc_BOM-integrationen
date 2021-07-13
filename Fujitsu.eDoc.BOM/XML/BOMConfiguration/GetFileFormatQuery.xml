@@ -1,0 +1,13 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="code table: File Format" DATASETFORMAT="XML" MAXROWS="0">
+    <RESULTFIELDS>
+      <METAITEM TAG="Recno">Recno</METAITEM>
+      <METAITEM TAG="FileExtension">FileExtension</METAITEM>
+    </RESULTFIELDS>
+    <CRITERIA>
+      <METAITEM NAME="Expired" OPERATOR="=">
+        <VALUE>0</VALUE>
+      </METAITEM>
+    </CRITERIA>
+  </QUERYDESC>
+</operation>

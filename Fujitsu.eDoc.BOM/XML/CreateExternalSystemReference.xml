@@ -1,0 +1,13 @@
+﻿<operation>
+  <INSERTSTATEMENT NAMESPACE='SIRIUS' ENTITY='CaseExternSystem'>
+    <METAITEM NAME='CaseID'>
+      <VALUE>#CASERECNO#</VALUE>
+    </METAITEM>
+    <METAITEM NAME='ExternSystemID'>
+      <VALUE>#EXTERNSYSRECNO#</VALUE>
+    </METAITEM>
+    <METAITEM NAME='ReferenceKey'>
+      <VALUE>#REFERENCEKEY#</VALUE>
+    </METAITEM>
+  </INSERTSTATEMENT>
+</operation>

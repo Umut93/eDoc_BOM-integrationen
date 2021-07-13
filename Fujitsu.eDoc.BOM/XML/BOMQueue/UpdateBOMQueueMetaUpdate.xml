@@ -1,0 +1,13 @@
+﻿<operation>
+  <UPDATESTATEMENT NAMESPACE="SIRIUS" ENTITY="FuBOMQueue"  PRIMARYKEYVALUE="#Recno#">
+    <METAITEM NAME="MetaXML">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="Status">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="ErrorMsg">
+      <VALUE></VALUE>
+    </METAITEM>
+  </UPDATESTATEMENT>
+</operation>

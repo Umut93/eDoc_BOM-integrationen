@@ -1,0 +1,19 @@
+﻿<operation>
+  <UPDATESTATEMENT NAMESPACE="SIRIUS" ENTITY="FuBOMCase" PRIMARYKEYVALUE="">
+    <METAITEM NAME="ServiceMaalDays">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="CaseManagementSpentDays">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="CaseManagementSpentDaysSpecified">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="VisitationSpentDays" >
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="VisitationSpentDaysSpecified">
+      <VALUE></VALUE>
+    </METAITEM>
+  </UPDATESTATEMENT>
+</operation>

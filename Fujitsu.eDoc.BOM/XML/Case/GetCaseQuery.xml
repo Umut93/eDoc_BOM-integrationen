@@ -1,0 +1,30 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="Case" DATASETFORMAT="XML">
+    <RESULTFIELDS>
+      <METAITEM TAG="Recno">Recno</METAITEM>
+      <METAITEM TAG="UniqueIdentity">UniqueIdentity</METAITEM>
+      <METAITEM TAG="Name">Name</METAITEM>
+    </RESULTFIELDS>
+    <RELATIONS>
+      <RELATION NAME="OurRef">
+        <RESULTFIELDS>
+          <METAITEM TAG="SearchName">SearchName</METAITEM>
+          <METAITEM TAG="E-mail">E-mail</METAITEM>
+          <METAITEM TAG="Telephone">Telephone</METAITEM>
+        </RESULTFIELDS>
+      </RELATION>
+      <RELATION NAME='ToBOMCase'>
+        <RESULTFIELDS>
+          <METAITEM TAG='BOMCaseID'>CaseId</METAITEM>
+          <METAITEM TAG='PhaseCode'>PhaseCode</METAITEM>
+          <METAITEM TAG='ResponsibleAuthority'>ResponsibleAuthority</METAITEM>
+        </RESULTFIELDS>
+      </RELATION>
+    </RELATIONS>
+    <CRITERIA>
+      <METAITEM NAME="Recno" OPERATOR="=">
+        <VALUE>#RECNO#</VALUE>
+      </METAITEM>
+    </CRITERIA>
+  </QUERYDESC>
+</operation>

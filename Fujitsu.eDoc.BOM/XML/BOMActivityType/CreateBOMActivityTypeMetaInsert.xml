@@ -1,0 +1,13 @@
+﻿<operation>
+  <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="code table: Fu BOM Activity Type">
+    <METAITEM NAME="Recno">
+      <VALUE />
+    </METAITEM>
+    <METAITEM NAME="Code">
+      <VALUE>#Code#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="Description">
+      <VALUE>#Description#</VALUE>
+    </METAITEM>
+  </INSERTSTATEMENT>
+</operation>

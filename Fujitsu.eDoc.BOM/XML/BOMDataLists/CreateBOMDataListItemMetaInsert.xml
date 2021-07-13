@@ -1,0 +1,16 @@
+﻿<operation>
+  <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="FuBOMDataLists">
+    <METAITEM NAME="Recno">
+      <VALUE />
+    </METAITEM>
+    <METAITEM NAME="ListName">
+      <VALUE>#ListName#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="Code">
+      <VALUE>#Code#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="Description">
+      <VALUE>#Description#</VALUE>
+    </METAITEM>
+  </INSERTSTATEMENT>
+</operation>

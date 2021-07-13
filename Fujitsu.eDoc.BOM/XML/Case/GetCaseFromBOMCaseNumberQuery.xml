@@ -1,0 +1,51 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="Case" DATASETFORMAT="XML">
+    <RESULTFIELDS>
+      <METAITEM TAG="Recno">Recno</METAITEM>
+      <METAITEM TAG="UniqueIdentity">UniqueIdentity</METAITEM>
+      <METAITEM TAG="Name">Name</METAITEM>
+      <METAITEM TAG="ToOrgUnit">ToOrgUnit</METAITEM>
+      <METAITEM TAG="OurRef">OurRef</METAITEM>
+    </RESULTFIELDS>
+    <RELATIONS>
+      <RELATION NAME="OurRef">
+        <RESULTFIELDS>
+          <METAITEM TAG="SearchName">SearchName</METAITEM>
+          <METAITEM TAG="E-mail">E-mail</METAITEM>
+          <METAITEM TAG="Telephone">Telephone</METAITEM>
+        </RESULTFIELDS>
+      </RELATION>
+      <RELATION NAME="ToBOMCase">
+        <RESULTFIELDS>
+          <METAITEM TAG="BOMCaseRecno">Recno</METAITEM>
+          <METAITEM TAG="BFEnumber">BFEnumber</METAITEM>
+        </RESULTFIELDS>
+        <CRITERIA>
+          <METAITEM NAME="CaseId" OPERATOR="=">
+            <VALUE>#CaseId#</VALUE>
+          </METAITEM>
+        </CRITERIA>
+        <RELATIONS>
+          <RELATION NAME="PhaseCode">
+            <RESULTFIELDS>
+              <METAITEM TAG="PhaseCode">Code</METAITEM>
+              <METAITEM TAG="PhaseCodeDescription">Description</METAITEM>
+            </RESULTFIELDS>
+          </RELATION>
+          <RELATION NAME="StatusCode">
+            <RESULTFIELDS>
+              <METAITEM TAG="StatusCode">Code</METAITEM>
+              <METAITEM TAG="StatusCodeDescription">Description</METAITEM>
+            </RESULTFIELDS>
+          </RELATION>
+          <RELATION NAME="InitiativeDuty">
+            <RESULTFIELDS>
+              <METAITEM TAG="InitiativeDutyCode">Code</METAITEM>
+              <METAITEM TAG="InitiativeDutyDescription">Description</METAITEM>
+            </RESULTFIELDS>
+          </RELATION>
+        </RELATIONS>
+      </RELATION>
+    </RELATIONS>
+  </QUERYDESC>
+</operation>

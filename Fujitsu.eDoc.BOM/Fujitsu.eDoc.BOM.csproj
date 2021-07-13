@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E01DA52A-120D-46DE-9368-DD23912AC2F7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fujitsu.eDoc.BOM</RootNamespace>
+    <AssemblyName>Fujitsu.eDoc.BOM</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Fujitsu.Invia.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Fujitsu.eDoc.ClassCodeAdmin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.ClassCodeAdmin.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.eDoc.Codebehind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8f50cf2fc45d3fd2, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.Codebehind.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.eDoc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.eDoc.Core.DefaultValue.Codebehind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.Core.DefaultValue.Codebehind.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.eDoc.ImportData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.ImportData.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.eDoc.Integrations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Integrations.DLL.5.1.34.11229\lib\Fujitsu.eDoc.Integrations.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.eDoc.Integrations.Codebehind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Integrations.DLL.5.1.34.11229\lib\Fujitsu.eDoc.Integrations.Codebehind.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.eDoc.Notification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.Notification.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.ExternalDataBroker.BrokerUtility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.ExternalDataBroker.DataContracts.DLL.5.1.27.9229\lib\Fujitsu.ExternalDataBroker.BrokerUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.ExternalDataBroker.DataContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.ExternalDataBroker.DataContracts.DLL.5.1.27.9229\lib\Fujitsu.ExternalDataBroker.DataContracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.ExternRegister, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.ExternRegister.DLL.5.1.23.7240\lib\Fujitsu.ExternRegister.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Biz.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\SI 5.0.0\SI.Biz.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Biz.Core.ClientAccess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\SI 5.0.0\SI.Biz.Core.ClientAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Biz.Tools, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\SI 5.0.0\SI.Biz.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Linq.Meta, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\SI 5.0.0\SI.Linq.Meta.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Linq.Provider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\SI 5.0.0\SI.Linq.Provider.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Util, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\SI 5.0.0\SI.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TallComponents.PDF.Kit">
+      <HintPath>..\Fujitsu.eDoc.BOM.Libraries\TallComponents.PDF.Kit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BOMCaller.cs" />
+    <Compile Include="CaseHandler\BOMCase.cs" />
+    <Compile Include="CaseHandler\BOMCaseHandler.cs" />
+    <Compile Include="BOMCaseUpdateType.cs" />
+    <Compile Include="BOMConfigHandler.cs" />
+    <Compile Include="BOMConfiguration.cs" />
+    <Compile Include="BOMMessageHandler.cs" />
+    <Compile Include="BOMQueueHandler.cs" />
+    <Compile Include="CaseHandler\BOMDocument.cs" />
+    <Compile Include="CaseHandler\BOMUtils.cs" />
+    <Compile Include="CaseHandler\Contact.cs" />
+    <Compile Include="EmailHelper.cs" />
+    <Compile Include="EntityLogHelper.cs" />
+    <Compile Include="FuBomQueue.cs" />
+    <Compile Include="FuIndsendelseType.cs" />
+    <Compile Include="Integrations\BFENumberHandler.cs" />
+    <Compile Include="Integrations\EjerfortegnelsenHandler.cs" />
+    <Compile Include="PDFHelper.cs" />
+    <Compile Include="PDFStamper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serialization.cs" />
+    <Compile Include="Service References\BOMBeskedfordeler\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BOMKonfigurationV6\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BOMSagsbehandling\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BOMSagStatus\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceGoalStatus.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Fujitsu.Invia.snk" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMBeskedfordeler\BeskedfordelerV2.wsdl" />
+    <None Include="Service References\BOMBeskedfordeler\BeskedfordelerV2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMBeskedfordeler\BeskedfordelerV21.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMBeskedfordeler\BeskedfordelerV22.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMBeskedfordeler\BeskedfordelerV23.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMKonfigurationV6\Fujitsu.eDoc.BOM.BOMKonfigurationV6.KonfigurationDataTransferBasisKonfiguration.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BOMKonfigurationV6\Fujitsu.eDoc.BOM.BOMKonfigurationV6.KonfigurationDataTransferRegelKonfiguration.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BOMKonfigurationV6\KonfigurationV6.wsdl" />
+    <None Include="Service References\BOMKonfigurationV6\KonfigurationV6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMKonfigurationV6\KonfigurationV61.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMKonfigurationV6\KonfigurationV62.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMKonfigurationV6\KonfigurationV63.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMKonfigurationV6\KonfigurationV64.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMKonfigurationV6\KonfigurationV65.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMKonfigurationV6\KonfigurationV66.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMKonfigurationV6\KonfigurationV67.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\Fujitsu.eDoc.BOM.BOMSagsbehandling.BesvarAnsoegningResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\Fujitsu.eDoc.BOM.BOMSagsbehandling.FederationTokenPart.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\Fujitsu.eDoc.BOM.BOMSagsbehandling.GetSecurityTokenResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\Fujitsu.eDoc.BOM.BOMSagsbehandling.IndsendelseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\Fujitsu.eDoc.BOM.BOMSagsbehandling.LaesAnsoegningOversigtResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\Fujitsu.eDoc.BOM.BOMSagsbehandling.LaesAnsoegningResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\Fujitsu.eDoc.BOM.BOMSagsbehandling.LaesServiceMaalStatistikResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\Fujitsu.eDoc.BOM.BOMSagsbehandling.OpdaterSagServiceMaalResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\Fujitsu.eDoc.BOM.BOMSagsbehandling.ServiceMaalStatistikkerType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\Fujitsu.eDoc.BOM.BOMSagsbehandling.ServiceMaalStatistikType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\SagsbehandlingV5.wsdl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMSagStatus\Fujitsu.eDoc.BOM.BOMSagStatus.LaesSagStatusOversigtResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BOMSagStatus\Fujitsu.eDoc.BOM.BOMSagStatus.LaesSagStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BOMSagStatus\Fujitsu.eDoc.BOM.BOMSagStatus.SagStatusDetaljeType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BOMSagStatus\Fujitsu.eDoc.BOM.BOMSagStatus.SagStatusListItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BOMSagStatus\SagStatusV2.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XML\Case\CreateCaseMetaInsert.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XML\Case\GetSubArchiveQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XML\CreateExternalSystemReference.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XML\Case\GetDiscardQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XML\Document\CreateDocumentMetaInsert.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XML\BOMCase\CreateBOMCaseMetaInsert.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XML\Case\GetCaseQuery.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XML\Case\GetCaseFromBOMCaseNumberQuery.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XML\BOMCase\UpdateBOMServiceGoalStatus.xml" />
+    <EmbeddedResource Include="XML\BOMCase\AddBFENumberToBOMCase.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XML\Case\GetFuBomCaseRecno.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XML\Case\UpdateCasesWithServiceMaals.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XML\FuBOMValidation\CheckIfBOMsagExist.xml" />
+    <EmbeddedResource Include="XML\FuBOMValidation\UpdateBOMCaseNumber.xml" />
+    <EmbeddedResource Include="XML\BOMCase\GetBOMCaseRecnoQuery.xml" />
+    <EmbeddedResource Include="XML\BOMCase\UpdateBOMCaseWithBOMStatus.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XML\BOMCase\GetBOMCaseStatusMapQuery.xml" />
+    <EmbeddedResource Include="XML\BOMConfiguration\GetDocumentArchiveQuery.xml" />
+    <EmbeddedResource Include="XML\BOMConfiguration\GetFileFormatQuery.xml" />
+    <EmbeddedResource Include="XML\BOMSubmission\RegisterBOMSubmissionErrorMetaUpdate.xml" />
+    <EmbeddedResource Include="XML\BOMSubmission\GetBOMSubmissionInterruptedMetaQuery.xml" />
+    <EmbeddedResource Include="XML\BOMSubmission\GetBOMSubmissionHandledMetaQuery.xml" />
+    <EmbeddedResource Include="XML\FuBOMMessage\UpdateBOMMessageStatusMetaUpdate.xml" />
+    <EmbeddedResource Include="XML\BOMCase\GetBOMCaseMetaQuery.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XML\BOMCase\UpdateBOMCaseServiceGoalMetaUpdate.xml" />
+    <EmbeddedResource Include="XML\FuBOMMessage\CreateBOMMessageMetaInsert.xml" />
+    <EmbeddedResource Include="XML\FuBOMMessage\GetLatestBOMMessageMetaQuery.xml" />
+    <EmbeddedResource Include="XML\BOMConfiguration\GetBOMActivityTypeQuery.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XML\BOMActivityType\UpdateBOMActivityTypeMetaUpdate.xml" />
+    <EmbeddedResource Include="XML\BOMActivityType\CreateBOMActivityTypeMetaInsert.xml" />
+    <EmbeddedResource Include="XML\BOMActivityType\GetBOMActivityTypeQuery.xml" />
+    <EmbeddedResource Include="XML\BOMDataLists\GetItemDescriptionQuery.xml" />
+    <EmbeddedResource Include="XML\BOMCase\UpdateReplyBOMCaseMetaUpdate.xml" />
+    <EmbeddedResource Include="XML\BOMDataLists\GetBOMDataListsLastUpdatedQuery.xml" />
+    <EmbeddedResource Include="XML\Activity\CreateReminderActivityMetaInsert.xml" />
+    <None Include="Service References\BOMBeskedfordeler\BeskedfordelerV2.disco" />
+    <None Include="Service References\BOMBeskedfordeler\configuration91.svcinfo" />
+    <None Include="Service References\BOMBeskedfordeler\configuration.svcinfo" />
+    <None Include="Service References\BOMBeskedfordeler\Fujitsu.eDoc.BOM.BOMBeskedfordeler.HentBeskederResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BOMBeskedfordeler\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\BOMSagStatus\configuration91.svcinfo" />
+    <None Include="Service References\BOMSagStatus\configuration.svcinfo" />
+    <None Include="Service References\BOMSagStatus\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\configuration91.svcinfo" />
+    <None Include="Service References\BOMSagsbehandling\configuration.svcinfo">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOMSagsbehandling\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\BOMKonfigurationV6\KonfigurationV6.disco" />
+    <None Include="Service References\BOMKonfigurationV6\configuration91.svcinfo" />
+    <None Include="Service References\BOMKonfigurationV6\configuration.svcinfo" />
+    <None Include="Service References\BOMKonfigurationV6\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="XML\BatchCreateCaseContact.xml" />
+    <EmbeddedResource Include="XML\FileVersion\UpdateFileVersionMetaUpdate.xml" />
+    <EmbeddedResource Include="XML\BOMCase\UpdateBOMCaseReplyMetaUpdate.xml" />
+    <EmbeddedResource Include="XML\BOMQueue\UpdateBOMQueueMetaUpdate.xml" />
+    <EmbeddedResource Include="XML\BOMQueue\GetPendingBOMQueueListMetaQuery.xml" />
+    <EmbeddedResource Include="XML\BOMQueue\CreateBOMQueueMetaInsert.xml" />
+    <EmbeddedResource Include="XML\BOMSubmission\GetLatestBOMSubmissionMetaQuery.xml" />
+    <EmbeddedResource Include="XML\BOMSubmission\UpdateBOMSubmissionMetaUpdate.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XML\BOMSubmission\GetBOMSubmissionMetaQuery.xml" />
+    <EmbeddedResource Include="XML\BOMSubmission\CreateBOMSubmissionMetaInsert.xml" />
+    <EmbeddedResource Include="XML\BOMCase\UpdateBOMCaseTransferStatusMetaUpdate.xml" />
+    <EmbeddedResource Include="XML\BOMCase\UpdateBOMCaseMetaUpdate.xml" />
+    <EmbeddedResource Include="XML\BOMConfiguration\GetContactQuery.xml" />
+    <EmbeddedResource Include="XML\BOMConfiguration\GetBOMConfigurationQuery.xml" />
+    <EmbeddedResource Include="XML\BOMDataLists\UpdateBOMDataListItemMetaUpdate.xml" />
+    <EmbeddedResource Include="XML\BOMDataLists\CreateBOMDataListItemMetaInsert.xml" />
+    <EmbeddedResource Include="XML\BOMDataLists\GetBOMDataListsQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\BOMBeskedfordeler\" />
+    <WCFMetadataStorage Include="Service References\BOMKonfigurationV6\" />
+    <WCFMetadataStorage Include="Service References\BOMSagsbehandling\" />
+    <WCFMetadataStorage Include="Service References\BOMSagStatus\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64\gacutil.exe" /if "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

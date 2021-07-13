@@ -1,0 +1,46 @@
+﻿<operation>
+  <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="FuBOMMessage">
+    <METAITEM NAME="Recno">
+      <VALUE />
+    </METAITEM>
+    <METAITEM NAME="ApplicationId">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="CaseId">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="CaseStatusId">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="DeadlineDate">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="DeadlineStatusCode">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="DeadlineStatusName">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="HighWatermark">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="MessageTime">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="MessageType">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="MunicipalityCVR">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="Receivertype">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="Status">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="TreatingMunicipalityCVR">
+      <VALUE></VALUE>
+    </METAITEM>
+  </INSERTSTATEMENT>
+</operation>

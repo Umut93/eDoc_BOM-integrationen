@@ -1,0 +1,22 @@
+﻿<operation>
+  <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="FuBOMSubmission">
+    <METAITEM NAME="Recno">
+      <VALUE />
+    </METAITEM>
+    <METAITEM NAME="SubmissionTime">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="ApplicationId">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="CaseId">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="TransferStatus">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="SubmissionNummer">
+      <VALUE></VALUE>
+    </METAITEM>
+  </INSERTSTATEMENT>
+</operation>

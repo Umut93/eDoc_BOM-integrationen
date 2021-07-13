@@ -1,0 +1,19 @@
+﻿<operation>
+  <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="FuBOMQueue">
+    <METAITEM NAME="Recno">
+      <VALUE />
+    </METAITEM>
+    <METAITEM NAME="ToCase">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="MetaXML">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="Status">
+      <VALUE></VALUE>
+    </METAITEM>
+    <METAITEM NAME="Title">
+      <VALUE></VALUE>
+    </METAITEM>
+  </INSERTSTATEMENT>
+</operation>

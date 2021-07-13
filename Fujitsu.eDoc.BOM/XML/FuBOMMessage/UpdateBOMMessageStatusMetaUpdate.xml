@@ -1,0 +1,7 @@
+﻿<operation>
+  <UPDATESTATEMENT NAMESPACE="SIRIUS" ENTITY="FuBOMMessage" PRIMARYKEYVALUE="#Recno#">
+    <METAITEM NAME="Status">
+      <VALUE>#Status#</VALUE>
+    </METAITEM>
+  </UPDATESTATEMENT>
+</operation>

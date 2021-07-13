@@ -1,0 +1,11 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="FuBOMMessage" DATASETFORMAT="XML" MAXROWS="1">
+    <RESULTFIELDS>
+      <METAITEM TAG="Recno">Recno</METAITEM>
+      <METAITEM TAG="HighWatermark">HighWatermark</METAITEM>
+    </RESULTFIELDS>
+    <ORDERFIELDS>
+      <METAITEM DESC="-1">Recno</METAITEM>
+    </ORDERFIELDS>
+  </QUERYDESC>
+</operation>

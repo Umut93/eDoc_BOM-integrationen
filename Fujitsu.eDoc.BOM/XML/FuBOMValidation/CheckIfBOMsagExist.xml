@@ -1,0 +1,12 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="FuBOMCase" DATASETFORMAT="XML">
+      <RESULTFIELDS>
+        <METAITEM TAG="Recno">Recno</METAITEM>
+      </RESULTFIELDS>
+      <CRITERIA>
+        <METAITEM NAME="CaseId" OPERATOR="=">
+          <VALUE>#CaseId#</VALUE>
+        </METAITEM>
+      </CRITERIA>
+  </QUERYDESC>
+</operation>

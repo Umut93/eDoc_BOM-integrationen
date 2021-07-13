@@ -1,0 +1,16 @@
+﻿<operation>
+  <UPDATESTATEMENT NAMESPACE="SIRIUS" ENTITY="FuBOMCase" PRIMARYKEYVALUE="#Recno#">
+    <METAITEM NAME="PhaseCode">
+      <VALUE>#PhaseCode#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="StatusCode">
+      <VALUE>#StatusCode#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="InitiativeDuty">
+      <VALUE>#InitiativeDuty#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="DeadlineNotificationKode">
+      <VALUE>#DeadlineNotificationKode#</VALUE>
+    </METAITEM>
+  </UPDATESTATEMENT>
+</operation>

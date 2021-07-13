@@ -1,0 +1,18 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="FuBOMDataLists" DATASETFORMAT="XML" MAXROWS="0">
+    <RESULTFIELDS>
+      <METAITEM TAG="Recno">Recno</METAITEM>
+      <METAITEM TAG="ListName">ListName</METAITEM>
+      <METAITEM TAG="Code">Code</METAITEM>
+      <METAITEM TAG="Description">Description</METAITEM>
+    </RESULTFIELDS>
+    <CRITERIA>
+      <METAITEM NAME="ListName" OPERATOR="=">
+        <VALUE>#ListName#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Expired" OPERATOR="=">
+        <VALUE>0</VALUE>
+      </METAITEM>
+    </CRITERIA>
+  </QUERYDESC>
+</operation>

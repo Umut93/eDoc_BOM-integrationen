@@ -1,0 +1,7 @@
+﻿<operation>
+  <UPDATESTATEMENT NAMESPACE="SIRIUS" ENTITY="FuBOMSubmission" PRIMARYKEYVALUE="#Recno#">
+    <METAITEM NAME="ErrorMessage">
+      <VALUE><![CDATA[#ErrorMessage#]]></VALUE>
+    </METAITEM>
+  </UPDATESTATEMENT>
+</operation>

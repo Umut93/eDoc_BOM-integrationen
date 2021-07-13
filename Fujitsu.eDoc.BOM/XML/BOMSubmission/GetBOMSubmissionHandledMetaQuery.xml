@@ -1,0 +1,22 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="FuBOMSubmission" DATASETFORMAT="XML" MAXROWS="0">
+    <RESULTFIELDS>
+      <METAITEM TAG="Recno">Recno</METAITEM>
+      <METAITEM TAG="SubmissionTime">SubmissionTime</METAITEM>
+      <METAITEM TAG="ApplicationId">ApplicationId</METAITEM>
+      <METAITEM TAG="CaseId">CaseId</METAITEM>
+      <METAITEM TAG="ToBOMCase">ToBOMCase</METAITEM>
+      <METAITEM TAG="TransferStatus">TransferStatus</METAITEM>
+    </RESULTFIELDS>
+    <CRITERIA>
+      <METAITEM NAME="ApplicationId" OPERATOR="=">
+        <VALUE>#ApplicationId#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="TransferStatus" OPERATOR="in">
+        <VALUE>2</VALUE>
+        <VALUE>3</VALUE>
+        <VALUE>10</VALUE>
+      </METAITEM>
+    </CRITERIA>
+  </QUERYDESC>
+</operation>

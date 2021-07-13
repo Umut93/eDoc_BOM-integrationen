@@ -1,0 +1,19 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="FuBOMQueue" DATASETFORMAT="XML" MAXROWS="0">
+    <RESULTFIELDS>
+      <METAITEM TAG="Recno">Recno</METAITEM>
+      <METAITEM TAG="MetaXML">MetaXML</METAITEM>
+      <METAITEM TAG="Status">Status</METAITEM>
+      <METAITEM TAG="CreatedDate">CreatedDate</METAITEM>
+    </RESULTFIELDS>
+    <CRITERIA>
+      <METAITEM NAME="Status" OPERATOR="in">
+        <VALUE>300001</VALUE>
+        <VALUE>300002</VALUE>
+      </METAITEM>
+    </CRITERIA>
+    <ORDERFIELDS>
+      <METAITEM>CreatedDate</METAITEM>
+    </ORDERFIELDS>
+  </QUERYDESC>
+</operation>

@@ -1,0 +1,7 @@
+﻿<operation>
+  <UPDATESTATEMENT NAMESPACE="SIRIUS" ENTITY="FileVersion" PRIMARYKEYVALUE="#Recno#">
+    <METAITEM NAME="FuSentToBOMDate">
+      <VALUE>#FuSentToBOMDate#</VALUE>
+    </METAITEM>
+  </UPDATESTATEMENT>
+</operation>

@@ -1,0 +1,63 @@
+﻿<operation type="metagrammar">
+  <INSERTSTATEMENT NAMESPACE="SIRIUS" ENTITY="Activity">
+    <METAITEM NAME="Description">
+      <VALUE>BOM erindring #DAYS# dage</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ActivityType">
+      <VALUE>50004</VALUE>
+    </METAITEM>
+    <METAITEM NAME="StartDate">
+      <VALUE>#StartDate#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="EndDate">
+      <VALUE>#EndDate#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ClosedDate">
+      <VALUE>
+      </VALUE>
+    </METAITEM>
+    <METAITEM NAME="Notes">
+      <VALUE ENCODING="Text">
+      </VALUE>
+    </METAITEM>
+    <METAITEM NAME="ToAccessGroup">
+      <VALUE>0</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ActivityStatus">
+      <VALUE>50001</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ActivityCategory">
+      <VALUE>
+      </VALUE>
+    </METAITEM>
+    <METAITEM NAME="Project">
+      <VALUE>
+      </VALUE>
+    </METAITEM>
+    <METAITEM NAME="OurRef">
+      <VALUE>#OurRef#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ToCase">
+      <VALUE>#ToCase#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ToOrgUnit">
+      <VALUE>#ToOrgUnit#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ConnectedEntityLink">
+      <VALUE>?name=Common.Details.Navigate&amp;module=Case&amp;subtype=300004&amp;recno=#ToCase#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ConnectedEntityDescription">
+      <VALUE>#ConnectedEntityDescription#</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ConnectedEntitySubType">
+      <VALUE>300004</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ConnectedEntity">
+      <VALUE>Case</VALUE>
+    </METAITEM>
+    <METAITEM NAME="ConnectedEntityKey">
+      <VALUE>#ToCase#</VALUE>
+    </METAITEM>
+  </INSERTSTATEMENT>
+  <options />
+</operation>

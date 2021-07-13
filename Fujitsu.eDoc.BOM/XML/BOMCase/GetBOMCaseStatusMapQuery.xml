@@ -1,0 +1,33 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="code table: Fu BOM Status Map" DATASETFORMAT="XML" MAXROWS="0">
+    <RESULTFIELDS>
+      <METAITEM TAG="Recno">Recno</METAITEM>
+      <METAITEM TAG="Code">Code</METAITEM>
+    </RESULTFIELDS>
+    <RELATIONS>
+      <RELATION NAME="BOMCaseStatusType">
+      <RESULTFIELDS>
+        <METAITEM TAG="BOMCaseStatusType.Code">Code</METAITEM>
+        </RESULTFIELDS>
+      </RELATION>
+      <RELATION NAME="BOMInitiativPligt">
+        <RESULTFIELDS>
+          <METAITEM TAG="BOMInitiativPligt.Code">Code</METAITEM>
+        </RESULTFIELDS>
+      </RELATION>
+      <RELATION NAME="BOMPhaseCode">
+        <RESULTFIELDS>
+          <METAITEM TAG="BOMPhaseCode.Code">Code</METAITEM>
+        </RESULTFIELDS>
+      </RELATION>
+    </RELATIONS>
+    <CRITERIA>
+      <METAITEM NAME="ToEDocStatus" OPERATOR="=">
+        <VALUE>#TO_CASE_STATUS#</VALUE>
+      </METAITEM>
+      <METAITEM NAME="Expired" OPERATOR="=">
+        <VALUE>0</VALUE>
+      </METAITEM>
+    </CRITERIA>
+  </QUERYDESC>
+</operation>
