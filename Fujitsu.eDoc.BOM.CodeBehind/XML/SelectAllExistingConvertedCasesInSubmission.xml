@@ -1,0 +1,16 @@
+﻿<operation>
+  <QUERYDESC NAMESPACE="SIRIUS" ENTITY="FuBOMSubmission" DATASETFORMAT="XML">
+    <RESULTFIELDS>
+      <METAITEM TAG="ApplicationId">ApplicationId</METAITEM>
+    </RESULTFIELDS>
+    <CRITERIA>
+      <METAITEM NAME="ToBOMCase" OPERATOR="=">
+        <VALUE>#BOMCaseNumber#</VALUE>
+      </METAITEM>
+    </CRITERIA>
+    <ORDERFIELDS>
+      <METAITEM>SubmissionNummer</METAITEM>
+    </ORDERFIELDS>
+  </QUERYDESC>
+</operation>
+

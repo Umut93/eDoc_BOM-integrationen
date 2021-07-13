@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A10E71FF-894C-44A0-BDDB-35B57A639FA0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fujitsu.eDoc.BOM.EventHandler</RootNamespace>
+    <AssemblyName>Fujitsu.eDoc.BOM.EventHandler</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Fujitsu.Invia.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Fujitsu.eDoc.ClassCodeAdmin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.ClassCodeAdmin.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.eDoc.Codebehind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8f50cf2fc45d3fd2, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.Codebehind.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.eDoc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.eDoc.Core.DefaultValue.Codebehind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.Core.DefaultValue.Codebehind.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.eDoc.ImportData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.ImportData.dll</HintPath>
+    </Reference>
+    <Reference Include="Fujitsu.eDoc.Notification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.Notification.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Biz.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\SI 5.0.0\SI.Biz.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Biz.Core.ClientAccess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\SI 5.0.0\SI.Biz.Core.ClientAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Linq.Meta, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\SI 5.0.0\SI.Linq.Meta.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Linq.Provider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\SI 5.0.0\SI.Linq.Provider.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Portal.BusinessIntegration">
+      <HintPath>..\..\Packages\SI 5.0.0\SI.Portal.BusinessIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Util, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\SI 5.0.0\SI.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EventHandlerUpdateBOMCaseStatus.cs" />
+    <Compile Include="EventHandlerUpdateBOMCaseWorker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fujitsu.eDoc.BOM\Fujitsu.eDoc.BOM.csproj">
+      <Project>{e01da52a-120d-46de-9368-dd23912ac2f7}</Project>
+      <Name>Fujitsu.eDoc.BOM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Fujitsu.Invia.snk" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>REM "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64\gacutil.exe" /if "$(TargetPath)"
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
