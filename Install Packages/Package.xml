@@ -1,0 +1,54 @@
+<Package Name="BOM" Version="[VERSION]" InstallPath="[PROGRAMFILES]\Fujitsu\eDoc\_Instances\[INSTANCENAME]\BOM">
+  <Features>
+    <Feature Name="Components" InstallOnServers="APP,BATCH">
+      <Components>
+        <GlobalAssemblyCache>
+          <Assemblies>
+            <Assembly Dll="[SOURCEFOLDER]\Fujitsu.eDoc.BOM.CodeBehind.dll" />
+            <Assembly Dll="[SOURCEFOLDER]\Fujitsu.eDoc.BOM.dll" />
+            <Assembly Dll="[SOURCEFOLDER]\Fujitsu.eDoc.BOM.EventHandler.dll" />
+            <Assembly Dll="[SOURCEFOLDER]\Fujitsu.eDoc.BOM.UpdateServiceMaal.dll" />
+            <Assembly Dll="[SOURCEFOLDER]\Fujitsu.eDoc.BOM.SpotChecking.dll" />
+          </Assemblies>
+        </GlobalAssemblyCache>
+        <Config PathTarget="[INSTANCE ROOT]\webservices\SI.WS.Core\Web.config" PathSrc="[SOURCEFOLDER]\InstallPackage\bomconfig.xml" />
+      </Components>
+    </Feature>
+    <Feature Name="ProcessEngineWorkUnits" InstallOnServers="APP,BATCH">
+      <Components>
+        <CopyFolder FolderName="[SOURCEFOLDER]\ProcessEngine\WorkUnit" Destination="[WORKUNITPARENTFOLDER]\Jobs" />
+      </Components>
+    </Feature>
+    <Feature Name="ScheduledTask" InstallOnServers="BATCH">
+      <Components>
+        <Config PathTarget="[SOURCEFOLDER]\Fujitsu.eDoc.BOM.ApplicationTransfer.exe.config" PathSrc="[SOURCEFOLDER]\InstallPackage\bombomconfig.xml" />
+        <CopyFiles>
+          <Files>
+            <File Filename="[SOURCEFOLDER]\Fujitsu.eDoc.BOM.ApplicationTransfer.exe" Destination="[INSTALL PATH]\" />
+            <File Filename="[SOURCEFOLDER]\Fujitsu.eDoc.BOM.ApplicationTransfer.exe.config" Destination="[INSTALL PATH]\" />
+            <File Filename="[SOURCEFOLDER]\TallComponents.PDF.Kit.dll" Destination="[INSTALL PATH]\" />
+            <File Filename="[SOURCEFOLDER]\Fujitsu.eDoc.BOMApplicationDesktopApp.exe" Destination="[INSTALL PATH]\" />
+            <File Filename="[SOURCEFOLDER]\Fujitsu.eDoc.BOMApplicationDesktopApp.exe.config" Destination="[INSTALL PATH]\" />
+          </Files>
+        </CopyFiles>
+        <XMLFile Filename="[INSTALL PATH]\Fujitsu.eDoc.BOM.ApplicationTransfer.exe.config">
+          <SetXMLAttributes>
+            <XMLAttribute XPath="configuration/appSettings/add[@key='SI.WS.Core.Url']" Name="value" Value="[SI 360 BL Url]/SI.WS.Core/v2/support" When="OnInstall" />
+            <XMLAttribute XPath="configuration/appSettings/add[@key='InstanceName']" Name="value" Value="[INSTANCENAME]" When="OnInstall" />
+            <XMLAttribute XPath="configuration/system.serviceModel/client/endpoint[@name='CorporateDataBroker']" Name="address" Value="net.tcp://localhost:[SETTING:externalDataBroker.TCPNETPORT]/DataBrokerService/" When="OnInstall" />
+            <XMLAttribute XPath="configuration/system.serviceModel/client/endpoint[@name='EstateDataBroker']" Name="address" Value="net.tcp://localhost:[SETTING:externalDataBroker.TCPNETPORT]/DataBrokerService/" When="OnInstall" />
+            <XMLAttribute XPath="configuration/system.serviceModel/client/endpoint[@name='PersonDataBroker']" Name="address" Value="net.tcp://localhost:[SETTING:externalDataBroker.TCPNETPORT]/DataBrokerService/" When="OnInstall" />
+            <XMLAttribute XPath="configuration/appSettings/add[@key='AddKLEIfMissing']" Name="value" Value="[SETTING:eDoc.AddKLEIfMissing]" When="OnInstall" />
+          </SetXMLAttributes>
+        </XMLFile>
+        <XMLFile Filename="[INSTALL PATH]\Fujitsu.eDoc.BOMApplicationDesktopApp.exe.config">
+          <SetXMLAttributes>
+            <XMLAttribute XPath="configuration/appSettings/add[@key='SI.WS.Core.Url']" Name="value" Value="[SI 360 BL Url]/SI.WS.Core/v2/support" When="OnInstall" />
+            <XMLAttribute XPath="configuration/appSettings/add[@key='InstanceName']" Name="value" Value="[INSTANCENAME]" When="OnInstall" />
+          </SetXMLAttributes>
+        </XMLFile>
+        <ScheduledTask Name="Fujitsu eDoc BOM" Path="Fujitsu eDoc\[INSTANCENAME]" Program="[INSTALL PATH]\Fujitsu.eDoc.BOM.ApplicationTransfer.exe" Trigger="-Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Minutes 5)" UserName="[INSTANCENAME SERVICE ACCOUNT]" Password="[INSTANCENAME SERVICE ACCOUNT PASSWORD]" />
+      </Components>
+    </Feature>
+  </Features>
+</Package>

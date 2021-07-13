@@ -1,0 +1,14 @@
+<configuration FuRemove="false">
+  <SI.Events FuRemove="false">
+    <eventHandlers FuRemove="false">         		
+		<add assemblyName="Fujitsu.eDoc.BOM.EventHandler">
+        <config>
+          <enable handler="Fujitsu.eDoc.BOM.Eventhandler.EventHandlerUpdateBOMCaseStatus">
+          </enable>
+          <enable handler="Fujitsu.eDoc.Eventhandlers.EventHandlerUpdateBOMCaseWorker">
+          </enable>
+        </config>
+      </add>
+    </eventHandlers>
+  </SI.Events>
+</configuration>

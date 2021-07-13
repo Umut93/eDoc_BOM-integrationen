@@ -1,0 +1,7 @@
+<configuration FuRemove="false">
+  <appSettings FuRemove="false">
+    <add key="SI.WS.Core.Url" value="" />
+    <add key="InstanceName" value="" />	
+    <add key="AddKLEIfMissing" value="false" />
+  </appSettings>
+</configuration>
