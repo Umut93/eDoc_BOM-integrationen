@@ -8,5 +8,6 @@ namespace Byg_og_Miljø
 {
     public class Class1
     {
+//
     }
 }
