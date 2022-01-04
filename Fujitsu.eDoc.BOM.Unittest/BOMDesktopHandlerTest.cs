@@ -76,7 +76,7 @@ namespace Fujitsu.eDoc.BOM.Unittest
                 var first = string.Empty;
                 Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.AllInstances.HandleVeryFirstBOMApplicationIndsendelseTypeStringOut = (BOMDesktopHandler a, IndsendelseType b, out string output) => { output = "FirstCompleted"; first = output; return; };
                 var second = string.Empty;
-                Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.AllInstances.HandleFurtherSubmissionsIndsendelseTypeString = (a,b,c) => { second = "SecondCompleted"; return; };
+                Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.AllInstances.HandleFurtherSubmissionsIndsendelseTypeString = (a, b, c) => { second = "SecondCompleted"; return; };
                 Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.SetFUBOMRecnoOnAllUnAttachedListOfFUBOMSubmissionString = (a, b) => { listView1.Clear(); };
                 System.Windows.Forms.Fakes.ShimListView.ShimListViewItemCollection.AllInstances.Clear = (a) => { };
                 System.Windows.Forms.Fakes.ShimMessageBox.ShowString = (msg) => { return new DialogResult { }; };
@@ -94,7 +94,7 @@ namespace Fujitsu.eDoc.BOM.Unittest
 
             }
         }
-        
+
     }
 }
 

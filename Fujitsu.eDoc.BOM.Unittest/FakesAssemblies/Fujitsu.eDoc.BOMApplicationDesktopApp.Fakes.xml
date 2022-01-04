@@ -1,0 +1,2345 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration">
+            <summary>Shim type of Fujitsu.eDoc.BOMApplicationDesktopApp.BOMConfiguration</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.#ctor(Fujitsu.eDoc.BOMApplicationDesktopApp.BOMConfiguration)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetActivityTypeString">
+            <summary>Sets the Shim of BOMConfiguration.GetActivityType(String ActivityTypeKey)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetCaseAccessCode">
+            <summary>Sets the Shim of BOMConfiguration.GetCaseAccessCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetCaseAccessGroup">
+            <summary>Sets the Shim of BOMConfiguration.GetCaseAccessGroup()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetCaseAreaNameString">
+            <summary>Sets the Shim of BOMConfiguration.GetCaseAreaName(String AreaCode)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetCaseTitle">
+            <summary>Sets the Shim of BOMConfiguration.GetCaseTitle()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetDeadlinesString">
+            <summary>Sets the Shim of BOMConfiguration.GetDeadlines(String code)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetEmailAdressesForCreateString">
+            <summary>Sets the Shim of BOMConfiguration.GetEmailAdressesForCreate(String CaseTypeCode)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetEmailAdressesString">
+            <summary>Sets the Shim of BOMConfiguration.GetEmailAdresses(String CaseTypeCode)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetEnabledCaseAreaNames">
+            <summary>Sets the Shim of BOMConfiguration.GetEnabledCaseAreaNames()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetEstateRelationType">
+            <summary>Sets the Shim of BOMConfiguration.GetEstateRelationType()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetItemValueStringStringString">
+            <summary>Sets the Shim of BOMConfiguration.GetItemValue(String Type, String Key, String DefaultValue)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetMaxHandlingTimeInMinutes">
+            <summary>Sets the Shim of BOMConfiguration.GetMaxHandlingTimeInMinutes()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetReceivedNotificationProfile">
+            <summary>Sets the Shim of BOMConfiguration.GetReceivedNotificationProfile()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetReceivedPhaseCode">
+            <summary>Sets the Shim of BOMConfiguration.GetReceivedPhaseCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetReceivedStatusCode">
+            <summary>Sets the Shim of BOMConfiguration.GetReceivedStatusCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetReceivedTitle">
+            <summary>Sets the Shim of BOMConfiguration.GetReceivedTitle()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetReceivedTitle2">
+            <summary>Sets the Shim of BOMConfiguration.GetReceivedTitle2()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetStartDateTime">
+            <summary>Sets the Shim of BOMConfiguration.GetStartDateTime()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetVURCertificateSerial">
+            <summary>Sets the Shim of BOMConfiguration.GetVURCertificateSerial()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.AllInstances.GetVURendpoint">
+            <summary>Sets the Shim of BOMConfiguration.GetVURendpoint()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.Constructor">
+            <summary>Sets the Shim of BOMConfiguration.BOMConfiguration()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetActivityTypeString">
+            <summary>Sets the Shim of BOMConfiguration.GetActivityType(String ActivityTypeKey)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetCaseAccessCode">
+            <summary>Sets the Shim of BOMConfiguration.GetCaseAccessCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetCaseAccessGroup">
+            <summary>Sets the Shim of BOMConfiguration.GetCaseAccessGroup()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetCaseAreaNameString">
+            <summary>Sets the Shim of BOMConfiguration.GetCaseAreaName(String AreaCode)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetCaseTitle">
+            <summary>Sets the Shim of BOMConfiguration.GetCaseTitle()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetDeadlinesString">
+            <summary>Sets the Shim of BOMConfiguration.GetDeadlines(String code)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetEmailAdressesForCreateString">
+            <summary>Sets the Shim of BOMConfiguration.GetEmailAdressesForCreate(String CaseTypeCode)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetEmailAdressesString">
+            <summary>Sets the Shim of BOMConfiguration.GetEmailAdresses(String CaseTypeCode)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetEnabledCaseAreaNames">
+            <summary>Sets the Shim of BOMConfiguration.GetEnabledCaseAreaNames()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetEstateRelationType">
+            <summary>Sets the Shim of BOMConfiguration.GetEstateRelationType()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetItemValueStringStringString">
+            <summary>Sets the Shim of BOMConfiguration.GetItemValue(String Type, String Key, String DefaultValue)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetMaxHandlingTimeInMinutes">
+            <summary>Sets the Shim of BOMConfiguration.GetMaxHandlingTimeInMinutes()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetReceivedNotificationProfile">
+            <summary>Sets the Shim of BOMConfiguration.GetReceivedNotificationProfile()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetReceivedPhaseCode">
+            <summary>Sets the Shim of BOMConfiguration.GetReceivedPhaseCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetReceivedStatusCode">
+            <summary>Sets the Shim of BOMConfiguration.GetReceivedStatusCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetReceivedTitle">
+            <summary>Sets the Shim of BOMConfiguration.GetReceivedTitle()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetReceivedTitle2">
+            <summary>Sets the Shim of BOMConfiguration.GetReceivedTitle2()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetStartDateTime">
+            <summary>Sets the Shim of BOMConfiguration.GetStartDateTime()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetVURCertificateSerial">
+            <summary>Sets the Shim of BOMConfiguration.GetVURCertificateSerial()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.GetVURendpoint">
+            <summary>Sets the Shim of BOMConfiguration.GetVURendpoint()</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem">
+            <summary>Shim type of Fujitsu.eDoc.BOMApplicationDesktopApp.BOMConfiguration+BOMActivityTypeConfigurationItem</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.#ctor(Fujitsu.eDoc.BOMApplicationDesktopApp.BOMConfiguration.BOMActivityTypeConfigurationItem)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.DescriptionGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_Description()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.DescriptionSetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_Description(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.KeyGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_Key()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.KeySetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_Key(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.OrgUnitGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_OrgUnit()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.OrgUnitSetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_OrgUnit(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.OurRefGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_OurRef()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.OurRefSetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_OurRef(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.ToCaseCategoryGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_ToCaseCategory()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.ToCaseCategorySetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_ToCaseCategory(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.ToCaseTypeGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_ToCaseType()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.ToCaseTypeSetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_ToCaseType(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.ToProgressPlanGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_ToProgressPlan()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.ToProgressPlanSetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_ToProgressPlan(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.ToResponsibleContactGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_ToResponsibleContact()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.AllInstances.ToResponsibleContactSetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_ToResponsibleContact(String value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.Constructor">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.BOMActivityTypeConfigurationItem()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.DescriptionGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_Description()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.DescriptionSetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_Description(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.KeyGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_Key()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.KeySetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_Key(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.OrgUnitGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_OrgUnit()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.OrgUnitSetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_OrgUnit(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.OurRefGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_OurRef()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.OurRefSetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_OurRef(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.ToCaseCategoryGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_ToCaseCategory()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.ToCaseCategorySetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_ToCaseCategory(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.ToCaseTypeGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_ToCaseType()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.ToCaseTypeSetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_ToCaseType(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.ToProgressPlanGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_ToProgressPlan()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.ToProgressPlanSetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_ToProgressPlan(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.ToResponsibleContactGet">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.get_ToResponsibleContact()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMActivityTypeConfigurationItem.ToResponsibleContactSetString">
+            <summary>Sets the Shim of BOMActivityTypeConfigurationItem.set_ToResponsibleContact(String value)</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem">
+            <summary>Shim type of Fujitsu.eDoc.BOMApplicationDesktopApp.BOMConfiguration+BOMConfigurationItem</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.#ctor(Fujitsu.eDoc.BOMApplicationDesktopApp.BOMConfiguration.BOMConfigurationItem)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.AllInstances.DescriptionGet">
+            <summary>Sets the Shim of BOMConfigurationItem.get_Description()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.AllInstances.DescriptionSetString">
+            <summary>Sets the Shim of BOMConfigurationItem.set_Description(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.AllInstances.KeyGet">
+            <summary>Sets the Shim of BOMConfigurationItem.get_Key()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.AllInstances.KeySetString">
+            <summary>Sets the Shim of BOMConfigurationItem.set_Key(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.AllInstances.TypeGet">
+            <summary>Sets the Shim of BOMConfigurationItem.get_Type()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.AllInstances.TypeSetString">
+            <summary>Sets the Shim of BOMConfigurationItem.set_Type(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.AllInstances.ValueGet">
+            <summary>Sets the Shim of BOMConfigurationItem.get_Value()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.AllInstances.ValueSetString">
+            <summary>Sets the Shim of BOMConfigurationItem.set_Value(String value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.Constructor">
+            <summary>Sets the Shim of BOMConfigurationItem.BOMConfigurationItem()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.DescriptionGet">
+            <summary>Sets the Shim of BOMConfigurationItem.get_Description()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.DescriptionSetString">
+            <summary>Sets the Shim of BOMConfigurationItem.set_Description(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.KeyGet">
+            <summary>Sets the Shim of BOMConfigurationItem.get_Key()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.KeySetString">
+            <summary>Sets the Shim of BOMConfigurationItem.set_Key(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.TypeGet">
+            <summary>Sets the Shim of BOMConfigurationItem.get_Type()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.TypeSetString">
+            <summary>Sets the Shim of BOMConfigurationItem.set_Type(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.ValueGet">
+            <summary>Sets the Shim of BOMConfigurationItem.get_Value()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.ShimBOMConfigurationItem.ValueSetString">
+            <summary>Sets the Shim of BOMConfigurationItem.set_Value(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMConfiguration.StaticConstructor">
+            <summary>Sets the Shim of BOMConfiguration.BOMConfiguration()</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMDesktopConfigHandler">
+            <summary>Shim type of Fujitsu.eDoc.BOMApplicationDesktopApp.BOMDesktopConfigHandler</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMDesktopConfigHandler.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMDesktopConfigHandler.#ctor(Fujitsu.eDoc.BOMApplicationDesktopApp.BOMDesktopConfigHandler)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMDesktopConfigHandler.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMDesktopConfigHandler.AllInstances.GetBOMConfiguration">
+            <summary>Sets the Shim of BOMDesktopConfigHandler.GetBOMConfiguration()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMDesktopConfigHandler.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMDesktopConfigHandler.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMDesktopConfigHandler.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMDesktopConfigHandler.Constructor">
+            <summary>Sets the Shim of BOMDesktopConfigHandler.BOMDesktopConfigHandler()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMDesktopConfigHandler.GetBOMConfiguration">
+            <summary>Sets the Shim of BOMDesktopConfigHandler.GetBOMConfiguration()</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMUtils">
+            <summary>Shim type of Fujitsu.eDoc.BOMApplicationDesktopApp.BOMUtils</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMUtils.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMUtils.#ctor(Fujitsu.eDoc.BOMApplicationDesktopApp.BOMUtils)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMUtils.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMUtils.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMUtils.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMUtils.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimBOMUtils.Constructor">
+            <summary>Sets the Shim of BOMUtils.BOMUtils()</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact">
+            <summary>Shim type of Fujitsu.eDoc.BOMApplicationDesktopApp.Contact</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.#ctor(Fujitsu.eDoc.BOMApplicationDesktopApp.Contact)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AddressGet">
+            <summary>Sets the Shim of Contact.get_Address()</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.AddressGet">
+            <summary>Sets the Shim of Contact.get_Address()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.CountryIdentificationCodeGet">
+            <summary>Sets the Shim of Contact.get_CountryIdentificationCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.CountryIdentificationCodeSetString">
+            <summary>Sets the Shim of Contact.set_CountryIdentificationCode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.DistrictNameGet">
+            <summary>Sets the Shim of Contact.get_DistrictName()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.DistrictNameSetString">
+            <summary>Sets the Shim of Contact.set_DistrictName(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.EmailTekstGet">
+            <summary>Sets the Shim of Contact.get_EmailTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.EmailTekstSetString">
+            <summary>Sets the Shim of Contact.set_EmailTekst(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.FloorIdentifierGet">
+            <summary>Sets the Shim of Contact.get_FloorIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.FloorIdentifierSetString">
+            <summary>Sets the Shim of Contact.set_FloorIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.NavnTekstGet">
+            <summary>Sets the Shim of Contact.get_NavnTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.NavnTekstSetString">
+            <summary>Sets the Shim of Contact.set_NavnTekst(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.PostCodeIdentifierGet">
+            <summary>Sets the Shim of Contact.get_PostCodeIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.PostCodeIdentifierSetString">
+            <summary>Sets the Shim of Contact.set_PostCodeIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.StreetBuildingIdentifierGet">
+            <summary>Sets the Shim of Contact.get_StreetBuildingIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.StreetBuildingIdentifierSetString">
+            <summary>Sets the Shim of Contact.set_StreetBuildingIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.StreetNameGet">
+            <summary>Sets the Shim of Contact.get_StreetName()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.StreetNameSetString">
+            <summary>Sets the Shim of Contact.set_StreetName(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.SuiteIdentifierGet">
+            <summary>Sets the Shim of Contact.get_SuiteIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.SuiteIdentifierSetString">
+            <summary>Sets the Shim of Contact.set_SuiteIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.TelefonTekstGet">
+            <summary>Sets the Shim of Contact.get_TelefonTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.AllInstances.TelefonTekstSetString">
+            <summary>Sets the Shim of Contact.set_TelefonTekst(String value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.Constructor">
+            <summary>Sets the Shim of Contact.Contact()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.ConstructorBOMSagTypeTilknyttetAnsoeger">
+            <summary>Sets the Shim of Contact.Contact(BOMSagTypeTilknyttetAnsoeger ansoeger)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.ConstructorIndsendelseTypeIndsender">
+            <summary>Sets the Shim of Contact.Contact(IndsendelseTypeIndsender indsender)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.CountryIdentificationCodeGet">
+            <summary>Sets the Shim of Contact.get_CountryIdentificationCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.CountryIdentificationCodeSetString">
+            <summary>Sets the Shim of Contact.set_CountryIdentificationCode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.DistrictNameGet">
+            <summary>Sets the Shim of Contact.get_DistrictName()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.DistrictNameSetString">
+            <summary>Sets the Shim of Contact.set_DistrictName(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.EmailTekstGet">
+            <summary>Sets the Shim of Contact.get_EmailTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.EmailTekstSetString">
+            <summary>Sets the Shim of Contact.set_EmailTekst(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.FloorIdentifierGet">
+            <summary>Sets the Shim of Contact.get_FloorIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.FloorIdentifierSetString">
+            <summary>Sets the Shim of Contact.set_FloorIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.NavnTekstGet">
+            <summary>Sets the Shim of Contact.get_NavnTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.NavnTekstSetString">
+            <summary>Sets the Shim of Contact.set_NavnTekst(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.PostCodeIdentifierGet">
+            <summary>Sets the Shim of Contact.get_PostCodeIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.PostCodeIdentifierSetString">
+            <summary>Sets the Shim of Contact.set_PostCodeIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.StreetBuildingIdentifierGet">
+            <summary>Sets the Shim of Contact.get_StreetBuildingIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.StreetBuildingIdentifierSetString">
+            <summary>Sets the Shim of Contact.set_StreetBuildingIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.StreetNameGet">
+            <summary>Sets the Shim of Contact.get_StreetName()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.StreetNameSetString">
+            <summary>Sets the Shim of Contact.set_StreetName(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.SuiteIdentifierGet">
+            <summary>Sets the Shim of Contact.get_SuiteIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.SuiteIdentifierSetString">
+            <summary>Sets the Shim of Contact.set_SuiteIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.TelefonTekstGet">
+            <summary>Sets the Shim of Contact.get_TelefonTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimContact.TelefonTekstSetString">
+            <summary>Sets the Shim of Contact.set_TelefonTekst(String value)</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission">
+            <summary>Shim type of Fujitsu.eDoc.BOMApplicationDesktopApp.FUBOMSubmission</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.#ctor(Fujitsu.eDoc.BOMApplicationDesktopApp.FUBOMSubmission)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.EqualsFUBOMSubmission">
+            <summary>Sets the Shim of FUBOMSubmission.Equals(FUBOMSubmission other)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.applicationIdGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_applicationId()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.applicationIdSetGuid">
+            <summary>Sets the Shim of FUBOMSubmission.set_applicationId(Guid value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.caseIdGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_caseId()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.caseIdSetGuid">
+            <summary>Sets the Shim of FUBOMSubmission.set_caseId(Guid value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.errorMessageGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_errorMessage()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.errorMessageSetString">
+            <summary>Sets the Shim of FUBOMSubmission.set_errorMessage(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.insertDateGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_insertDate()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.insertDateSetDateTime">
+            <summary>Sets the Shim of FUBOMSubmission.set_insertDate(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.recnoGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_recno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.recnoSetString">
+            <summary>Sets the Shim of FUBOMSubmission.set_recno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.submissionNummerGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_submissionNummer()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.submissionNummerSetInt32">
+            <summary>Sets the Shim of FUBOMSubmission.set_submissionNummer(Int32 value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.submissionTimeGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_submissionTime()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.submissionTimeSetDateTime">
+            <summary>Sets the Shim of FUBOMSubmission.set_submissionTime(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.toBOMCaseGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_toBOMCase()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.toBOMCaseSetString">
+            <summary>Sets the Shim of FUBOMSubmission.set_toBOMCase(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.transferStatusGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_transferStatus()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.AllInstances.transferStatusSetBOMUtilsBOMCaseTransferStatusEnum">
+            <summary>Sets the Shim of FUBOMSubmission.set_transferStatus(BOMCaseTransferStatusEnum value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.Bind(System.IEquatable{Fujitsu.eDoc.BOMApplicationDesktopApp.FUBOMSubmission})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.Constructor">
+            <summary>Sets the Shim of FUBOMSubmission.FUBOMSubmission()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.ConstructorStringDateTimeInt32GuidGuidStringBOMUtilsBOMCaseTransferStatusEnumDateTimeString">
+            <summary>Sets the Shim of FUBOMSubmission.FUBOMSubmission(String recno, DateTime submissionTime, Int32 submissionNummer, Guid applicationId, Guid caseId, String toBOMCase, BOMCaseTransferStatusEnum transferStatus, DateTime insertDate, String errorMessage)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.EqualsFUBOMSubmission">
+            <summary>Sets the Shim of FUBOMSubmission.Equals(FUBOMSubmission other)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.applicationIdGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_applicationId()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.applicationIdSetGuid">
+            <summary>Sets the Shim of FUBOMSubmission.set_applicationId(Guid value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.caseIdGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_caseId()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.caseIdSetGuid">
+            <summary>Sets the Shim of FUBOMSubmission.set_caseId(Guid value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.errorMessageGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_errorMessage()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.errorMessageSetString">
+            <summary>Sets the Shim of FUBOMSubmission.set_errorMessage(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.insertDateGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_insertDate()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.insertDateSetDateTime">
+            <summary>Sets the Shim of FUBOMSubmission.set_insertDate(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.recnoGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_recno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.recnoSetString">
+            <summary>Sets the Shim of FUBOMSubmission.set_recno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.submissionNummerGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_submissionNummer()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.submissionNummerSetInt32">
+            <summary>Sets the Shim of FUBOMSubmission.set_submissionNummer(Int32 value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.submissionTimeGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_submissionTime()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.submissionTimeSetDateTime">
+            <summary>Sets the Shim of FUBOMSubmission.set_submissionTime(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.toBOMCaseGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_toBOMCase()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.toBOMCaseSetString">
+            <summary>Sets the Shim of FUBOMSubmission.set_toBOMCase(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.transferStatusGet">
+            <summary>Sets the Shim of FUBOMSubmission.get_transferStatus()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimFUBOMSubmission.transferStatusSetBOMUtilsBOMCaseTransferStatusEnum">
+            <summary>Sets the Shim of FUBOMSubmission.set_transferStatus(BOMCaseTransferStatusEnum value)</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1">
+            <summary>Shim type of Fujitsu.eDoc.BOMApplicationDesktopApp.Form1</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.#ctor(Fujitsu.eDoc.BOMApplicationDesktopApp.Form1)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.BOMCaseIDtextBox_TextChangedObjectEventArgs">
+            <summary>Sets the Shim of Form1.BOMCaseIDtextBox_TextChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.CertificateTestbtn_ClickObjectEventArgs">
+            <summary>Sets the Shim of Form1.CertificateTestbtn_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.ClerarListBtn_ClickObjectEventArgs">
+            <summary>Sets the Shim of Form1.ClerarListBtn_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.CreateBOMCase_ClickObjectEventArgs">
+            <summary>Sets the Shim of Form1.CreateBOMCase_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.DisplayCertificates">
+            <summary>Sets the Shim of Form1.DisplayCertificates()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.DisplayInFileGridListOfFUBOMSubmission">
+            <summary>Sets the Shim of Form1.DisplayInFileGrid(List`1&lt;FUBOMSubmission&gt; previousSubmissions)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.DisposeBoolean">
+            <summary>Sets the Shim of Form1.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.Form1_LoadObjectEventArgs">
+            <summary>Sets the Shim of Form1.Form1_Load(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.GetApplicationFUBOMSubmission">
+            <summary>Sets the Shim of Form1.GetApplication(FUBOMSubmission submission)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.GetSagsbehandlingServiceClient">
+            <summary>Sets the Shim of Form1.GetSagsbehandlingServiceClient()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.InitializeComponent">
+            <summary>Sets the Shim of Form1.InitializeComponent()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.IsAnyUnChecked">
+            <summary>Sets the Shim of Form1.IsAnyUnChecked()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.SearchBomCasebtn_ClickObjectEventArgs">
+            <summary>Sets the Shim of Form1.SearchBomCasebtn_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.ServerURLComboBox_SelectedIndexChangedObjectEventArgs">
+            <summary>Sets the Shim of Form1.ServerURLComboBox_SelectedIndexChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances._CreateBOMCase_Clickb__3_1FUBOMSubmission">
+            <summary>Sets the Shim of Form1.&lt;CreateBOMCase_Click&gt;b__3_1(FUBOMSubmission sub)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.comboBox1_SelectedIndexChangedObjectEventArgs">
+            <summary>Sets the Shim of Form1.comboBox1_SelectedIndexChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.AllInstances.listView1_ItemCheckedObjectItemCheckedEventArgs">
+            <summary>Sets the Shim of Form1.listView1_ItemChecked(Object sender, ItemCheckedEventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.BOMCaseIDtextBox_TextChangedObjectEventArgs">
+            <summary>Sets the Shim of Form1.BOMCaseIDtextBox_TextChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.Bind(System.Windows.Forms.IContainerControl)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.CertificateTestbtn_ClickObjectEventArgs">
+            <summary>Sets the Shim of Form1.CertificateTestbtn_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.ClerarListBtn_ClickObjectEventArgs">
+            <summary>Sets the Shim of Form1.ClerarListBtn_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.Constructor">
+            <summary>Sets the Shim of Form1.Form1()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.CreateBOMCase_ClickObjectEventArgs">
+            <summary>Sets the Shim of Form1.CreateBOMCase_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.DisplayCertificates">
+            <summary>Sets the Shim of Form1.DisplayCertificates()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.DisplayInFileGridListOfFUBOMSubmission">
+            <summary>Sets the Shim of Form1.DisplayInFileGrid(List`1&lt;FUBOMSubmission&gt; previousSubmissions)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.DisposeBoolean">
+            <summary>Sets the Shim of Form1.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.Form1_LoadObjectEventArgs">
+            <summary>Sets the Shim of Form1.Form1_Load(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.GetApplicationFUBOMSubmission">
+            <summary>Sets the Shim of Form1.GetApplication(FUBOMSubmission submission)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.GetFuBOMSubmissionsString">
+            <summary>Sets the Shim of Form1.GetFuBOMSubmissions(String bomCaseID)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.GetSagsbehandlingServiceClient">
+            <summary>Sets the Shim of Form1.GetSagsbehandlingServiceClient()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.InitializeComponent">
+            <summary>Sets the Shim of Form1.InitializeComponent()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.IsAnyUnChecked">
+            <summary>Sets the Shim of Form1.IsAnyUnChecked()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.SearchBomCasebtn_ClickObjectEventArgs">
+            <summary>Sets the Shim of Form1.SearchBomCasebtn_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.ServerURLComboBox_SelectedIndexChangedObjectEventArgs">
+            <summary>Sets the Shim of Form1.ServerURLComboBox_SelectedIndexChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.SetFUBOMRecnoOnAllUnAttachedListOfFUBOMSubmissionString">
+            <summary>Sets the Shim of Form1.SetFUBOMRecnoOnAllUnAttached(List`1&lt;FUBOMSubmission&gt; submissions, String FuBOmRecnoFromFirstSub)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1._CreateBOMCase_Clickb__3_1FUBOMSubmission">
+            <summary>Sets the Shim of Form1.&lt;CreateBOMCase_Click&gt;b__3_1(FUBOMSubmission sub)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.comboBox1_SelectedIndexChangedObjectEventArgs">
+            <summary>Sets the Shim of Form1.comboBox1_SelectedIndexChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimForm1.listView1_ItemCheckedObjectItemCheckedEventArgs">
+            <summary>Sets the Shim of Form1.listView1_ItemChecked(Object sender, ItemCheckedEventArgs e)</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimSerialization">
+            <summary>Shim type of Fujitsu.eDoc.BOMApplicationDesktopApp.Serialization</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimSerialization.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimSerialization.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimSerialization.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimSerialization.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.ShimSerialization.SerializeOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.String})">
+            <summary>Sets the Shim of Serialization.Serialize(!!0 toSerialize)</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMConfiguration">
+            <summary>Stub type of Fujitsu.eDoc.BOMApplicationDesktopApp.BOMConfiguration</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMConfiguration.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMConfiguration.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMConfiguration.InitializeStub">
+            <summary>Initializes a new instance of type StubBOMConfiguration</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMConfiguration.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMConfiguration.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMDesktopConfigHandler">
+            <summary>Stub type of Fujitsu.eDoc.BOMApplicationDesktopApp.BOMDesktopConfigHandler</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMDesktopConfigHandler.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMDesktopConfigHandler.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMDesktopConfigHandler.InitializeStub">
+            <summary>Initializes a new instance of type StubBOMDesktopConfigHandler</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMDesktopConfigHandler.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMDesktopConfigHandler.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMUtils">
+            <summary>Stub type of Fujitsu.eDoc.BOMApplicationDesktopApp.BOMUtils</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMUtils.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMUtils.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMUtils.InitializeStub">
+            <summary>Initializes a new instance of type StubBOMUtils</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMUtils.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubBOMUtils.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubContact">
+            <summary>Stub type of Fujitsu.eDoc.BOMApplicationDesktopApp.Contact</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubContact.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubContact.#ctor(Fujitsu.eDoc.BOM.BOMSagsbehandling.BOMSagTypeTilknyttetAnsoeger)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubContact.#ctor(Fujitsu.eDoc.BOM.BOMSagsbehandling.IndsendelseTypeIndsender)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubContact.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubContact.InitializeStub">
+            <summary>Initializes a new instance of type StubContact</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubContact.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubContact.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubFUBOMSubmission">
+            <summary>Stub type of Fujitsu.eDoc.BOMApplicationDesktopApp.FUBOMSubmission</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubFUBOMSubmission.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubFUBOMSubmission.#ctor(System.String,System.DateTime,System.Int32,System.Guid,System.Guid,System.String,Fujitsu.eDoc.BOMApplicationDesktopApp.BOMUtils.BOMCaseTransferStatusEnum,System.DateTime,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubFUBOMSubmission.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubFUBOMSubmission.InitializeStub">
+            <summary>Initializes a new instance of type StubFUBOMSubmission</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubFUBOMSubmission.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubFUBOMSubmission.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1">
+            <summary>Stub type of Fujitsu.eDoc.BOMApplicationDesktopApp.Form1</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AdjustFormScrollbars(System.Boolean)">
+            <summary>Sets the Stub of Form.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AdjustFormScrollbarsBoolean">
+            <summary>Sets the stub of Form.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AllowDrop">
+            <summary>Sets the stub of Control.get_AllowDrop()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AllowDropGet">
+            <summary>Sets the stub of Control.get_AllowDrop()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AllowDropSetBoolean">
+            <summary>Sets the stub of Control.set_AllowDrop(Boolean value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.Anchor">
+            <summary>Sets the stub of Control.get_Anchor()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AnchorGet">
+            <summary>Sets the stub of Control.get_Anchor()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AnchorSetAnchorStyles">
+            <summary>Sets the stub of Control.set_Anchor(AnchorStyles value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToAllowDrop">
+            <summary>Attaches delegates to emulate StubForm1.AllowDrop as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToAnchor">
+            <summary>Attaches delegates to emulate StubForm1.Anchor as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToAutoScaleBaseSize">
+            <summary>Attaches delegates to emulate StubForm1.AutoScaleBaseSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToAutoScroll">
+            <summary>Attaches delegates to emulate StubForm1.AutoScroll as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToAutoScrollOffset">
+            <summary>Attaches delegates to emulate StubForm1.AutoScrollOffset as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToAutoSize">
+            <summary>Attaches delegates to emulate StubForm1.AutoSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToAutoValidate">
+            <summary>Attaches delegates to emulate StubForm1.AutoValidate as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToBackColor">
+            <summary>Attaches delegates to emulate StubForm1.BackColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToBackgroundImage">
+            <summary>Attaches delegates to emulate StubForm1.BackgroundImage as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToBackgroundImageLayout">
+            <summary>Attaches delegates to emulate StubForm1.BackgroundImageLayout as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToBindingContext">
+            <summary>Attaches delegates to emulate StubForm1.BindingContext as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToContextMenu">
+            <summary>Attaches delegates to emulate StubForm1.ContextMenu as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToContextMenuStrip">
+            <summary>Attaches delegates to emulate StubForm1.ContextMenuStrip as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToCursor">
+            <summary>Attaches delegates to emulate StubForm1.Cursor as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToDock">
+            <summary>Attaches delegates to emulate StubForm1.Dock as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToDoubleBuffered">
+            <summary>Attaches delegates to emulate StubForm1.DoubleBuffered as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToFont">
+            <summary>Attaches delegates to emulate StubForm1.Font as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToForeColor">
+            <summary>Attaches delegates to emulate StubForm1.ForeColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToImeModeBase">
+            <summary>Attaches delegates to emulate StubForm1.ImeModeBase as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToMaximumSize">
+            <summary>Attaches delegates to emulate StubForm1.MaximumSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToMinimumSize">
+            <summary>Attaches delegates to emulate StubForm1.MinimumSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToRightToLeft">
+            <summary>Attaches delegates to emulate StubForm1.RightToLeft as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToRightToLeftLayout">
+            <summary>Attaches delegates to emulate StubForm1.RightToLeftLayout as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToSite">
+            <summary>Attaches delegates to emulate StubForm1.Site as a property with a backing field.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AttachBackingFieldToText">
+            <summary>Attaches delegates to emulate StubForm1.Text as a property with a backing field.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoScaleBaseSize">
+            <summary>Sets the stub of Form.get_AutoScaleBaseSize()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoScaleBaseSizeGet">
+            <summary>Sets the stub of Form.get_AutoScaleBaseSize()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoScaleBaseSizeSetSize">
+            <summary>Sets the stub of Form.set_AutoScaleBaseSize(Size value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoScroll">
+            <summary>Sets the stub of Form.get_AutoScroll()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoScrollGet">
+            <summary>Sets the stub of Form.get_AutoScroll()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoScrollOffset">
+            <summary>Sets the stub of Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoScrollOffsetGet">
+            <summary>Sets the stub of Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoScrollOffsetSetPoint">
+            <summary>Sets the stub of Control.set_AutoScrollOffset(Point value)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoScrollSetBoolean">
+            <summary>Sets the stub of Form.set_AutoScroll(Boolean value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoSize">
+            <summary>Sets the stub of Form.get_AutoSize()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoSizeGet">
+            <summary>Sets the stub of Form.get_AutoSize()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoSizeSetBoolean">
+            <summary>Sets the stub of Form.set_AutoSize(Boolean value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoValidate">
+            <summary>Sets the stub of Form.get_AutoValidate()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoValidateGet">
+            <summary>Sets the stub of Form.get_AutoValidate()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.AutoValidateSetAutoValidate">
+            <summary>Sets the stub of Form.set_AutoValidate(AutoValidate value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.BackColor">
+            <summary>Sets the stub of Form.get_BackColor()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.BackColorGet">
+            <summary>Sets the stub of Form.get_BackColor()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.BackColorSetColor">
+            <summary>Sets the stub of Form.set_BackColor(Color value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.BackgroundImage">
+            <summary>Sets the stub of Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.BackgroundImageGet">
+            <summary>Sets the stub of Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.BackgroundImageLayout">
+            <summary>Sets the stub of Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.BackgroundImageLayoutGet">
+            <summary>Sets the stub of Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.BackgroundImageLayoutSetImageLayout">
+            <summary>Sets the stub of Control.set_BackgroundImageLayout(ImageLayout value)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.BackgroundImageSetImage">
+            <summary>Sets the stub of Control.set_BackgroundImage(Image value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.BindingContext">
+            <summary>Sets the stub of ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.BindingContextGet">
+            <summary>Sets the stub of ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.BindingContextSetBindingContext">
+            <summary>Sets the stub of ContainerControl.set_BindingContext(BindingContext value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CanEnableIme">
+            <summary>Sets the stub of ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CanEnableImeGet">
+            <summary>Sets the stub of ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CanRaiseEvents">
+            <summary>Sets the stub of Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CanRaiseEventsGet">
+            <summary>Sets the stub of Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ContextMenu">
+            <summary>Sets the stub of Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ContextMenuGet">
+            <summary>Sets the stub of Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ContextMenuSetContextMenu">
+            <summary>Sets the stub of Control.set_ContextMenu(ContextMenu value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ContextMenuStrip">
+            <summary>Sets the stub of Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ContextMenuStripGet">
+            <summary>Sets the stub of Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ContextMenuStripSetContextMenuStrip">
+            <summary>Sets the stub of Control.set_ContextMenuStrip(ContextMenuStrip value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CreateAccessibilityInstance">
+            <summary>Sets the Stub of Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CreateAccessibilityInstance01">
+            <summary>Sets the stub of Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CreateControlsInstance">
+            <summary>Sets the Stub of Form.CreateControlsInstance()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CreateControlsInstance01">
+            <summary>Sets the stub of Form.CreateControlsInstance()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CreateHandle">
+            <summary>Sets the Stub of Form.CreateHandle()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CreateHandle01">
+            <summary>Sets the stub of Form.CreateHandle()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CreateParams">
+            <summary>Sets the stub of Form.get_CreateParams()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CreateParamsGet">
+            <summary>Sets the stub of Form.get_CreateParams()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.Cursor">
+            <summary>Sets the stub of Control.get_Cursor()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CursorGet">
+            <summary>Sets the stub of Control.get_Cursor()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.CursorSetCursor">
+            <summary>Sets the stub of Control.set_Cursor(Cursor value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>Sets the Stub of Form.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefWndProcMessageRef">
+            <summary>Sets the stub of Form.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultCursor">
+            <summary>Sets the stub of Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultCursorGet">
+            <summary>Sets the stub of Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultImeMode">
+            <summary>Sets the stub of Form.get_DefaultImeMode()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultImeModeGet">
+            <summary>Sets the stub of Form.get_DefaultImeMode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultMargin">
+            <summary>Sets the stub of Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultMarginGet">
+            <summary>Sets the stub of Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultMaximumSize">
+            <summary>Sets the stub of Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultMaximumSizeGet">
+            <summary>Sets the stub of Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultMinimumSize">
+            <summary>Sets the stub of Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultMinimumSizeGet">
+            <summary>Sets the stub of Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultPadding">
+            <summary>Sets the stub of Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultPaddingGet">
+            <summary>Sets the stub of Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultSize">
+            <summary>Sets the stub of Form.get_DefaultSize()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DefaultSizeGet">
+            <summary>Sets the stub of Form.get_DefaultSize()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DestroyHandle">
+            <summary>Sets the Stub of Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DestroyHandle01">
+            <summary>Sets the stub of Control.DestroyHandle()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DisplayRectangle">
+            <summary>Sets the stub of ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DisplayRectangleGet">
+            <summary>Sets the stub of ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.Dispose(System.Boolean)">
+            <summary>Sets the Stub of Form1.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DisposeBoolean">
+            <summary>Sets the stub of Form1.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.Dock">
+            <summary>Sets the stub of Control.get_Dock()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DockGet">
+            <summary>Sets the stub of Control.get_Dock()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DockSetDockStyle">
+            <summary>Sets the stub of Control.set_Dock(DockStyle value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DoubleBuffered">
+            <summary>Sets the stub of Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DoubleBufferedGet">
+            <summary>Sets the stub of Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.DoubleBufferedSetBoolean">
+            <summary>Sets the stub of Control.set_DoubleBuffered(Boolean value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.Focused">
+            <summary>Sets the stub of Control.get_Focused()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.FocusedGet">
+            <summary>Sets the stub of Control.get_Focused()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.Font">
+            <summary>Sets the stub of Control.get_Font()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.FontGet">
+            <summary>Sets the stub of Control.get_Font()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.FontSetFont">
+            <summary>Sets the stub of Control.set_Font(Font value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ForeColor">
+            <summary>Sets the stub of Control.get_ForeColor()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ForeColorGet">
+            <summary>Sets the stub of Control.get_ForeColor()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ForeColorSetColor">
+            <summary>Sets the stub of Control.set_ForeColor(Color value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.GetAccessibilityObjectById(System.Int32)">
+            <summary>Sets the Stub of Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.GetAccessibilityObjectByIdInt32">
+            <summary>Sets the stub of Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.GetPreferredSize(System.Drawing.Size)">
+            <summary>Sets the Stub of Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.GetPreferredSizeSize">
+            <summary>Sets the stub of Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the Stub of Form.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>Sets the stub of Form.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.GetService(System.Type)">
+            <summary>Sets the Stub of Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.GetServiceType">
+            <summary>Sets the stub of Component.GetService(Type service)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ImeModeBase">
+            <summary>Sets the stub of Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ImeModeBaseGet">
+            <summary>Sets the stub of Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ImeModeBaseSetImeMode">
+            <summary>Sets the stub of Control.set_ImeModeBase(ImeMode value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.InitLayout">
+            <summary>Sets the Stub of Control.InitLayout()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.InitLayout01">
+            <summary>Sets the stub of Control.InitLayout()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.InitializeStub">
+            <summary>Initializes a new instance of type StubForm1</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.IsInputChar(System.Char)">
+            <summary>Sets the Stub of Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.IsInputCharChar">
+            <summary>Sets the stub of Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>Sets the Stub of Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.IsInputKeyKeys">
+            <summary>Sets the stub of Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.LayoutEngine">
+            <summary>Sets the stub of Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.LayoutEngineGet">
+            <summary>Sets the stub of Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.MaximumSize">
+            <summary>Sets the stub of Form.get_MaximumSize()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.MaximumSizeGet">
+            <summary>Sets the stub of Form.get_MaximumSize()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.MaximumSizeSetSize">
+            <summary>Sets the stub of Form.set_MaximumSize(Size value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.MinimumSize">
+            <summary>Sets the stub of Form.get_MinimumSize()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.MinimumSizeGet">
+            <summary>Sets the stub of Form.get_MinimumSize()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.MinimumSizeSetSize">
+            <summary>Sets the stub of Form.set_MinimumSize(Size value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>Sets the Stub of Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.NotifyInvalidateRectangle">
+            <summary>Sets the stub of Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnActivated(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnActivatedEventArgs">
+            <summary>Sets the stub of Form.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnAutoSizeChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnAutoSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnAutoValidateChanged(System.EventArgs)">
+            <summary>Sets the Stub of ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnAutoValidateChangedEventArgs">
+            <summary>Sets the stub of ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnBackColorChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnBackColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnBackgroundImageChangedEventArgs">
+            <summary>Sets the stub of Form.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>Sets the stub of Form.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnBindingContextChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnBindingContextChangedEventArgs">
+            <summary>Sets the stub of Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnCausesValidationChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnCausesValidationChangedEventArgs">
+            <summary>Sets the stub of Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>Sets the Stub of Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnChangeUICuesUICuesEventArgs">
+            <summary>Sets the stub of Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnClick(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnClickEventArgs">
+            <summary>Sets the stub of Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnClientSizeChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnClientSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnClosed(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnClosedEventArgs">
+            <summary>Sets the stub of Form.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the Stub of Form.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnClosingCancelEventArgs">
+            <summary>Sets the stub of Form.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnContextMenuChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnContextMenuChangedEventArgs">
+            <summary>Sets the stub of Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnContextMenuStripChangedEventArgs">
+            <summary>Sets the stub of Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>Sets the Stub of Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnControlAddedControlEventArgs">
+            <summary>Sets the stub of Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>Sets the Stub of Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnControlRemovedControlEventArgs">
+            <summary>Sets the stub of Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnCreateControl">
+            <summary>Sets the Stub of Form.OnCreateControl()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnCreateControl01">
+            <summary>Sets the stub of Form.OnCreateControl()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnCursorChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnCursorChangedEventArgs">
+            <summary>Sets the stub of Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDeactivate(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnDeactivate(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDeactivateEventArgs">
+            <summary>Sets the stub of Form.OnDeactivate(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDockChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDockChangedEventArgs">
+            <summary>Sets the stub of Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDoubleClick(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDoubleClickEventArgs">
+            <summary>Sets the stub of Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the Stub of Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDragDropDragEventArgs">
+            <summary>Sets the stub of Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the Stub of Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDragEnterDragEventArgs">
+            <summary>Sets the stub of Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDragLeave(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDragLeaveEventArgs">
+            <summary>Sets the stub of Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the Stub of Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnDragOverDragEventArgs">
+            <summary>Sets the stub of Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnEnabledChanged(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnEnabledChangedEventArgs">
+            <summary>Sets the stub of Form.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnEnter(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnEnterEventArgs">
+            <summary>Sets the stub of Form.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnFontChanged(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnFontChangedEventArgs">
+            <summary>Sets the stub of Form.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnForeColorChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnForeColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnFormClosed(System.Windows.Forms.FormClosedEventArgs)">
+            <summary>Sets the Stub of Form.OnFormClosed(FormClosedEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnFormClosedFormClosedEventArgs">
+            <summary>Sets the stub of Form.OnFormClosed(FormClosedEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>Sets the Stub of Form.OnFormClosing(FormClosingEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnFormClosingFormClosingEventArgs">
+            <summary>Sets the stub of Form.OnFormClosing(FormClosingEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>Sets the Stub of Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Sets the stub of Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnGotFocus(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnGotFocusEventArgs">
+            <summary>Sets the stub of Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnHandleCreated(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnHandleCreatedEventArgs">
+            <summary>Sets the stub of Form.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnHandleDestroyed(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnHandleDestroyedEventArgs">
+            <summary>Sets the stub of Form.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnHelpButtonClicked(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the Stub of Form.OnHelpButtonClicked(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnHelpButtonClickedCancelEventArgs">
+            <summary>Sets the stub of Form.OnHelpButtonClicked(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>Sets the Stub of Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnHelpRequestedHelpEventArgs">
+            <summary>Sets the stub of Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnImeModeChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnImeModeChangedEventArgs">
+            <summary>Sets the stub of Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnInputLanguageChanged(System.Windows.Forms.InputLanguageChangedEventArgs)">
+            <summary>Sets the Stub of Form.OnInputLanguageChanged(InputLanguageChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnInputLanguageChangedInputLanguageChangedEventArgs">
+            <summary>Sets the stub of Form.OnInputLanguageChanged(InputLanguageChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnInputLanguageChanging(System.Windows.Forms.InputLanguageChangingEventArgs)">
+            <summary>Sets the Stub of Form.OnInputLanguageChanging(InputLanguageChangingEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnInputLanguageChangingInputLanguageChangingEventArgs">
+            <summary>Sets the stub of Form.OnInputLanguageChanging(InputLanguageChangingEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>Sets the Stub of Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnInvalidatedInvalidateEventArgs">
+            <summary>Sets the stub of Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>Sets the Stub of Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnKeyDownKeyEventArgs">
+            <summary>Sets the stub of Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>Sets the Stub of Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnKeyPressKeyPressEventArgs">
+            <summary>Sets the stub of Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>Sets the Stub of Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnKeyUpKeyEventArgs">
+            <summary>Sets the stub of Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>Sets the Stub of Form.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnLayoutLayoutEventArgs">
+            <summary>Sets the stub of Form.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnLeave(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnLeaveEventArgs">
+            <summary>Sets the stub of Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnLoad(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnLoadEventArgs">
+            <summary>Sets the stub of Form.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnLocationChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnLocationChangedEventArgs">
+            <summary>Sets the stub of Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnLostFocus(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnLostFocusEventArgs">
+            <summary>Sets the stub of Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMarginChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMarginChangedEventArgs">
+            <summary>Sets the stub of Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMaximizedBoundsChanged(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnMaximizedBoundsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMaximizedBoundsChangedEventArgs">
+            <summary>Sets the stub of Form.OnMaximizedBoundsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMaximumSizeChanged(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnMaximumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMaximumSizeChangedEventArgs">
+            <summary>Sets the stub of Form.OnMaximumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMdiChildActivate(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnMdiChildActivate(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMdiChildActivateEventArgs">
+            <summary>Sets the stub of Form.OnMdiChildActivate(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMenuComplete(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnMenuComplete(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMenuCompleteEventArgs">
+            <summary>Sets the stub of Form.OnMenuComplete(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMenuStart(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnMenuStart(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMenuStartEventArgs">
+            <summary>Sets the stub of Form.OnMenuStart(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMinimumSizeChanged(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnMinimumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMinimumSizeChangedEventArgs">
+            <summary>Sets the stub of Form.OnMinimumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseCaptureChangedEventArgs">
+            <summary>Sets the stub of Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the Stub of Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseClickMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the Stub of Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseDoubleClickMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the Stub of Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseDownMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseEnter(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseEnterEventArgs">
+            <summary>Sets the stub of Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseHover(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseHoverEventArgs">
+            <summary>Sets the stub of Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseLeave(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseLeaveEventArgs">
+            <summary>Sets the stub of Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the Stub of Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseMoveMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the Stub of Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseUpMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the Stub of ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMouseWheelMouseEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMove(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnMoveEventArgs">
+            <summary>Sets the stub of Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>Sets the Stub of Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnNotifyMessageMessage">
+            <summary>Sets the stub of Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnPaddingChanged(System.EventArgs)">
+            <summary>Sets the Stub of ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnPaddingChangedEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the Stub of Form.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the Stub of ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnPaintBackgroundPaintEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnPaintPaintEventArgs">
+            <summary>Sets the stub of Form.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentBackColorChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentBackColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentBackgroundImageChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentBindingContextChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentChanged(System.EventArgs)">
+            <summary>Sets the Stub of ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentChangedEventArgs">
+            <summary>Sets the stub of ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentCursorChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentCursorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentEnabledChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentEnabledChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentFontChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentFontChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentForeColorChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentForeColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentRightToLeftChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentVisibleChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnParentVisibleChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>Sets the Stub of Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>Sets the stub of Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the Stub of Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnPrintPaintEventArgs">
+            <summary>Sets the stub of Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>Sets the Stub of Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Sets the stub of Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnRegionChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnRegionChangedEventArgs">
+            <summary>Sets the stub of Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnResize(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnResizeBegin(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnResizeBegin(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnResizeBeginEventArgs">
+            <summary>Sets the stub of Form.OnResizeBegin(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnResizeEnd(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnResizeEnd(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnResizeEndEventArgs">
+            <summary>Sets the stub of Form.OnResizeEnd(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnResizeEventArgs">
+            <summary>Sets the stub of Form.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnRightToLeftChanged(System.EventArgs)">
+            <summary>Sets the Stub of ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnRightToLeftChangedEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnRightToLeftLayoutChanged(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnRightToLeftLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnRightToLeftLayoutChangedEventArgs">
+            <summary>Sets the stub of Form.OnRightToLeftLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnScroll(System.Windows.Forms.ScrollEventArgs)">
+            <summary>Sets the Stub of ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnScrollScrollEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnShown(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnShown(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnShownEventArgs">
+            <summary>Sets the stub of Form.OnShown(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnSizeChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnStyleChanged(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnStyleChangedEventArgs">
+            <summary>Sets the stub of Form.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnSystemColorsChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnSystemColorsChangedEventArgs">
+            <summary>Sets the stub of Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnTabIndexChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnTabIndexChangedEventArgs">
+            <summary>Sets the stub of Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnTabStopChanged(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnTabStopChangedEventArgs">
+            <summary>Sets the stub of Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnTextChanged(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnTextChangedEventArgs">
+            <summary>Sets the stub of Form.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnValidated(System.EventArgs)">
+            <summary>Sets the Stub of Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnValidatedEventArgs">
+            <summary>Sets the stub of Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the Stub of Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnValidatingCancelEventArgs">
+            <summary>Sets the stub of Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnVisibleChanged(System.EventArgs)">
+            <summary>Sets the Stub of Form.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.OnVisibleChangedEventArgs">
+            <summary>Sets the stub of Form.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>Sets the Stub of Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.PreProcessMessageMessageRef">
+            <summary>Sets the stub of Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>Sets the Stub of Form.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessCmdKeyMessageRefKeys">
+            <summary>Sets the stub of Form.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessDialogChar(System.Char)">
+            <summary>Sets the Stub of Form.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessDialogCharChar">
+            <summary>Sets the stub of Form.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>Sets the Stub of Form.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessDialogKeyKeys">
+            <summary>Sets the stub of Form.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>Sets the Stub of Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessKeyEventArgsMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>Sets the Stub of Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessKeyMessageMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>Sets the Stub of Form.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessKeyPreviewMessageRef">
+            <summary>Sets the stub of Form.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessMnemonic(System.Char)">
+            <summary>Sets the Stub of Form.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessMnemonicChar">
+            <summary>Sets the stub of Form.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessTabKey(System.Boolean)">
+            <summary>Sets the Stub of Form.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ProcessTabKeyBoolean">
+            <summary>Sets the stub of Form.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.Refresh">
+            <summary>Sets the Stub of Control.Refresh()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.Refresh01">
+            <summary>Sets the stub of Control.Refresh()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ResetBackColor">
+            <summary>Sets the Stub of Control.ResetBackColor()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ResetBackColor01">
+            <summary>Sets the stub of Control.ResetBackColor()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ResetCursor">
+            <summary>Sets the Stub of Control.ResetCursor()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ResetCursor01">
+            <summary>Sets the stub of Control.ResetCursor()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ResetFont">
+            <summary>Sets the Stub of Control.ResetFont()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ResetFont01">
+            <summary>Sets the stub of Control.ResetFont()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ResetForeColor">
+            <summary>Sets the Stub of Control.ResetForeColor()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ResetForeColor01">
+            <summary>Sets the stub of Control.ResetForeColor()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ResetRightToLeft">
+            <summary>Sets the Stub of Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ResetRightToLeft01">
+            <summary>Sets the stub of Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ResetText">
+            <summary>Sets the Stub of Control.ResetText()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ResetText01">
+            <summary>Sets the stub of Control.ResetText()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.RightToLeft">
+            <summary>Sets the stub of Control.get_RightToLeft()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.RightToLeftGet">
+            <summary>Sets the stub of Control.get_RightToLeft()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.RightToLeftLayout">
+            <summary>Sets the stub of Form.get_RightToLeftLayout()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.RightToLeftLayoutGet">
+            <summary>Sets the stub of Form.get_RightToLeftLayout()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.RightToLeftLayoutSetBoolean">
+            <summary>Sets the stub of Form.set_RightToLeftLayout(Boolean value)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.RightToLeftSetRightToLeft">
+            <summary>Sets the stub of Control.set_RightToLeft(RightToLeft value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ScaleChildren">
+            <summary>Sets the stub of Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ScaleChildrenGet">
+            <summary>Sets the stub of Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the Stub of Form.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ScaleControlSizeFBoundsSpecified">
+            <summary>Sets the stub of Form.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ScaleCore(System.Single,System.Single)">
+            <summary>Sets the Stub of Form.ScaleCore(Single x, Single y)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ScaleCoreSingleSingle">
+            <summary>Sets the stub of Form.ScaleCore(Single x, Single y)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ScrollToControl(System.Windows.Forms.Control)">
+            <summary>Sets the Stub of ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ScrollToControlControl">
+            <summary>Sets the stub of ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.Select(System.Boolean,System.Boolean)">
+            <summary>Sets the Stub of Form.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.SelectBooleanBoolean">
+            <summary>Sets the stub of Form.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the Stub of Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>Sets the stub of Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>Sets the Stub of Form.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.SetClientSizeCoreInt32Int32">
+            <summary>Sets the stub of Form.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.SetVisibleCore(System.Boolean)">
+            <summary>Sets the Stub of Form.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.SetVisibleCoreBoolean">
+            <summary>Sets the stub of Form.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ShowFocusCues">
+            <summary>Sets the stub of Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ShowFocusCuesGet">
+            <summary>Sets the stub of Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ShowKeyboardCues">
+            <summary>Sets the stub of Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ShowKeyboardCuesGet">
+            <summary>Sets the stub of Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ShowWithoutActivation">
+            <summary>Sets the stub of Form.get_ShowWithoutActivation()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ShowWithoutActivationGet">
+            <summary>Sets the stub of Form.get_ShowWithoutActivation()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.Site">
+            <summary>Sets the stub of Control.get_Site()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.SiteGet">
+            <summary>Sets the stub of Control.get_Site()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.SiteSetISite">
+            <summary>Sets the stub of Control.set_Site(ISite value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.SizeFromClientSize(System.Drawing.Size)">
+            <summary>Sets the Stub of Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.SizeFromClientSizeSize">
+            <summary>Sets the stub of Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.Text">
+            <summary>Sets the stub of Form.get_Text()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.TextGet">
+            <summary>Sets the stub of Form.get_Text()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.TextSetString">
+            <summary>Sets the stub of Form.set_Text(String value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ToString">
+            <summary>Sets the Stub of Form.ToString()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ToString01">
+            <summary>Sets the stub of Form.ToString()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.UpdateDefaultButton">
+            <summary>Sets the Stub of Form.UpdateDefaultButton()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.UpdateDefaultButton01">
+            <summary>Sets the stub of Form.UpdateDefaultButton()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ValidateChildren">
+            <summary>Sets the Stub of Form.ValidateChildren()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ValidateChildren(System.Windows.Forms.ValidationConstraints)">
+            <summary>Sets the Stub of Form.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ValidateChildren01">
+            <summary>Sets the stub of Form.ValidateChildren()</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.ValidateChildrenValidationConstraints">
+            <summary>Sets the stub of Form.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.WndProc(System.Windows.Forms.Message@)">
+            <summary>Sets the Stub of Form.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:Fujitsu.eDoc.BOMApplicationDesktopApp.Fakes.StubForm1.WndProcMessageRef">
+            <summary>Sets the stub of Form.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler">
+            <summary>Shim type of Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.BOMDesktopHandler</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.#ctor(Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.BOMDesktopHandler)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.AllInstances.DeleteFuBomCaseString">
+            <summary>Sets the Shim of BOMDesktopHandler.DeleteFuBomCase(String BOMCaseID)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.AllInstances.DeleteSubmissionString">
+            <summary>Sets the Shim of BOMDesktopHandler.DeleteSubmission(String appID)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.AllInstances.HandleFurtherSubmissionsIndsendelseTypeString">
+            <summary>Sets the Shim of BOMDesktopHandler.HandleFurtherSubmissions(IndsendelseType BOMApplication, String FuBomRecno)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.AllInstances.HandleVeryFirstBOMApplicationIndsendelseTypeStringOut">
+            <summary>Sets the Shim of BOMDesktopHandler.HandleVeryFirstBOMApplication(IndsendelseType BOMApplication, String&amp; fuBOMCaseRecno)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.AllInstances.ResetFUBOMRecnoOnAllUnAttachedSubmissionsString">
+            <summary>Sets the Shim of BOMDesktopHandler.ResetFUBOMRecnoOnAllUnAttachedSubmissions(String BomCaseId)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.Constructor">
+            <summary>Sets the Shim of BOMDesktopHandler.BOMDesktopHandler()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.DeleteFuBomCaseString">
+            <summary>Sets the Shim of BOMDesktopHandler.DeleteFuBomCase(String BOMCaseID)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.DeleteSubmissionString">
+            <summary>Sets the Shim of BOMDesktopHandler.DeleteSubmission(String appID)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.HandleFurtherSubmissionsIndsendelseTypeString">
+            <summary>Sets the Shim of BOMDesktopHandler.HandleFurtherSubmissions(IndsendelseType BOMApplication, String FuBomRecno)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.HandleVeryFirstBOMApplicationIndsendelseTypeStringOut">
+            <summary>Sets the Shim of BOMDesktopHandler.HandleVeryFirstBOMApplication(IndsendelseType BOMApplication, String&amp; fuBOMCaseRecno)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.ResetFUBOMRecnoOnAllUnAttachedSubmissionsString">
+            <summary>Sets the Shim of BOMDesktopHandler.ResetFUBOMRecnoOnAllUnAttachedSubmissions(String BomCaseId)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.ShimBOMDesktopHandler.StaticConstructor">
+            <summary>Sets the Shim of BOMDesktopHandler.BOMDesktopHandler()</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.StubBOMDesktopHandler">
+            <summary>Stub type of Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.BOMDesktopHandler</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.StubBOMDesktopHandler.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.StubBOMDesktopHandler.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.StubBOMDesktopHandler.InitializeStub">
+            <summary>Initializes a new instance of type StubBOMDesktopHandler</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.StubBOMDesktopHandler.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOMApplicationDesktopApp.Handler.Fakes.StubBOMDesktopHandler.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.FujitsueDocBOMApplicationDesktopAppDelegates">
+            <summary>Contains custom delegates used for the stubs and shims of Fujitsu.eDoc.BOMApplicationDesktopApp</summary>
+        </member>
+    </members>
+</doc>
