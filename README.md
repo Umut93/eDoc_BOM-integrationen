@@ -7,12 +7,12 @@ udfyldes og indsendes. Efter du har indsendt, får du besked når der er nyt i d
 
 
 
-# Stikprøvekontrol
+- Stikprøvekontrol
 
-# Test-tool, som udtrækker servicemål fra Byg og Miljø
+- Test-tool, som udtrækker servicemål fra Byg og Miljø
 
-# Kommunestempel på PDF filer inden filerne blev afsendt til den givne ansøger
+- Kommunestempel på PDF filer inden filerne blev afsendt til den givne ansøger
 
-# Daglig opdaterering af servicemål og sagsbehandlingstiden for sagsbehandlere
+- Daglig opdaterering af servicemål og sagsbehandlingstiden for sagsbehandlere
 
-# Et program, som laver en BOM-sag fra bunden, når den første indsendelse ikke findes i fagsystemet.
+- Et program, som laver en BOM-sag fra bunden, når den første indsendelse ikke findes i fagsystemet.
