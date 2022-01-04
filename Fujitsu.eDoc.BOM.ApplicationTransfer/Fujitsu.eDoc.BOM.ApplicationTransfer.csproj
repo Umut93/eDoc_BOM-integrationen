@@ -40,22 +40,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Fujitsu.eDoc.ClassCodeAdmin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.ClassCodeAdmin.dll</HintPath>
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.38.13301\lib\Fujitsu.eDoc.ClassCodeAdmin.dll</HintPath>
     </Reference>
     <Reference Include="Fujitsu.eDoc.Codebehind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8f50cf2fc45d3fd2, processorArchitecture=MSIL">
-      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.Codebehind.dll</HintPath>
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.38.13301\lib\Fujitsu.eDoc.Codebehind.dll</HintPath>
     </Reference>
     <Reference Include="Fujitsu.eDoc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
-      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.Core.dll</HintPath>
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.38.13301\lib\Fujitsu.eDoc.Core.dll</HintPath>
     </Reference>
     <Reference Include="Fujitsu.eDoc.Core.DefaultValue.Codebehind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
-      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.Core.DefaultValue.Codebehind.dll</HintPath>
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.38.13301\lib\Fujitsu.eDoc.Core.DefaultValue.Codebehind.dll</HintPath>
     </Reference>
     <Reference Include="Fujitsu.eDoc.ImportData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
-      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.ImportData.dll</HintPath>
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.38.13301\lib\Fujitsu.eDoc.ImportData.dll</HintPath>
     </Reference>
     <Reference Include="Fujitsu.eDoc.Notification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=402811e591a0c620, processorArchitecture=MSIL">
-      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.27.9230\lib\Fujitsu.eDoc.Notification.dll</HintPath>
+      <HintPath>..\packages\Fujitsu.eDoc.Core.DLL.5.1.38.13301\lib\Fujitsu.eDoc.Notification.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
