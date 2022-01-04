@@ -27,8 +27,8 @@ namespace Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine
 
             else
             {
-               Fujitsu.eDoc.Core.Common.SimpleEventLogging(typeof(BatchSpotChecking).FullName, "FuBOM",
-               $"Setting Enable SpotChecking is not set", System.Diagnostics.EventLogEntryType.Information);
+                Fujitsu.eDoc.Core.Common.SimpleEventLogging(typeof(BatchSpotChecking).FullName, "FuBOM",
+                $"Setting Enable SpotChecking is not set", System.Diagnostics.EventLogEntryType.Information);
             }
 
 
