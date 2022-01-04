@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
+﻿using Fujitsu.eDoc.BOM.CaseHandler;
 using SI.Portal.BusinessIntegration;
 using SI.Portal.BusinessIntegration.Data;
+using System;
+using System.Collections.Generic;
 using System.Data;
-using System.Xml;
-using Fujitsu.eDoc.BOM;
 using System.Reflection;
-using Fujitsu.eDoc.BOM.CaseHandler;
+using System.Xml;
 
 namespace Fujitsu.eDoc.BOM.CodeBehind
 {

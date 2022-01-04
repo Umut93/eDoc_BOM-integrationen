@@ -4,7 +4,6 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using SI.Portal.BusinessIntegration;
 using SI.Portal.BusinessIntegration.Data;
 using System;
-using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Reflection;
