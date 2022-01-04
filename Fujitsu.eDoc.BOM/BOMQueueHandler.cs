@@ -1,15 +1,10 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Xml.Serialization;
-using System.IO;
 using System.Reflection;
-using System.Xml;
 using System.Threading.Tasks;
-using System.Collections.Concurrent;
-using System.Diagnostics;
+using System.Xml;
 
 namespace Fujitsu.eDoc.BOM
 {
@@ -27,7 +22,7 @@ namespace Fujitsu.eDoc.BOM
     public static class BOMQueueHandler
     {
         public static string AddToQueue(BOMCaseUpdateType c)
-        {            
+        {
             // Send to conversion
 
             if (c.MainDocument != null)
@@ -66,9 +61,9 @@ namespace Fujitsu.eDoc.BOM
 
             return s;
         }
-        
+
         private static void MakePDF(BOMReplyDocument doc)
-        {            
+        {
             System.Security.Principal.WindowsImpersonationContext wic = System.Security.Principal.WindowsIdentity.Impersonate(IntPtr.Zero);
             try
             {
@@ -102,7 +97,7 @@ namespace Fujitsu.eDoc.BOM
 
 
         public static void HandleFuBomQueues()
-        {            
+        {
             string xmlQuery = Fujitsu.eDoc.Core.Common.GetResourceXml("GetPendingBOMQueueListMetaQuery.xml", "Fujitsu.eDoc.BOM.XML.BOMQueue", Assembly.GetExecutingAssembly());
             string result = Fujitsu.eDoc.Core.Common.ExecuteQuery(xmlQuery);
 
@@ -141,7 +136,7 @@ namespace Fujitsu.eDoc.BOM
                         }
 
                         else if (item.BOMQueueStatusType == BOMQueueStatusType.FinishConverting)
-                        {                                                        
+                        {
                             BOMCaseHandler.UpdateBOMCase(item.BOMCaseUpdateType);
                             UpdateQueueItem(item.Recno, Serialization.Serialize<BOMCaseUpdateType>(item.BOMCaseUpdateType), BOMQueueStatusType.Success);
                         }

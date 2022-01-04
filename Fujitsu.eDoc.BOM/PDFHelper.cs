@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using Fujitsu.eDoc.Core;
+﻿using Fujitsu.eDoc.Core;
 using System.Xml;
 
 namespace Fujitsu.eDoc.BOM
@@ -14,7 +9,7 @@ namespace Fujitsu.eDoc.BOM
         Success = 1,
         Failed = 2
     }
-    
+
     public class PDFHelper
     {
 
@@ -35,7 +30,7 @@ namespace Fujitsu.eDoc.BOM
                 return GetConvertStatus(doc.ConversionJobId, out FileFullname);
             }
 
-            if(!string.IsNullOrEmpty(doc.FileFullname))
+            if (!string.IsNullOrEmpty(doc.FileFullname))
             {
                 FileFullname = doc.FileFullname;
                 return PDFStatusType.Success;

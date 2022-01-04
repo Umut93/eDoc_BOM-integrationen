@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading;
 using System.Xml;
 
 namespace Fujitsu.eDoc.BOM
@@ -55,7 +52,7 @@ namespace Fujitsu.eDoc.BOM
                 Guid? latestHighWaterMark = BOMCaller.GetLatestHighWaterMark();
                 if (latestHighWaterMark.HasValue)
                 {
-                    SaveMessage(new BOMBeskedfordeler.Besked {BehandlendeMyndighedCvr = "Seneste HighWaterMark er indsat, da tabellen var tom.", MyndighedCvr = BOMCaller.GetMunicipalityCVR(), SagId = Guid.Empty, Tidspunkt = DateTime.Now, ModtagerType = BOMBeskedfordeler.ModtagerType.CentralMyndighed }, latestHighWaterMark);
+                    SaveMessage(new BOMBeskedfordeler.Besked { BehandlendeMyndighedCvr = "Seneste HighWaterMark er indsat, da tabellen var tom.", MyndighedCvr = BOMCaller.GetMunicipalityCVR(), SagId = Guid.Empty, Tidspunkt = DateTime.Now, ModtagerType = BOMBeskedfordeler.ModtagerType.CentralMyndighed }, latestHighWaterMark);
                 }
             }
         }

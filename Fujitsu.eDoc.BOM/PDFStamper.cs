@@ -1,8 +1,5 @@
-﻿using Fujitsu.eDoc.Core;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.IO;
-using System.Xml.Linq;
 using TallComponents.PDF.Annotations.Widgets;
 using TallComponents.PDF.Colors;
 using TallComponents.PDF.Forms.Fields;

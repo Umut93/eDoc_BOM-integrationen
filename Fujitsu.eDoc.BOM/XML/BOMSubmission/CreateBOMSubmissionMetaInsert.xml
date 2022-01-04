@@ -18,5 +18,8 @@
     <METAITEM NAME="SubmissionNummer">
       <VALUE></VALUE>
     </METAITEM>
+    <METAITEM NAME="SubmissionXMLPayload">
+      <VALUE></VALUE>
+    </METAITEM>
   </INSERTSTATEMENT>
 </operation>

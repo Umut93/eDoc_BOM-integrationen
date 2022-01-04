@@ -14,8 +14,11 @@ namespace Fujitsu.eDoc.BOM
         private static string CONFIG_TYPE_Setup = "setup";
         private static string CONFIG_TYPE_Mail = "mail";
 
-        public static string ESTATE_RELATION_LANDPARCEL = "matrikel";
-        public static string ESTATE_RELATION_ESTATE = "ejendom";
+        public const string ESTATE_RELATION_LANDPARCEL = "matrikel";
+        public const string ESTATE_RELATION_ESTATE = "ejendom";
+        public const string ESTATE_RELATION_SAMLET_FAST_EJENDOM = "sfe";
+        public const string ESTATE_RELATION_BPFG = "bpfg";
+        public const string ESTATE_RELATION_EJERLEJLIGHED = "ejerlejlighed";
 
         private BOM.BOMKonfigurationV6.KonfigurationDataTransferBasisKonfiguration basisKonf;
 

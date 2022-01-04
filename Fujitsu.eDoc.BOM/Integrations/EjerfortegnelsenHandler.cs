@@ -4,7 +4,6 @@ using Fujitsu.eDoc.Integrations.Datafordeler.Ejerfortegnelsen;
 using Fujitsu.ExternRegister;
 using System;
 using System.Linq;
-using System.Xml;
 
 namespace Fujitsu.eDoc.BOM.Integrations
 {
@@ -139,6 +138,6 @@ namespace Fujitsu.eDoc.BOM.Integrations
             }
         }
 
-       
+
     }
 }

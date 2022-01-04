@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
+﻿using System.Collections.Generic;
 using System.Xml;
 
 namespace Fujitsu.eDoc.BOM
@@ -48,19 +44,19 @@ namespace Fujitsu.eDoc.BOM
                 }
             }
 
-            if(c.MainDocument != null)
+            if (c.MainDocument != null)
             {
                 LogOnFile(c.MainDocument.FileRecno, LOGMESSAGE_RECNO_BOM_FILE_SENT, LOGMESSAGE_INFO_BOM_FILE_SENT);
             }
             if (c.Attachments != null)
             {
-                foreach(BOMReplyDocument att in c.Attachments)
+                foreach (BOMReplyDocument att in c.Attachments)
                 {
                     LogOnFile(att.FileRecno, LOGMESSAGE_RECNO_BOM_FILE_SENT, LOGMESSAGE_INFO_BOM_FILE_SENT);
                 }
             }
         }
-        
+
         public static void LogOnCase(string caseRecno, List<ChangeLog> logs)
         {
             if (logs != null)

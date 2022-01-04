@@ -1,21 +1,14 @@
 ﻿using Fujitsu.eDoc.BOM.BOMSagsbehandling;
 using Fujitsu.eDoc.BOM.CaseHandler;
 using Fujitsu.eDoc.BOM.Integrations;
-using Fujitsu.eDoc.Core;
-using Fujitsu.eDoc.Integrations.Datafordeler.VUR;
-using SI.Biz.Core;
-using SI.Biz.Core.SchemaBasedImport.NoarkXml;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.Design.Serialization;
 using System.Configuration;
 using System.IO;
 using System.Linq;
-using System.Net;
 using System.Reflection;
-using System.Security.Cryptography.X509Certificates;
-using System.ServiceModel.Security.Tokens;
 using System.Xml;
+using System.Xml.Serialization;
 using static Fujitsu.eDoc.BOM.CaseHandler.BOMUtils;
 
 namespace Fujitsu.eDoc.BOM
@@ -96,7 +89,6 @@ namespace Fujitsu.eDoc.BOM
                             UpdateBOMSubmission(c, BOMCaseTransferStatusEnum.BOMCaseCreated);
                         }
                     }
-
                     BOMConfiguration.BOMActivityTypeConfigurationItem activityType = c.configuration.GetActivityType(c.AktivitetTypeKode);
                     c.OrgUnitRecno = activityType.OrgUnit;
                     c.OurRefRecno = activityType.OurRef;
@@ -140,18 +132,7 @@ namespace Fujitsu.eDoc.BOM
 
                 if (c.BOMSubmissionTransferStatus == BOMCaseTransferStatusEnum.eDocCaseCreated)
                 {
-                    try
-                    {
-                        CreateDocumentOnCase(c, c.IndsendelsesDokument, c.KonfliktRapportDokument, c.Bilag);
-                    }
-                    catch (Exception ex)
-                    {
-
-                        Fujitsu.eDoc.Core.Common.SimpleEventLogging("Fujitsu.eDoc.BOM.BOMCaseHandler", "FuBOM",
-                                  $"Error on adding a document for the case recno {c.CaseRecno}:\n {ex.ToString()}", System.Diagnostics.EventLogEntryType.Error);
-                    }
-
-
+                    CreateDocumentOnCase(c, c.IndsendelsesDokument, c.KonfliktRapportDokument, c.Bilag);
                 }
 
                 if (c.BOMSubmissionTransferStatus == BOMCaseTransferStatusEnum.AttachmentsTransfered)
@@ -188,7 +169,6 @@ namespace Fujitsu.eDoc.BOM
             catch (Exception ex)
             {
                 RegisterBOMSubmissionError(c, ex);
-                throw ex;
             }
         }
 
@@ -272,22 +252,52 @@ namespace Fujitsu.eDoc.BOM
         }
 
         private static void GetEstate(BOMCase c)
-        {
+        {            
+            string estateType = "";
             try
             {
-                if (c.configuration.GetEstateRelationType() == BOMConfiguration.ESTATE_RELATION_LANDPARCEL)
+                estateType = c.configuration.GetEstateRelationType();
+                switch(estateType)
                 {
-                    c.EstateRecno = Fujitsu.ExternRegister.Estate.GetOrCreateLandParcelFromExtern("", c.Ejendomsnummer, c.MatrikelNummer, c.MunicipalityCode, c.MatrikelEjerlavId, "", "");
-                }
-                else
-                {
-                    c.EstateRecno = Fujitsu.ExternRegister.Estate.GetOrCreateEstateFromLandParcelFromExtern("", c.Ejendomsnummer, c.MatrikelNummer, c.MunicipalityCode, c.MatrikelEjerlavId, "", "");
+                    case BOMConfiguration.ESTATE_RELATION_LANDPARCEL:
+                        {
+                            c.EstateRecno = Fujitsu.ExternRegister.Estate.GetOrCreateLandParcelFromExtern("", c.Ejendomsnummer, c.MatrikelNummer, c.MunicipalityCode, c.MatrikelEjerlavId, "", "", "300004", 0);
+                            break;
+                        }
+                    case BOMConfiguration.ESTATE_RELATION_ESTATE:
+                        {
+                            c.EstateRecno = Fujitsu.ExternRegister.Estate.GetOrCreateLandParcelFromExtern("", c.Ejendomsnummer, c.MatrikelNummer, c.MunicipalityCode, c.MatrikelEjerlavId, "", "", "1", 0);
+                            break;
+                        }
+                    case BOMConfiguration.ESTATE_RELATION_SAMLET_FAST_EJENDOM:
+                        {
+                            c.EstateRecno = Fujitsu.ExternRegister.Estate.GetOrCreateLandParcelFromExtern("", c.Ejendomsnummer, c.MatrikelNummer, c.MunicipalityCode, c.MatrikelEjerlavId, "", "", "300072", c.edocBFENumber);
+                            break;
+                        }
+                    case BOMConfiguration.ESTATE_RELATION_BPFG:
+                        {
+                            c.EstateRecno = Fujitsu.ExternRegister.Estate.GetOrCreateLandParcelFromExtern("", c.Ejendomsnummer, c.MatrikelNummer, c.MunicipalityCode, c.MatrikelEjerlavId, "", "", "300073", c.edocBFENumber);
+                            break;
+                        }
+                    case BOMConfiguration.ESTATE_RELATION_EJERLEJLIGHED:
+                        {
+                            c.EstateRecno = Fujitsu.ExternRegister.Estate.GetOrCreateLandParcelFromExtern("", c.Ejendomsnummer, c.MatrikelNummer, c.MunicipalityCode, c.MatrikelEjerlavId, "", "", "300074", c.edocBFENumber);
+                            break;
+                        }
+                    default:
+                        {
+                            string text = $"Estate type not supported: '{estateType}'.{Environment.NewLine}Estate type is set in Codetable: 'Fu BOM Configuration', key=Ejendomstilknytning and must have one of these values: " +
+                                          $"'{BOMConfiguration.ESTATE_RELATION_LANDPARCEL}', '{BOMConfiguration.ESTATE_RELATION_ESTATE}', '{BOMConfiguration.ESTATE_RELATION_SAMLET_FAST_EJENDOM}', " +
+                                          $"'{BOMConfiguration.ESTATE_RELATION_BPFG}', '{BOMConfiguration.ESTATE_RELATION_EJERLEJLIGHED}'";
+
+                            throw new ConfigurationErrorsException(text);                            
+                        }
                 }
             }
             catch (Exception ex)
             {
                 Fujitsu.eDoc.Core.Common.SimpleEventLogging("Fujitsu.eDoc.BOM.BOMCaseHandler", "FuBOM",
-                    string.Format("Error looking up estate ({0}, {1}, {2}):\n{3}", c.MatrikelNummer, c.MunicipalityCode, c.MatrikelEjerlavId, ex.ToString()), System.Diagnostics.EventLogEntryType.Error);
+                    string.Format("Error looking up estate ('{0}', {1}, {2}, {3}, '{4}'):\n{5}", c.MatrikelNummer, c.MunicipalityCode, c.MatrikelEjerlavId, c.edocBFENumber, estateType, ex.ToString()), System.Diagnostics.EventLogEntryType.Error);
 
                 c.EstateRecno = string.Empty;
             }
@@ -592,12 +602,12 @@ namespace Fujitsu.eDoc.BOM
             //Any excempts
             if (c.SagServiceMaalKode != DEFAULT_SAG_SERVICE_MAAL_KODE)
             {
-                nUpdatestatement.SelectSingleNode("METAITEM[@NAME='ServiceMaalDays']/VALUE").InnerText = "-";
+                nUpdatestatement.SelectSingleNode("METAITEM[@NAME='ServiceMaalDays']/VALUE").InnerText = string.Empty;
                 nUpdatestatement.SelectSingleNode("METAITEM[@NAME='ServiceMaalStatus']/VALUE").InnerText = ServiceGoalStatus.Exempted;
             }
             else
             {
-                nUpdatestatement.SelectSingleNode("METAITEM[@NAME='ServiceMaalDays']/VALUE").InnerText = "";
+                nUpdatestatement.SelectSingleNode("METAITEM[@NAME='ServiceMaalDays']/VALUE").InnerText = string.Empty;
                 nUpdatestatement.SelectSingleNode("METAITEM[@NAME='ServiceMaalStatus']/VALUE").InnerText = ServiceGoalStatus.None;
             }
 
@@ -605,6 +615,7 @@ namespace Fujitsu.eDoc.BOM
             if (!c.SagsbehandlingForbrugtDageSpecified && !c.VisitationForbrugtDageSpecified && c.SagServiceMaalKode == DEFAULT_SAG_SERVICE_MAAL_KODE)
             {
                 nUpdatestatement.SelectSingleNode("METAITEM[@NAME='ServiceMaalStatus']/VALUE").InnerText = ServiceGoalStatus.PendingCalculation;
+                nUpdatestatement.SelectSingleNode("METAITEM[@NAME='ServiceMaalDays']/VALUE").InnerText = string.Empty;
             }
 
             Fujitsu.eDoc.Core.Common.ExecuteSingleAction(doc.OuterXml);
@@ -1371,27 +1382,6 @@ namespace Fujitsu.eDoc.BOM
 
             PostCreateEdocCase(c);
 
-            //// Update BOMCase
-            //xmlQuery = Fujitsu.eDoc.Core.Common.GetResourceXml("UpdateBOMCaseMetaUpdate.xml", "Fujitsu.eDoc.BOM.XML.BOMCase", Assembly.GetExecutingAssembly());
-            //xmlQuery = xmlQuery.Replace("#Recno#", c.BOMCaseRecno);
-            //xmlQuery = xmlQuery.Replace("#TransferStatus#", ((int)BOMCaseTransferStatusEnum.Processing).ToString());
-            //xmlQuery = xmlQuery.Replace("#ToCase#", c.CaseRecno);
-
-            //string result = Fujitsu.eDoc.Core.Common.ExecuteSingleAction(xmlQuery);
-
-
-            //// Get Case metadata
-            //xmlQuery = Fujitsu.eDoc.Core.Common.GetResourceXml("GetCaseQuery.xml", "Fujitsu.eDoc.BOM.XML.Case", Assembly.GetExecutingAssembly());
-            //xmlQuery = xmlQuery.Replace("#RECNO#", c.CaseRecno);
-            //result = Fujitsu.eDoc.Core.Common.ExecuteQuery(xmlQuery);
-
-            //XmlDocument doc = new XmlDocument();
-            //doc.LoadXml(result);
-            //c.CaseUniqueIdentifier = doc.SelectSingleNode("/RECORDS/RECORD/UniqueIdentity").InnerText;
-            //c.CaseNumber = doc.SelectSingleNode("/RECORDS/RECORD/Name").InnerText;
-            //c.CaseWorkerName = doc.SelectSingleNode("/RECORDS/RECORD/SearchName").InnerText;
-            //c.CaseWorkerEmail = doc.SelectSingleNode("/RECORDS/RECORD/E-mail").InnerText;
-            //c.CaseWorkerPhone = doc.SelectSingleNode("/RECORDS/RECORD/Telephone").InnerText;
         }
 
         private static void PostCreateEdocCase(BOMCase c)
@@ -1530,23 +1520,17 @@ namespace Fujitsu.eDoc.BOM
 
         private static void CreateDocumentOnCase(BOMCase c, BOMDocument doc, BOMDocument konfliktRapportDokument, List<BOMDocument> bilag)
         {
-            if (doc == null & konfliktRapportDokument == null)
-            {
-                return;
-            }
-
-            if (!doc.IsFileTypeValid & !konfliktRapportDokument.IsFileTypeValid)
-            {
-                return;
-            }
-
             //START
             //Application.pdf + KonfliktRapport.pdf
             Dictionary<string, BOMDocument> ansoegKonfliktPDFPairs = new Dictionary<string, BOMDocument>
             {
                 { doc.BrugervendtNoegleTekst, doc },
-                { konfliktRapportDokument.BrugervendtNoegleTekst, konfliktRapportDokument }
             };
+
+            if (konfliktRapportDokument != null)
+            {
+                ansoegKonfliktPDFPairs.Add(konfliktRapportDokument.BrugervendtNoegleTekst, konfliktRapportDokument);
+            }
 
             string xmlQuery = Fujitsu.eDoc.Core.Common.GetResourceXml("CreateDocumentMetaInsert.xml", "Fujitsu.eDoc.BOM.XML.Document", Assembly.GetExecutingAssembly());
             XmlDocument docQuery = new XmlDocument();
@@ -1612,7 +1596,7 @@ namespace Fujitsu.eDoc.BOM
 
                 foreach (BOMDocument b in validAttachments)
                 {
-                    if (!(IsDocumentExisting(b.DokumentID)))
+                    if (!(IsDocumentExisting(c.CaseRecno, b.DokumentID)))
                     {
                         Uri documentURI = new Uri(b.IndholdTekst);
                         string LocalFilePath = Fujitsu.eDoc.Core.FileUploadSupport.InvokeGetTemporaryPath() + b.TitelTekst;
@@ -1631,62 +1615,64 @@ namespace Fujitsu.eDoc.BOM
                 xmlQuery = docQuery.OuterXml;
                 doc.DocumentRecno = Fujitsu.eDoc.Core.Common.ExecuteSingleAction(xmlQuery);
                 UpdateBOMSubmission(c, BOMCaseTransferStatusEnum.AttachmentsTransfered);
-
-                try
-                {
-                    localFilepaths.ForEach(y => System.IO.File.Delete(y));
-                }
-                catch (Exception ex)
-                {
-                    Fujitsu.eDoc.Core.Common.SimpleEventLogging("Fujitsu.eDoc.BOM.BOMCaseHandler", "FuBOM", ex.ToString(), System.Diagnostics.EventLogEntryType.Error);
-                }
+                localFilepaths.ForEach(y => System.IO.File.Delete(y));
             }
 
             else
             {
                 doc.DocumentRecno = Fujitsu.eDoc.Core.Common.ExecuteSingleAction(xmlQuery);
-
                 UpdateBOMSubmission(c, BOMCaseTransferStatusEnum.ApplicationDocumentTransfered);
                 UpdateBOMSubmission(c, BOMCaseTransferStatusEnum.ConflictDocumentTransfered);
                 UpdateBOMSubmission(c, BOMCaseTransferStatusEnum.AttachmentsTransfered);
-
-                try
-                {
-                    localFilePaths.ForEach(x => System.IO.File.Delete(x));
-
-                }
-                catch (Exception ex)
-                {
-
-                    Fujitsu.eDoc.Core.Common.SimpleEventLogging("Fujitsu.eDoc.BOM.BOMCaseHandler", "FuBOM", ex.ToString(), System.Diagnostics.EventLogEntryType.Error);
-                }
+                localFilePaths.ForEach(x => System.IO.File.Delete(x));
             }
-
         }
 
-
-        public static bool IsDocumentExisting(string docID)
+        /// <summary>
+        /// Checking if the BOM File already exists in the eDoc case.
+        /// </summary>
+        /// <param name="caseRecno"></param>
+        /// <param name="docID"></param>
+        /// <returns></returns>
+        public static bool IsDocumentExisting(string caseRecno, string docID)
         {
             XmlDocument xml = new XmlDocument();
             bool isDocExisting = false;
+
             try
             {
-                string xmlQuery = string.Format(@"
-                           <operation>
-                            <QUERYDESC NAMESPACE='SIRIUS' ENTITY='File' DATASETFORMAT='XML' TAG='RECORDS' MAXROWS='0'>
-                                <RESULTFIELDS>
-                                  <METAITEM TAG='AttachmentID'>AttachmentID</METAITEM>
-                                </RESULTFIELDS>
-                             <CRITERIA>
-                              <METAITEM NAME='AttachmentID' OPERATOR='='>
-                                <VALUE>{0}</VALUE>
-                              </METAITEM>
-                           </CRITERIA>
+                string xmlQuery = string.Format($@"
+                            <operation>
+                            <QUERYDESC NAMESPACE='SIRIUS' ENTITY='Document' DATASETFORMAT='XML' TAG='RECORDS'>
+                                      <CRITERIA>
+                                        <METAITEM NAME='ToCase' OPERATOR='='>
+                                          <VALUE>{caseRecno}</VALUE>
+                                        </METAITEM>
+                                     </CRITERIA>
+                                        <RESULTFIELDS>
+                                        <METAITEM TAG='DocumentNumber'>DocumentNumber</METAITEM>
+                                       </RESULTFIELDS>
+                                    <RELATIONS>
+                                    <RELATION NAME='ToCurrentVersion'>
+                                      <RELATIONS>
+                                        <RELATION NAME='FileConnection' JOIN='EQUAL'>
+                                          <RELATIONS>
+                                            <RELATION NAME='ToFile' JOIN='EQUAL'>
+                                            <CRITERIA>
+                                              <METAITEM NAME='AttachmentID' OPERATOR='='>
+                                                <VALUE>{docID}</VALUE>
+                                              </METAITEM>
+                                            </CRITERIA>
+                                            </RELATION>
+                                          </RELATIONS>
+                                        </RELATION>
+                                      </RELATIONS>
+                                    </RELATION>
+                                  </RELATIONS>
                          </QUERYDESC>
-                         </operation>", docID);
+                         </operation>");
 
                 string result = Fujitsu.eDoc.Core.Common.ExecuteQuery(xmlQuery);
-
 
                 if (!string.IsNullOrEmpty(result))
                 {
@@ -1703,11 +1689,9 @@ namespace Fujitsu.eDoc.BOM
             catch (Exception ex)
             {
                 Fujitsu.eDoc.Core.Common.SimpleEventLogging("Fujitsu.eDoc.BOM.BOMCaseHandler", "FuBOM",
-                   $"Error occured when searching a document ID {docID} :\n {ex.ToString()}", System.Diagnostics.EventLogEntryType.Error);
+                   $"Error occured when searching a BOM attachment in the table df_file: {docID}. CaseRecno: {caseRecno} :\n {ex}", System.Diagnostics.EventLogEntryType.Error);
             }
-
             return isDocExisting;
-
         }
 
         public static string DownloadApplicationFile(string ApplicationId)
@@ -1822,6 +1806,7 @@ namespace Fujitsu.eDoc.BOM
             doc.SelectSingleNode("/operation/INSERTSTATEMENT/METAITEM[@NAME='CaseId']/VALUE").InnerText = BOMSagID;
             doc.SelectSingleNode("/operation/INSERTSTATEMENT/METAITEM[@NAME='TransferStatus']/VALUE").InnerText = ((int)BOMCaseTransferStatusEnum.Pending).ToString();
             doc.SelectSingleNode("/operation/INSERTSTATEMENT/METAITEM[@NAME='SubmissionNummer']/VALUE").InnerText = IndsendelseLoebenr.ToString();
+            doc.SelectSingleNode("/operation/INSERTSTATEMENT/METAITEM[@NAME='SubmissionXMLPayload']/VALUE").InnerText = SerializeObject(BOMApplication);
             xmlQuery = doc.OuterXml;
 
             BOMSubmissionRecno = Fujitsu.eDoc.Core.Common.ExecuteSingleAction(xmlQuery);
@@ -1900,6 +1885,17 @@ namespace Fujitsu.eDoc.BOM
                 }
             }
             return true;
+        }
+
+        private static string SerializeObject(BOM.BOMSagsbehandling.IndsendelseType toSerialize)
+        {
+            XmlSerializer xmlSerializer = new XmlSerializer(toSerialize.GetType());
+
+            using (StringWriter textWriter = new StringWriter())
+            {
+                xmlSerializer.Serialize(textWriter, toSerialize);
+                return textWriter.ToString();
+            }
         }
 
     }
