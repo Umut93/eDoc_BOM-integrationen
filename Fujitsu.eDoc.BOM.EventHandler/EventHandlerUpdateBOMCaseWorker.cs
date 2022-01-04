@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using SI.Biz.Core;
-using SI.Biz.Core.Fluent;
-using SI.Biz.Core.Events;
-using SI.Linq.Meta;
-using Fujitsu.eDoc.Core;
+﻿using SI.Biz.Core.Events;
 using SI.Util.Events;
+using System;
 using System.Xml;
 
 namespace Fujitsu.eDoc.BOM.EventHandler
