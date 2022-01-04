@@ -15,4 +15,4 @@ udfyldes og indsendes. Efter du har indsendt, får du besked når der er nyt i d
 
 - Daglig opdaterering af servicemål og sagsbehandlingstid for sagsbehandlere
 
-- Et program, som laver en BOM-sag fra bunden, når den første indsendelse ikke findes i fagsystemet.
+- Et dedikeret program, som laver en BOM-sag fra bunden, når den første indsendelse ikke findes i fagsystemet ift. konvertering.
