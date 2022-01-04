@@ -7,7 +7,7 @@ udfyldes og indsendes. Efter du har indsendt, får du besked når der er nyt i d
 
 
 
-- Stikprøvekontrol
+- Stikprøvekontrol, udpeg hver tiende sag til stikprøvekontrol og send en mail til den pågældende sagsbehandler.
 
 - Test-tool, som udtrækker servicemål fra Byg og Miljø
 
