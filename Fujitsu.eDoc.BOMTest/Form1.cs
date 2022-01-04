@@ -1,17 +1,11 @@
-﻿using System;
+﻿using Fujitsu.eDoc.BOM;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Windows.Forms;
-using Fujitsu.eDoc.BOM;
-using System.Xml.Serialization;
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
 using System.ServiceModel;
+using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace Fujitsu.eDoc.BOMTest
 {
@@ -29,7 +23,7 @@ namespace Fujitsu.eDoc.BOMTest
         {
             string strHighWatermark = textBoxHighWatermark.Text;
             Guid? highWatermark = null;
-            if(!string.IsNullOrEmpty(strHighWatermark))
+            if (!string.IsNullOrEmpty(strHighWatermark))
             {
                 highWatermark = new Guid(strHighWatermark);
             }
@@ -41,7 +35,7 @@ namespace Fujitsu.eDoc.BOMTest
             listBoxBeskeder.Items.Clear();
             foreach (BOM.BOMBeskedfordeler.Besked b in result.Beskeder)
             {
-                
+
                 string beskedType = "Ukendt";
                 if (b is BOM.BOMBeskedfordeler.AnsoegningIndsendtBesked)
                 {
@@ -56,7 +50,7 @@ namespace Fujitsu.eDoc.BOMTest
                     BOM.BOMBeskedfordeler.SagStatusSkiftBesked sb = ((BOM.BOMBeskedfordeler.SagStatusSkiftBesked)b);
                     beskedType = "SagStatusSkift;" + ((BOM.BOMBeskedfordeler.SagStatusSkiftBesked)b).SagId;
                 }
-                
+
                 string text = string.Format("{0};{1}", b.Tidspunkt.ToString("yyyy-MM-dd HH:mm:ss"), beskedType);
                 listBoxBeskeder.Items.Add(text);
             }
@@ -71,7 +65,7 @@ namespace Fujitsu.eDoc.BOMTest
 
             string[] result = BOMCaller.GetApplicationOverview(fromDate, SagOmraader);
             listBoxApplications.Items.Clear();
-            for(int i=0; i<result.Length; i++)
+            for (int i = 0; i < result.Length; i++)
             {
                 listBoxApplications.Items.Add(result[i]);
             }
@@ -82,7 +76,7 @@ namespace Fujitsu.eDoc.BOMTest
             if (listBoxApplications.SelectedItem != null)
             {
                 string ansoegningid = listBoxApplications.SelectedItem.ToString();
-               FuIndsendelseType fuIndsendelse = BOMCaller.GetApplication(ansoegningid);
+                FuIndsendelseType fuIndsendelse = BOMCaller.GetApplication(ansoegningid);
                 string text = SerializeObject(fuIndsendelse.IndsendelseType);
 
                 textBoxApplication.Text = text;
@@ -156,7 +150,7 @@ namespace Fujitsu.eDoc.BOMTest
                     listBox6.Items.Add(a.Kode + " - " + a.VisningNavn);
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message + "\n" + ex.Source + "\n" + ex.StackTrace);
             }
@@ -442,7 +436,7 @@ namespace Fujitsu.eDoc.BOMTest
         private void button13_Click(object sender, EventArgs e)
         {
             string ansoegningid = textBoxIndsendelsesId.Text;
-           FuIndsendelseType fuIndsendelseType = BOMCaller.GetApplication(ansoegningid);
+            FuIndsendelseType fuIndsendelseType = BOMCaller.GetApplication(ansoegningid);
             string text = SerializeObject(fuIndsendelseType.IndsendelseType);
 
             textBoxApplication.Text = text;
