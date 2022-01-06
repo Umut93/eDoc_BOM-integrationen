@@ -15,4 +15,4 @@ udfyldes og indsendes. Efter du har indsendt, får du besked når der er nyt i d
 
 - Daglig opdatering af servicemål og sagsbehandlingstid, som er relevant for sagsbehandleres sagsbehandlingstid.
 
-- Et dedikeret program, som opretter en komplet byggesag, når den første indsendelse af ansøgningen ikke findes i fagsystemet. Nye kunder oplever under konverteringen, at indesendeler er røget i deres gammel system, som bør overføres i det nye.
+- Et dedikeret program, som opretter en komplet byggesag, når den første indsendelse af ansøgningen ikke findes i kundes nye fagsystem. Nye kunder oplever under konverteringen, at indesendeler er røget i deres gammel system, som bør overføres i det nye.
