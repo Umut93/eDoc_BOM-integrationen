@@ -9,7 +9,7 @@ udfyldes og indsendes. Efter du har indsendt, får du besked når der er nyt i d
 
 - Stikprøvekontrol, udpeg hver tiende sag til stikprøvekontrol og send en mail til den pågældende sagsbehandler.
 
-- Test-tool, som udtrækker servicemål fra Byg og Miljø
+- En test-tool program, som udtrækker servicemål fra Byg og Miljø
 
 - Kommunestempel på PDF filer inden filerne blev afsendt til den givne ansøger
 
