@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fujitsu.eDoc.BOM.SpotChecking.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking">
+            <summary>Shim type of Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.BatchSpotChecking</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.#ctor(Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.BatchSpotChecking)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.Constructor">
+            <summary>Sets the Shim of BatchSpotChecking.BatchSpotChecking()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.GetCasesForSpotChecking">
+            <summary>Sets the Shim of BatchSpotChecking.GetCasesForSpotChecking()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.GetSetting">
+            <summary>Sets the Shim of BatchSpotChecking.GetSetting()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.IsBOMActivityOnCaseEntitledString">
+            <summary>Sets the Shim of BatchSpotChecking.IsBOMActivityOnCaseEntitled(String caseActivityTypeCode)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.ProcessSpotChecking">
+            <summary>Sets the Shim of BatchSpotChecking.ProcessSpotChecking()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.SendEmailToCaseWorkerInt32">
+            <summary>Sets the Shim of BatchSpotChecking.SendEmailToCaseWorker(Int32 caseRecno)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.ShimBatchSpotChecking.UpdateCasesForSpotCheckingDictionaryOfInt32StringInt32">
+            <summary>Sets the Shim of BatchSpotChecking.UpdateCasesForSpotChecking(Dictionary`2&lt;Int32,String&gt; caseRecnos, Int32 extraction)</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.StubBatchSpotChecking">
+            <summary>Stub type of Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.BatchSpotChecking</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.StubBatchSpotChecking.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.StubBatchSpotChecking.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.StubBatchSpotChecking.InitializeStub">
+            <summary>Initializes a new instance of type StubBatchSpotChecking</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.StubBatchSpotChecking.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.SpotChecking.ProcessEngine.Fakes.StubBatchSpotChecking.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

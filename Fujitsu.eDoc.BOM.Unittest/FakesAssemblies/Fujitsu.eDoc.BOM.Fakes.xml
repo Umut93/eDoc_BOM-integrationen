@@ -18808,6 +18808,1188 @@
         <member name="P:Fujitsu.eDoc.BOM.BOMSagsbehandling.Fakes.StubVirksomhedType.InstanceObserver">
             <summary>Gets or sets the instance observer.</summary>
         </member>
+        <member name="T:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase">
+            <summary>Shim type of Fujitsu.eDoc.BOM.CaseHandler.BOMCase</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.#ctor(Fujitsu.eDoc.BOM.CaseHandler.BOMCase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AccessCodeGet">
+            <summary>Sets the Shim of BOMCase.get_AccessCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AccessCodeSetString">
+            <summary>Sets the Shim of BOMCase.set_AccessCode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AccessGroupGet">
+            <summary>Sets the Shim of BOMCase.get_AccessGroup()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AccessGroupSetString">
+            <summary>Sets the Shim of BOMCase.set_AccessGroup(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AdresseGet">
+            <summary>Sets the Shim of BOMCase.get_Adresse()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AdresseSetString">
+            <summary>Sets the Shim of BOMCase.set_Adresse(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AfsenderGet">
+            <summary>Sets the Shim of BOMCase.get_Afsender()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AfsenderSetString">
+            <summary>Sets the Shim of BOMCase.set_Afsender(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AktivitetTypeKodeGet">
+            <summary>Sets the Shim of BOMCase.get_AktivitetTypeKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AktivitetTypeKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_AktivitetTypeKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AktivitetTypeNavnGet">
+            <summary>Sets the Shim of BOMCase.get_AktivitetTypeNavn()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AktivitetTypeNavnSetString">
+            <summary>Sets the Shim of BOMCase.set_AktivitetTypeNavn(String value)</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AccessCodeGet">
+            <summary>Sets the Shim of BOMCase.get_AccessCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AccessCodeSetString">
+            <summary>Sets the Shim of BOMCase.set_AccessCode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AccessGroupGet">
+            <summary>Sets the Shim of BOMCase.get_AccessGroup()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AccessGroupSetString">
+            <summary>Sets the Shim of BOMCase.set_AccessGroup(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AdresseGet">
+            <summary>Sets the Shim of BOMCase.get_Adresse()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AdresseSetString">
+            <summary>Sets the Shim of BOMCase.set_Adresse(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AfsenderGet">
+            <summary>Sets the Shim of BOMCase.get_Afsender()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AfsenderSetString">
+            <summary>Sets the Shim of BOMCase.set_Afsender(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AktivitetTypeKodeGet">
+            <summary>Sets the Shim of BOMCase.get_AktivitetTypeKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AktivitetTypeKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_AktivitetTypeKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AktivitetTypeNavnGet">
+            <summary>Sets the Shim of BOMCase.get_AktivitetTypeNavn()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AktivitetTypeNavnSetString">
+            <summary>Sets the Shim of BOMCase.set_AktivitetTypeNavn(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AnsvarligMyndighedCVRGet">
+            <summary>Sets the Shim of BOMCase.get_AnsvarligMyndighedCVR()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AnsvarligMyndighedCVRSetString">
+            <summary>Sets the Shim of BOMCase.set_AnsvarligMyndighedCVR(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AnsvarligMyndighedGet">
+            <summary>Sets the Shim of BOMCase.get_AnsvarligMyndighed()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.AnsvarligMyndighedSetString">
+            <summary>Sets the Shim of BOMCase.set_AnsvarligMyndighed(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.ApplicantRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_ApplicantRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.ApplicantRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_ApplicantRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMCaseRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_BOMCaseRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMCaseRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMCaseRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMExternCaseBrugerVendtNoegleGet">
+            <summary>Sets the Shim of BOMCase.get_BOMExternCaseBrugerVendtNoegle()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMExternCaseBrugerVendtNoegleSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMExternCaseBrugerVendtNoegle(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMExternCaseUniqueIdentifierGet">
+            <summary>Sets the Shim of BOMCase.get_BOMExternCaseUniqueIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMExternCaseUniqueIdentifierSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMExternCaseUniqueIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMSagIDGet">
+            <summary>Sets the Shim of BOMCase.get_BOMSagID()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMSagIDSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMSagID(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMSubmissionCreatedGet">
+            <summary>Sets the Shim of BOMCase.get_BOMSubmissionCreated()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMSubmissionCreatedSetDateTime">
+            <summary>Sets the Shim of BOMCase.set_BOMSubmissionCreated(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMSubmissionErrMsgGet">
+            <summary>Sets the Shim of BOMCase.get_BOMSubmissionErrMsg()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMSubmissionErrMsgSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMSubmissionErrMsg(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMSubmissionRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_BOMSubmissionRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMSubmissionRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMSubmissionRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMSubmissionTransferStatusGet">
+            <summary>Sets the Shim of BOMCase.get_BOMSubmissionTransferStatus()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMSubmissionTransferStatusSetBOMUtilsBOMCaseTransferStatusEnum">
+            <summary>Sets the Shim of BOMCase.set_BOMSubmissionTransferStatus(BOMCaseTransferStatusEnum value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMTitleGet">
+            <summary>Sets the Shim of BOMCase.get_BOMTitle()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BOMTitleSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMTitle(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BilagGet">
+            <summary>Sets the Shim of BOMCase.get_Bilag()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BilagSetListOfBOMDocument">
+            <summary>Sets the Shim of BOMCase.set_Bilag(List`1&lt;BOMDocument&gt; value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BomNummerGet">
+            <summary>Sets the Shim of BOMCase.get_BomNummer()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BomNummerSetString">
+            <summary>Sets the Shim of BOMCase.set_BomNummer(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BomSubmissionNummerGet">
+            <summary>Sets the Shim of BOMCase.get_BomSubmissionNummer()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.BomSubmissionNummerSetInt32">
+            <summary>Sets the Shim of BOMCase.set_BomSubmissionNummer(Int32 value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CanCreateEDocCase">
+            <summary>Sets the Shim of BOMCase.CanCreateEDocCase()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CaseNumberGet">
+            <summary>Sets the Shim of BOMCase.get_CaseNumber()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CaseNumberSetString">
+            <summary>Sets the Shim of BOMCase.set_CaseNumber(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CaseRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_CaseRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CaseRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_CaseRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CaseUniqueIdentifierGet">
+            <summary>Sets the Shim of BOMCase.get_CaseUniqueIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CaseUniqueIdentifierSetString">
+            <summary>Sets the Shim of BOMCase.set_CaseUniqueIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CaseWorkerEmailGet">
+            <summary>Sets the Shim of BOMCase.get_CaseWorkerEmail()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CaseWorkerEmailSetString">
+            <summary>Sets the Shim of BOMCase.set_CaseWorkerEmail(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CaseWorkerNameGet">
+            <summary>Sets the Shim of BOMCase.get_CaseWorkerName()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CaseWorkerNameSetString">
+            <summary>Sets the Shim of BOMCase.set_CaseWorkerName(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CaseWorkerPhoneGet">
+            <summary>Sets the Shim of BOMCase.get_CaseWorkerPhone()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.CaseWorkerPhoneSetString">
+            <summary>Sets the Shim of BOMCase.set_CaseWorkerPhone(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.DageGet">
+            <summary>Sets the Shim of BOMCase.get_Dage()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.DageSetString">
+            <summary>Sets the Shim of BOMCase.set_Dage(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.DiscardCodeRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_DiscardCodeRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.DiscardCodeRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_DiscardCodeRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.DistrictNameGet">
+            <summary>Sets the Shim of BOMCase.get_DistrictName()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.DistrictNameSetString">
+            <summary>Sets the Shim of BOMCase.set_DistrictName(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.EjendomKommunenrGet">
+            <summary>Sets the Shim of BOMCase.get_EjendomKommunenr()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.EjendomKommunenrSetString">
+            <summary>Sets the Shim of BOMCase.set_EjendomKommunenr(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.EjendomsnummerGet">
+            <summary>Sets the Shim of BOMCase.get_Ejendomsnummer()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.EjendomsnummerSetString">
+            <summary>Sets the Shim of BOMCase.set_Ejendomsnummer(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.EstateRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_EstateRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.EstateRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_EstateRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.FaseKodeGet">
+            <summary>Sets the Shim of BOMCase.get_FaseKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.FaseKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_FaseKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.FoersteIndsendelseDatoTidGet">
+            <summary>Sets the Shim of BOMCase.get_FoersteIndsendelseDatoTid()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.FoersteIndsendelseDatoTidSetDateTime">
+            <summary>Sets the Shim of BOMCase.set_FoersteIndsendelseDatoTid(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.FristDatoGet">
+            <summary>Sets the Shim of BOMCase.get_FristDato()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.FristDatoSetDateTime">
+            <summary>Sets the Shim of BOMCase.set_FristDato(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.FristNotifikationProfilKodeGet">
+            <summary>Sets the Shim of BOMCase.get_FristNotifikationProfilKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.FristNotifikationProfilKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_FristNotifikationProfilKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.FuldmagtHaverIdentifikationGet">
+            <summary>Sets the Shim of BOMCase.get_FuldmagtHaverIdentifikation()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.FuldmagtHaverIdentifikationSetString">
+            <summary>Sets the Shim of BOMCase.set_FuldmagtHaverIdentifikation(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.IndsendelseDatoTidGet">
+            <summary>Sets the Shim of BOMCase.get_IndsendelseDatoTid()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.IndsendelseDatoTidSetDateTime">
+            <summary>Sets the Shim of BOMCase.set_IndsendelseDatoTid(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.IndsendelseIDGet">
+            <summary>Sets the Shim of BOMCase.get_IndsendelseID()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.IndsendelseIDSetString">
+            <summary>Sets the Shim of BOMCase.set_IndsendelseID(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.IndsendelsesDokumentGet">
+            <summary>Sets the Shim of BOMCase.get_IndsendelsesDokument()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.IndsendelsesDokumentSetBOMDocument">
+            <summary>Sets the Shim of BOMCase.set_IndsendelsesDokument(BOMDocument value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.IndsenderGet">
+            <summary>Sets the Shim of BOMCase.get_Indsender()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.IndsenderIdentifikationGet">
+            <summary>Sets the Shim of BOMCase.get_IndsenderIdentifikation()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.IndsenderIdentifikationSetString">
+            <summary>Sets the Shim of BOMCase.set_IndsenderIdentifikation(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.IndsenderSetContact">
+            <summary>Sets the Shim of BOMCase.set_Indsender(Contact value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.InitiativPligtGet">
+            <summary>Sets the Shim of BOMCase.get_InitiativPligt()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.InitiativPligtSetString">
+            <summary>Sets the Shim of BOMCase.set_InitiativPligt(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.KLEmnenrGet">
+            <summary>Sets the Shim of BOMCase.get_KLEmnenr()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.KLEmnenrSetString">
+            <summary>Sets the Shim of BOMCase.set_KLEmnenr(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.KLFacetGet">
+            <summary>Sets the Shim of BOMCase.get_KLFacet()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.KLFacetSetString">
+            <summary>Sets the Shim of BOMCase.set_KLFacet(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.KLKassationGet">
+            <summary>Sets the Shim of BOMCase.get_KLKassation()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.KLKassationSetString">
+            <summary>Sets the Shim of BOMCase.set_KLKassation(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.KonfliktRapportDokumentGet">
+            <summary>Sets the Shim of BOMCase.get_KonfliktRapportDokument()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.KonfliktRapportDokumentSetBOMDocument">
+            <summary>Sets the Shim of BOMCase.set_KonfliktRapportDokument(BOMDocument value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.MakeTitleString">
+            <summary>Sets the Shim of BOMCase.MakeTitle(String titleMask)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.MatrikelEjerlavIdGet">
+            <summary>Sets the Shim of BOMCase.get_MatrikelEjerlavId()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.MatrikelEjerlavIdSetString">
+            <summary>Sets the Shim of BOMCase.set_MatrikelEjerlavId(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.MatrikelNummerGet">
+            <summary>Sets the Shim of BOMCase.get_MatrikelNummer()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.MatrikelNummerSetString">
+            <summary>Sets the Shim of BOMCase.set_MatrikelNummer(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.MunicipalityCodeGet">
+            <summary>Sets the Shim of BOMCase.get_MunicipalityCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.MunicipalityCodeSetString">
+            <summary>Sets the Shim of BOMCase.set_MunicipalityCode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.OrgUnitRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_OrgUnitRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.OrgUnitRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_OrgUnitRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.OurRefRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_OurRefRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.OurRefRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_OurRefRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.PostCodeIdentifierGet">
+            <summary>Sets the Shim of BOMCase.get_PostCodeIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.PostCodeIdentifierSetString">
+            <summary>Sets the Shim of BOMCase.set_PostCodeIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagServiceMaalKodeGet">
+            <summary>Sets the Shim of BOMCase.get_SagServiceMaalKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagServiceMaalKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_SagServiceMaalKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagStatusKodeGet">
+            <summary>Sets the Shim of BOMCase.get_SagStatusKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagStatusKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_SagStatusKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagsOmraadeKodeGet">
+            <summary>Sets the Shim of BOMCase.get_SagsOmraadeKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagsOmraadeKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_SagsOmraadeKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagsOmraadeNavnGet">
+            <summary>Sets the Shim of BOMCase.get_SagsOmraadeNavn()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagsOmraadeNavnSetString">
+            <summary>Sets the Shim of BOMCase.set_SagsOmraadeNavn(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagsTypeKodeGet">
+            <summary>Sets the Shim of BOMCase.get_SagsTypeKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagsTypeKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_SagsTypeKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagsTypeNavnGet">
+            <summary>Sets the Shim of BOMCase.get_SagsTypeNavn()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagsTypeNavnSetString">
+            <summary>Sets the Shim of BOMCase.set_SagsTypeNavn(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagsbehandlingForbrugtDageGet">
+            <summary>Sets the Shim of BOMCase.get_SagsbehandlingForbrugtDage()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagsbehandlingForbrugtDageSetNullableOfInt32">
+            <summary>Sets the Shim of BOMCase.set_SagsbehandlingForbrugtDage(Nullable`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagsbehandlingForbrugtDageSpecifiedGet">
+            <summary>Sets the Shim of BOMCase.get_SagsbehandlingForbrugtDageSpecified()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SagsbehandlingForbrugtDageSpecifiedSetNullableOfBoolean">
+            <summary>Sets the Shim of BOMCase.set_SagsbehandlingForbrugtDageSpecified(Nullable`1&lt;Boolean&gt; value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.ServiceMaalStatusGet">
+            <summary>Sets the Shim of BOMCase.get_ServiceMaalStatus()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.ServiceMaalStatusSetString">
+            <summary>Sets the Shim of BOMCase.set_ServiceMaalStatus(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.StreetBuildingIdentifierGet">
+            <summary>Sets the Shim of BOMCase.get_StreetBuildingIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.StreetBuildingIdentifierSetString">
+            <summary>Sets the Shim of BOMCase.set_StreetBuildingIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.StreetNameGet">
+            <summary>Sets the Shim of BOMCase.get_StreetName()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.StreetNameSetString">
+            <summary>Sets the Shim of BOMCase.set_StreetName(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SubArchiveRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_SubArchiveRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.SubArchiveRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_SubArchiveRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.TilknyttetAnsoegerGet">
+            <summary>Sets the Shim of BOMCase.get_TilknyttetAnsoeger()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.TilknyttetAnsoegerSetListOfContact">
+            <summary>Sets the Shim of BOMCase.set_TilknyttetAnsoeger(List`1&lt;Contact&gt; value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.TitleGet">
+            <summary>Sets the Shim of BOMCase.get_Title()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.TitleSetString">
+            <summary>Sets the Shim of BOMCase.set_Title(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.ToCaseCategoryGet">
+            <summary>Sets the Shim of BOMCase.get_ToCaseCategory()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.ToCaseCategorySetString">
+            <summary>Sets the Shim of BOMCase.set_ToCaseCategory(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.ToCaseTypeGet">
+            <summary>Sets the Shim of BOMCase.get_ToCaseType()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.ToCaseTypeSetString">
+            <summary>Sets the Shim of BOMCase.set_ToCaseType(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.ToProgressPlanGet">
+            <summary>Sets the Shim of BOMCase.get_ToProgressPlan()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.ToProgressPlanSetString">
+            <summary>Sets the Shim of BOMCase.set_ToProgressPlan(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.VisitationForbrugtDageGet">
+            <summary>Sets the Shim of BOMCase.get_VisitationForbrugtDage()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.VisitationForbrugtDageSetNullableOfInt32">
+            <summary>Sets the Shim of BOMCase.set_VisitationForbrugtDage(Nullable`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.VisitationForbrugtDageSpecifiedGet">
+            <summary>Sets the Shim of BOMCase.get_VisitationForbrugtDageSpecified()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.VisitationForbrugtDageSpecifiedSetNullableOfBoolean">
+            <summary>Sets the Shim of BOMCase.set_VisitationForbrugtDageSpecified(Nullable`1&lt;Boolean&gt; value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.configurationGet">
+            <summary>Sets the Shim of BOMCase.get_configuration()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.configurationSetBOMConfiguration">
+            <summary>Sets the Shim of BOMCase.set_configuration(BOMConfiguration value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.eDocInitiativeDutyCodeGet">
+            <summary>Sets the Shim of BOMCase.get_eDocInitiativeDutyCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.eDocInitiativeDutyCodeSetString">
+            <summary>Sets the Shim of BOMCase.set_eDocInitiativeDutyCode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.eDocInitiativeDutyDescriptionGet">
+            <summary>Sets the Shim of BOMCase.get_eDocInitiativeDutyDescription()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.eDocInitiativeDutyDescriptionSetString">
+            <summary>Sets the Shim of BOMCase.set_eDocInitiativeDutyDescription(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.eDocPhaseCodeDescriptionGet">
+            <summary>Sets the Shim of BOMCase.get_eDocPhaseCodeDescription()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.eDocPhaseCodeDescriptionSetString">
+            <summary>Sets the Shim of BOMCase.set_eDocPhaseCodeDescription(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.eDocPhaseCodeGet">
+            <summary>Sets the Shim of BOMCase.get_eDocPhaseCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.eDocPhaseCodeSetString">
+            <summary>Sets the Shim of BOMCase.set_eDocPhaseCode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.eDocStatusCodeDescriptionGet">
+            <summary>Sets the Shim of BOMCase.get_eDocStatusCodeDescription()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.eDocStatusCodeDescriptionSetString">
+            <summary>Sets the Shim of BOMCase.set_eDocStatusCodeDescription(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.eDocStatusCodeGet">
+            <summary>Sets the Shim of BOMCase.get_eDocStatusCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.eDocStatusCodeSetString">
+            <summary>Sets the Shim of BOMCase.set_eDocStatusCode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.edocBFENumberGet">
+            <summary>Sets the Shim of BOMCase.get_edocBFENumber()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AllInstances.edocBFENumberSetInt32">
+            <summary>Sets the Shim of BOMCase.set_edocBFENumber(Int32 value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AnsvarligMyndighedCVRGet">
+            <summary>Sets the Shim of BOMCase.get_AnsvarligMyndighedCVR()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AnsvarligMyndighedCVRSetString">
+            <summary>Sets the Shim of BOMCase.set_AnsvarligMyndighedCVR(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AnsvarligMyndighedGet">
+            <summary>Sets the Shim of BOMCase.get_AnsvarligMyndighed()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.AnsvarligMyndighedSetString">
+            <summary>Sets the Shim of BOMCase.set_AnsvarligMyndighed(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.ApplicantRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_ApplicantRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.ApplicantRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_ApplicantRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMCaseRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_BOMCaseRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMCaseRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMCaseRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMExternCaseBrugerVendtNoegleGet">
+            <summary>Sets the Shim of BOMCase.get_BOMExternCaseBrugerVendtNoegle()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMExternCaseBrugerVendtNoegleSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMExternCaseBrugerVendtNoegle(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMExternCaseUniqueIdentifierGet">
+            <summary>Sets the Shim of BOMCase.get_BOMExternCaseUniqueIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMExternCaseUniqueIdentifierSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMExternCaseUniqueIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMSagIDGet">
+            <summary>Sets the Shim of BOMCase.get_BOMSagID()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMSagIDSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMSagID(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMSubmissionCreatedGet">
+            <summary>Sets the Shim of BOMCase.get_BOMSubmissionCreated()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMSubmissionCreatedSetDateTime">
+            <summary>Sets the Shim of BOMCase.set_BOMSubmissionCreated(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMSubmissionErrMsgGet">
+            <summary>Sets the Shim of BOMCase.get_BOMSubmissionErrMsg()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMSubmissionErrMsgSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMSubmissionErrMsg(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMSubmissionRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_BOMSubmissionRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMSubmissionRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMSubmissionRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMSubmissionTransferStatusGet">
+            <summary>Sets the Shim of BOMCase.get_BOMSubmissionTransferStatus()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMSubmissionTransferStatusSetBOMUtilsBOMCaseTransferStatusEnum">
+            <summary>Sets the Shim of BOMCase.set_BOMSubmissionTransferStatus(BOMCaseTransferStatusEnum value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMTitleGet">
+            <summary>Sets the Shim of BOMCase.get_BOMTitle()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BOMTitleSetString">
+            <summary>Sets the Shim of BOMCase.set_BOMTitle(String value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BilagGet">
+            <summary>Sets the Shim of BOMCase.get_Bilag()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BilagSetListOfBOMDocument">
+            <summary>Sets the Shim of BOMCase.set_Bilag(List`1&lt;BOMDocument&gt; value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BomNummerGet">
+            <summary>Sets the Shim of BOMCase.get_BomNummer()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BomNummerSetString">
+            <summary>Sets the Shim of BOMCase.set_BomNummer(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BomSubmissionNummerGet">
+            <summary>Sets the Shim of BOMCase.get_BomSubmissionNummer()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.BomSubmissionNummerSetInt32">
+            <summary>Sets the Shim of BOMCase.set_BomSubmissionNummer(Int32 value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CanCreateEDocCase">
+            <summary>Sets the Shim of BOMCase.CanCreateEDocCase()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CaseNumberGet">
+            <summary>Sets the Shim of BOMCase.get_CaseNumber()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CaseNumberSetString">
+            <summary>Sets the Shim of BOMCase.set_CaseNumber(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CaseRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_CaseRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CaseRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_CaseRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CaseUniqueIdentifierGet">
+            <summary>Sets the Shim of BOMCase.get_CaseUniqueIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CaseUniqueIdentifierSetString">
+            <summary>Sets the Shim of BOMCase.set_CaseUniqueIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CaseWorkerEmailGet">
+            <summary>Sets the Shim of BOMCase.get_CaseWorkerEmail()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CaseWorkerEmailSetString">
+            <summary>Sets the Shim of BOMCase.set_CaseWorkerEmail(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CaseWorkerNameGet">
+            <summary>Sets the Shim of BOMCase.get_CaseWorkerName()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CaseWorkerNameSetString">
+            <summary>Sets the Shim of BOMCase.set_CaseWorkerName(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CaseWorkerPhoneGet">
+            <summary>Sets the Shim of BOMCase.get_CaseWorkerPhone()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.CaseWorkerPhoneSetString">
+            <summary>Sets the Shim of BOMCase.set_CaseWorkerPhone(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.Constructor">
+            <summary>Sets the Shim of BOMCase.BOMCase()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.DageGet">
+            <summary>Sets the Shim of BOMCase.get_Dage()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.DageSetString">
+            <summary>Sets the Shim of BOMCase.set_Dage(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.DiscardCodeRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_DiscardCodeRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.DiscardCodeRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_DiscardCodeRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.DistrictNameGet">
+            <summary>Sets the Shim of BOMCase.get_DistrictName()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.DistrictNameSetString">
+            <summary>Sets the Shim of BOMCase.set_DistrictName(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.EjendomKommunenrGet">
+            <summary>Sets the Shim of BOMCase.get_EjendomKommunenr()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.EjendomKommunenrSetString">
+            <summary>Sets the Shim of BOMCase.set_EjendomKommunenr(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.EjendomsnummerGet">
+            <summary>Sets the Shim of BOMCase.get_Ejendomsnummer()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.EjendomsnummerSetString">
+            <summary>Sets the Shim of BOMCase.set_Ejendomsnummer(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.EstateRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_EstateRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.EstateRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_EstateRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.FaseKodeGet">
+            <summary>Sets the Shim of BOMCase.get_FaseKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.FaseKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_FaseKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.FoersteIndsendelseDatoTidGet">
+            <summary>Sets the Shim of BOMCase.get_FoersteIndsendelseDatoTid()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.FoersteIndsendelseDatoTidSetDateTime">
+            <summary>Sets the Shim of BOMCase.set_FoersteIndsendelseDatoTid(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.FristDatoGet">
+            <summary>Sets the Shim of BOMCase.get_FristDato()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.FristDatoSetDateTime">
+            <summary>Sets the Shim of BOMCase.set_FristDato(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.FristNotifikationProfilKodeGet">
+            <summary>Sets the Shim of BOMCase.get_FristNotifikationProfilKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.FristNotifikationProfilKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_FristNotifikationProfilKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.FuldmagtHaverIdentifikationGet">
+            <summary>Sets the Shim of BOMCase.get_FuldmagtHaverIdentifikation()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.FuldmagtHaverIdentifikationSetString">
+            <summary>Sets the Shim of BOMCase.set_FuldmagtHaverIdentifikation(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.IndsendelseDatoTidGet">
+            <summary>Sets the Shim of BOMCase.get_IndsendelseDatoTid()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.IndsendelseDatoTidSetDateTime">
+            <summary>Sets the Shim of BOMCase.set_IndsendelseDatoTid(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.IndsendelseIDGet">
+            <summary>Sets the Shim of BOMCase.get_IndsendelseID()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.IndsendelseIDSetString">
+            <summary>Sets the Shim of BOMCase.set_IndsendelseID(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.IndsendelsesDokumentGet">
+            <summary>Sets the Shim of BOMCase.get_IndsendelsesDokument()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.IndsendelsesDokumentSetBOMDocument">
+            <summary>Sets the Shim of BOMCase.set_IndsendelsesDokument(BOMDocument value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.IndsenderGet">
+            <summary>Sets the Shim of BOMCase.get_Indsender()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.IndsenderIdentifikationGet">
+            <summary>Sets the Shim of BOMCase.get_IndsenderIdentifikation()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.IndsenderIdentifikationSetString">
+            <summary>Sets the Shim of BOMCase.set_IndsenderIdentifikation(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.IndsenderSetContact">
+            <summary>Sets the Shim of BOMCase.set_Indsender(Contact value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.InitiativPligtGet">
+            <summary>Sets the Shim of BOMCase.get_InitiativPligt()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.InitiativPligtSetString">
+            <summary>Sets the Shim of BOMCase.set_InitiativPligt(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.KLEmnenrGet">
+            <summary>Sets the Shim of BOMCase.get_KLEmnenr()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.KLEmnenrSetString">
+            <summary>Sets the Shim of BOMCase.set_KLEmnenr(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.KLFacetGet">
+            <summary>Sets the Shim of BOMCase.get_KLFacet()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.KLFacetSetString">
+            <summary>Sets the Shim of BOMCase.set_KLFacet(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.KLKassationGet">
+            <summary>Sets the Shim of BOMCase.get_KLKassation()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.KLKassationSetString">
+            <summary>Sets the Shim of BOMCase.set_KLKassation(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.KonfliktRapportDokumentGet">
+            <summary>Sets the Shim of BOMCase.get_KonfliktRapportDokument()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.KonfliktRapportDokumentSetBOMDocument">
+            <summary>Sets the Shim of BOMCase.set_KonfliktRapportDokument(BOMDocument value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.MakeTitleString">
+            <summary>Sets the Shim of BOMCase.MakeTitle(String titleMask)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.MatrikelEjerlavIdGet">
+            <summary>Sets the Shim of BOMCase.get_MatrikelEjerlavId()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.MatrikelEjerlavIdSetString">
+            <summary>Sets the Shim of BOMCase.set_MatrikelEjerlavId(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.MatrikelNummerGet">
+            <summary>Sets the Shim of BOMCase.get_MatrikelNummer()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.MatrikelNummerSetString">
+            <summary>Sets the Shim of BOMCase.set_MatrikelNummer(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.MunicipalityCodeGet">
+            <summary>Sets the Shim of BOMCase.get_MunicipalityCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.MunicipalityCodeSetString">
+            <summary>Sets the Shim of BOMCase.set_MunicipalityCode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.OrgUnitRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_OrgUnitRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.OrgUnitRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_OrgUnitRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.OurRefRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_OurRefRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.OurRefRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_OurRefRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.PostCodeIdentifierGet">
+            <summary>Sets the Shim of BOMCase.get_PostCodeIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.PostCodeIdentifierSetString">
+            <summary>Sets the Shim of BOMCase.set_PostCodeIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagServiceMaalKodeGet">
+            <summary>Sets the Shim of BOMCase.get_SagServiceMaalKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagServiceMaalKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_SagServiceMaalKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagStatusKodeGet">
+            <summary>Sets the Shim of BOMCase.get_SagStatusKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagStatusKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_SagStatusKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagsOmraadeKodeGet">
+            <summary>Sets the Shim of BOMCase.get_SagsOmraadeKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagsOmraadeKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_SagsOmraadeKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagsOmraadeNavnGet">
+            <summary>Sets the Shim of BOMCase.get_SagsOmraadeNavn()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagsOmraadeNavnSetString">
+            <summary>Sets the Shim of BOMCase.set_SagsOmraadeNavn(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagsTypeKodeGet">
+            <summary>Sets the Shim of BOMCase.get_SagsTypeKode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagsTypeKodeSetString">
+            <summary>Sets the Shim of BOMCase.set_SagsTypeKode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagsTypeNavnGet">
+            <summary>Sets the Shim of BOMCase.get_SagsTypeNavn()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagsTypeNavnSetString">
+            <summary>Sets the Shim of BOMCase.set_SagsTypeNavn(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagsbehandlingForbrugtDageGet">
+            <summary>Sets the Shim of BOMCase.get_SagsbehandlingForbrugtDage()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagsbehandlingForbrugtDageSetNullableOfInt32">
+            <summary>Sets the Shim of BOMCase.set_SagsbehandlingForbrugtDage(Nullable`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagsbehandlingForbrugtDageSpecifiedGet">
+            <summary>Sets the Shim of BOMCase.get_SagsbehandlingForbrugtDageSpecified()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SagsbehandlingForbrugtDageSpecifiedSetNullableOfBoolean">
+            <summary>Sets the Shim of BOMCase.set_SagsbehandlingForbrugtDageSpecified(Nullable`1&lt;Boolean&gt; value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.ServiceMaalStatusGet">
+            <summary>Sets the Shim of BOMCase.get_ServiceMaalStatus()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.ServiceMaalStatusSetString">
+            <summary>Sets the Shim of BOMCase.set_ServiceMaalStatus(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.StreetBuildingIdentifierGet">
+            <summary>Sets the Shim of BOMCase.get_StreetBuildingIdentifier()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.StreetBuildingIdentifierSetString">
+            <summary>Sets the Shim of BOMCase.set_StreetBuildingIdentifier(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.StreetNameGet">
+            <summary>Sets the Shim of BOMCase.get_StreetName()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.StreetNameSetString">
+            <summary>Sets the Shim of BOMCase.set_StreetName(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SubArchiveRecnoGet">
+            <summary>Sets the Shim of BOMCase.get_SubArchiveRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.SubArchiveRecnoSetString">
+            <summary>Sets the Shim of BOMCase.set_SubArchiveRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.TilknyttetAnsoegerGet">
+            <summary>Sets the Shim of BOMCase.get_TilknyttetAnsoeger()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.TilknyttetAnsoegerSetListOfContact">
+            <summary>Sets the Shim of BOMCase.set_TilknyttetAnsoeger(List`1&lt;Contact&gt; value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.TitleGet">
+            <summary>Sets the Shim of BOMCase.get_Title()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.TitleSetString">
+            <summary>Sets the Shim of BOMCase.set_Title(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.ToCaseCategoryGet">
+            <summary>Sets the Shim of BOMCase.get_ToCaseCategory()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.ToCaseCategorySetString">
+            <summary>Sets the Shim of BOMCase.set_ToCaseCategory(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.ToCaseTypeGet">
+            <summary>Sets the Shim of BOMCase.get_ToCaseType()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.ToCaseTypeSetString">
+            <summary>Sets the Shim of BOMCase.set_ToCaseType(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.ToProgressPlanGet">
+            <summary>Sets the Shim of BOMCase.get_ToProgressPlan()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.ToProgressPlanSetString">
+            <summary>Sets the Shim of BOMCase.set_ToProgressPlan(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.VisitationForbrugtDageGet">
+            <summary>Sets the Shim of BOMCase.get_VisitationForbrugtDage()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.VisitationForbrugtDageSetNullableOfInt32">
+            <summary>Sets the Shim of BOMCase.set_VisitationForbrugtDage(Nullable`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.VisitationForbrugtDageSpecifiedGet">
+            <summary>Sets the Shim of BOMCase.get_VisitationForbrugtDageSpecified()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.VisitationForbrugtDageSpecifiedSetNullableOfBoolean">
+            <summary>Sets the Shim of BOMCase.set_VisitationForbrugtDageSpecified(Nullable`1&lt;Boolean&gt; value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.configurationGet">
+            <summary>Sets the Shim of BOMCase.get_configuration()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.configurationSetBOMConfiguration">
+            <summary>Sets the Shim of BOMCase.set_configuration(BOMConfiguration value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.eDocInitiativeDutyCodeGet">
+            <summary>Sets the Shim of BOMCase.get_eDocInitiativeDutyCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.eDocInitiativeDutyCodeSetString">
+            <summary>Sets the Shim of BOMCase.set_eDocInitiativeDutyCode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.eDocInitiativeDutyDescriptionGet">
+            <summary>Sets the Shim of BOMCase.get_eDocInitiativeDutyDescription()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.eDocInitiativeDutyDescriptionSetString">
+            <summary>Sets the Shim of BOMCase.set_eDocInitiativeDutyDescription(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.eDocPhaseCodeDescriptionGet">
+            <summary>Sets the Shim of BOMCase.get_eDocPhaseCodeDescription()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.eDocPhaseCodeDescriptionSetString">
+            <summary>Sets the Shim of BOMCase.set_eDocPhaseCodeDescription(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.eDocPhaseCodeGet">
+            <summary>Sets the Shim of BOMCase.get_eDocPhaseCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.eDocPhaseCodeSetString">
+            <summary>Sets the Shim of BOMCase.set_eDocPhaseCode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.eDocStatusCodeDescriptionGet">
+            <summary>Sets the Shim of BOMCase.get_eDocStatusCodeDescription()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.eDocStatusCodeDescriptionSetString">
+            <summary>Sets the Shim of BOMCase.set_eDocStatusCodeDescription(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.eDocStatusCodeGet">
+            <summary>Sets the Shim of BOMCase.get_eDocStatusCode()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.eDocStatusCodeSetString">
+            <summary>Sets the Shim of BOMCase.set_eDocStatusCode(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.edocBFENumberGet">
+            <summary>Sets the Shim of BOMCase.get_edocBFENumber()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMCase.edocBFENumberSetInt32">
+            <summary>Sets the Shim of BOMCase.set_edocBFENumber(Int32 value)</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument">
+            <summary>Shim type of Fujitsu.eDoc.BOM.CaseHandler.BOMDocument</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.#ctor(Fujitsu.eDoc.BOM.CaseHandler.BOMDocument)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.BeskrivelseTekstGet">
+            <summary>Sets the Shim of BOMDocument.get_BeskrivelseTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.BeskrivelseTekstSetString">
+            <summary>Sets the Shim of BOMDocument.set_BeskrivelseTekst(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.BrevDatoGet">
+            <summary>Sets the Shim of BOMDocument.get_BrevDato()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.BrevDatoSetDateTime">
+            <summary>Sets the Shim of BOMDocument.set_BrevDato(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.BrugervendtNoegleTekstGet">
+            <summary>Sets the Shim of BOMDocument.get_BrugervendtNoegleTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.BrugervendtNoegleTekstSetString">
+            <summary>Sets the Shim of BOMDocument.set_BrugervendtNoegleTekst(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.DocumentRecnoGet">
+            <summary>Sets the Shim of BOMDocument.get_DocumentRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.DocumentRecnoSetString">
+            <summary>Sets the Shim of BOMDocument.set_DocumentRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.DokumentIDGet">
+            <summary>Sets the Shim of BOMDocument.get_DokumentID()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.DokumentIDSetString">
+            <summary>Sets the Shim of BOMDocument.set_DokumentID(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.FileTypeGet">
+            <summary>Sets the Shim of BOMDocument.get_FileType()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.IndholdTekstGet">
+            <summary>Sets the Shim of BOMDocument.get_IndholdTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.IndholdTekstSetString">
+            <summary>Sets the Shim of BOMDocument.set_IndholdTekst(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.IsDownloadableGet">
+            <summary>Sets the Shim of BOMDocument.get_IsDownloadable()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.IsDownloadableSetBoolean">
+            <summary>Sets the Shim of BOMDocument.set_IsDownloadable(Boolean value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.IsFileTypeValidGet">
+            <summary>Sets the Shim of BOMDocument.get_IsFileTypeValid()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.IsFileTypeValidSetBoolean">
+            <summary>Sets the Shim of BOMDocument.set_IsFileTypeValid(Boolean value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.MimeTypeTekstGet">
+            <summary>Sets the Shim of BOMDocument.get_MimeTypeTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.MimeTypeTekstSetString">
+            <summary>Sets the Shim of BOMDocument.set_MimeTypeTekst(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.TitelTekstGet">
+            <summary>Sets the Shim of BOMDocument.get_TitelTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.AllInstances.TitelTekstSetString">
+            <summary>Sets the Shim of BOMDocument.set_TitelTekst(String value)</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.BeskrivelseTekstGet">
+            <summary>Sets the Shim of BOMDocument.get_BeskrivelseTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.BeskrivelseTekstSetString">
+            <summary>Sets the Shim of BOMDocument.set_BeskrivelseTekst(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.BrevDatoGet">
+            <summary>Sets the Shim of BOMDocument.get_BrevDato()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.BrevDatoSetDateTime">
+            <summary>Sets the Shim of BOMDocument.set_BrevDato(DateTime value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.BrugervendtNoegleTekstGet">
+            <summary>Sets the Shim of BOMDocument.get_BrugervendtNoegleTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.BrugervendtNoegleTekstSetString">
+            <summary>Sets the Shim of BOMDocument.set_BrugervendtNoegleTekst(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.Constructor">
+            <summary>Sets the Shim of BOMDocument.BOMDocument()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.DocumentRecnoGet">
+            <summary>Sets the Shim of BOMDocument.get_DocumentRecno()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.DocumentRecnoSetString">
+            <summary>Sets the Shim of BOMDocument.set_DocumentRecno(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.DokumentIDGet">
+            <summary>Sets the Shim of BOMDocument.get_DokumentID()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.DokumentIDSetString">
+            <summary>Sets the Shim of BOMDocument.set_DokumentID(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.FileTypeGet">
+            <summary>Sets the Shim of BOMDocument.get_FileType()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.IndholdTekstGet">
+            <summary>Sets the Shim of BOMDocument.get_IndholdTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.IndholdTekstSetString">
+            <summary>Sets the Shim of BOMDocument.set_IndholdTekst(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.IsDownloadableGet">
+            <summary>Sets the Shim of BOMDocument.get_IsDownloadable()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.IsDownloadableSetBoolean">
+            <summary>Sets the Shim of BOMDocument.set_IsDownloadable(Boolean value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.IsFileTypeValidGet">
+            <summary>Sets the Shim of BOMDocument.get_IsFileTypeValid()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.IsFileTypeValidSetBoolean">
+            <summary>Sets the Shim of BOMDocument.set_IsFileTypeValid(Boolean value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.MimeTypeTekstGet">
+            <summary>Sets the Shim of BOMDocument.get_MimeTypeTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.MimeTypeTekstSetString">
+            <summary>Sets the Shim of BOMDocument.set_MimeTypeTekst(String value)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.TitelTekstGet">
+            <summary>Sets the Shim of BOMDocument.get_TitelTekst()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMDocument.TitelTekstSetString">
+            <summary>Sets the Shim of BOMDocument.set_TitelTekst(String value)</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMUtils">
+            <summary>Shim type of Fujitsu.eDoc.BOM.CaseHandler.BOMUtils</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMUtils.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMUtils.#ctor(Fujitsu.eDoc.BOM.CaseHandler.BOMUtils)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMUtils.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMUtils.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMUtils.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMUtils.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimBOMUtils.Constructor">
+            <summary>Sets the Shim of BOMUtils.BOMUtils()</summary>
+        </member>
         <member name="T:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimContact">
             <summary>Shim type of Fujitsu.eDoc.BOM.CaseHandler.Contact</summary>
         </member>
@@ -18964,6 +20146,60 @@
         <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.ShimContact.TelefonTekstSetString">
             <summary>Sets the Shim of Contact.set_TelefonTekst(String value)</summary>
         </member>
+        <member name="T:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMCase">
+            <summary>Stub type of Fujitsu.eDoc.BOM.CaseHandler.BOMCase</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMCase.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMCase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMCase.InitializeStub">
+            <summary>Initializes a new instance of type StubBOMCase</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMCase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMCase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMDocument">
+            <summary>Stub type of Fujitsu.eDoc.BOM.CaseHandler.BOMDocument</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMDocument.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMDocument.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMDocument.InitializeStub">
+            <summary>Initializes a new instance of type StubBOMDocument</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMDocument.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMDocument.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMUtils">
+            <summary>Stub type of Fujitsu.eDoc.BOM.CaseHandler.BOMUtils</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMUtils.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMUtils.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMUtils.InitializeStub">
+            <summary>Initializes a new instance of type StubBOMUtils</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMUtils.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubBOMUtils.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
         <member name="T:Fujitsu.eDoc.BOM.CaseHandler.Fakes.StubContact">
             <summary>Stub type of Fujitsu.eDoc.BOM.CaseHandler.Contact</summary>
         </member>
@@ -19012,8 +20248,11 @@
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaller.Constructor">
             <summary>Sets the Shim of BOMCaller.BOMCaller()</summary>
         </member>
-        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaller.DownloadFileUriString">
-            <summary>Sets the Shim of BOMCaller.DownloadFile(Uri documentURI, String LocalFilePath)</summary>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaller.DownloadFileAbstraktDokumentationTypeString">
+            <summary>Sets the Shim of BOMCaller.DownloadFile(AbstraktDokumentationType doc, String LocalFilePath)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaller.DownloadFileBOMDocumentString">
+            <summary>Sets the Shim of BOMCaller.DownloadFile(BOMDocument doc, String LocalFilePath)</summary>
         </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaller.GetApplicationOverviewDateTimeStringArray">
             <summary>Sets the Shim of BOMCaller.GetApplicationOverview(DateTime fromDate, String[] SagOmraader)</summary>
@@ -19117,6 +20356,9 @@
         <member name="T:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.BOMCaseExistsBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.BOMCaseExists(BOMCase c)</summary>
+        </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.BOMSubmisstionExistsString">
             <summary>Sets the Shim of BOMCaseHandler.BOMSubmisstionExists(String IndsendelseID)</summary>
         </member>
@@ -19141,11 +20383,26 @@
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.Constructor">
             <summary>Sets the Shim of BOMCaseHandler.BOMCaseHandler()</summary>
         </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.CreateDocumentOnCaseBOMCaseBOMDocumentBOMDocumentListOfBOMDocument">
+            <summary>Sets the Shim of BOMCaseHandler.CreateDocumentOnCase(BOMCase c, BOMDocument doc, BOMDocument konfliktRapportDokument, List`1&lt;BOMDocument&gt; bilag)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.CreateEdocCaseBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.CreateEdocCase(BOMCase c)</summary>
+        </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.CreateMessageHistoryOnCaseStringDateTimeStringStringString">
             <summary>Sets the Shim of BOMCaseHandler.CreateMessageHistoryOnCase(String titelTekst, DateTime brevDato, String fileURL, String afsender, String caseRecno)</summary>
         </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.DownloadApplicationFileString">
             <summary>Sets the Shim of BOMCaseHandler.DownloadApplicationFile(String ApplicationId)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.EnsureBFENumberBOMCaseBOMConfiguration">
+            <summary>Sets the Shim of BOMCaseHandler.EnsureBFENumber(BOMCase c, BOMConfiguration configuration)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.FindExistingCaseBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.FindExistingCase(BOMCase c)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.GetBOMCaseDataBOMConfigurationFuIndsendelseType">
+            <summary>Sets the Shim of BOMCaseHandler.GetBOMCaseData(BOMConfiguration configuration, FuIndsendelseType BOMApplication)</summary>
         </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.GetBOMCaseRecnoString">
             <summary>Sets the Shim of BOMCaseHandler.GetBOMCaseRecno(String caseRecno)</summary>
@@ -19153,8 +20410,17 @@
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.GetBOMStatusString">
             <summary>Sets the Shim of BOMCaseHandler.GetBOMStatus(String caseStatusRecno)</summary>
         </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.GetDigitalSignatureDocumentInfoBOMConfigurationAbstraktDokumentationType">
+            <summary>Sets the Shim of BOMCaseHandler.GetDigitalSignatureDocumentInfo(BOMConfiguration configuration, AbstraktDokumentationType doc)</summary>
+        </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.GetDiscardRecnoString">
             <summary>Sets the Shim of BOMCaseHandler.GetDiscardRecno(String DiscardCode)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.GetDocumentInfoBOMConfigurationDokumentType">
+            <summary>Sets the Shim of BOMCaseHandler.GetDocumentInfo(BOMConfiguration configuration, DokumentType doc)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.GetEstateBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.GetEstate(BOMCase c)</summary>
         </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.GetLatestBOMSubmisstionTime">
             <summary>Sets the Shim of BOMCaseHandler.GetLatestBOMSubmisstionTime()</summary>
@@ -19171,8 +20437,14 @@
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.HandleBOMApplicationFuIndsendelseType">
             <summary>Sets the Shim of BOMCaseHandler.HandleBOMApplication(FuIndsendelseType BOMApplication)</summary>
         </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.HandlingHasExpiredBOMConfigurationBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.HandlingHasExpired(BOMConfiguration configuration, BOMCase c)</summary>
+        </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.IsDocumentExistingStringString">
             <summary>Sets the Shim of BOMCaseHandler.IsDocumentExisting(String caseRecno, String docID)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.IsOldBOMCaseBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.IsOldBOMCase(BOMCase c)</summary>
         </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.NotifyBOMOfNewCaseStateStringListOfString">
             <summary>Sets the Shim of BOMCaseHandler.NotifyBOMOfNewCaseState(String eDocCaseRecno, List`1&lt;String&gt; BOMStatusCodes)</summary>
@@ -19180,8 +20452,32 @@
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.NotifyBOMOfNewCaseWorkerStringString">
             <summary>Sets the Shim of BOMCaseHandler.NotifyBOMOfNewCaseWorker(String eDocCaseRecno, String CaseWorkerRecno)</summary>
         </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.PostCreateEdocCaseBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.PostCreateEdocCase(BOMCase c)</summary>
+        </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.PrepareReplyDocumentStringBOMReplyDocument">
             <summary>Sets the Shim of BOMCaseHandler.PrepareReplyDocument(String BOMCaseId, BOMReplyDocument doc)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.RegisterBOMCaseBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.RegisterBOMCase(BOMCase c)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.RegisterBOMSubmissionErrorBOMCaseException">
+            <summary>Sets the Shim of BOMCaseHandler.RegisterBOMSubmissionError(BOMCase c, Exception ex)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.RegisterBOMSubmissionIndsendelseTypeBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.RegisterBOMSubmission(IndsendelseType BOMApplication, BOMCase c)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.SendBOMCaseReceivedMessageBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.SendBOMCaseReceivedMessage(BOMCase c)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.SendBOMCaseReceivedMessageForExistingBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.SendBOMCaseReceivedMessageForExisting(BOMCase c)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.SendEmailWhenBomSagsStayInListForCreationBOMConfigurationBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.SendEmailWhenBomSagsStayInListForCreation(BOMConfiguration configuration, BOMCase c)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.SendEmailWithInfoAboutInvalidAttachmentsBOMConfigurationBOMCase">
+            <summary>Sets the Shim of BOMCaseHandler.SendEmailWithInfoAboutInvalidAttachments(BOMConfiguration configuration, BOMCase c)</summary>
         </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.SerializeObjectIndsendelseType">
             <summary>Sets the Shim of BOMCaseHandler.SerializeObject(IndsendelseType toSerialize)</summary>
@@ -19195,6 +20491,12 @@
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.UpdateBOMCaseBOMCaseUpdateType">
             <summary>Sets the Shim of BOMCaseHandler.UpdateBOMCase(BOMCaseUpdateType c)</summary>
         </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.UpdateBOMCaseTransferStatusBOMCaseBOMUtilsBOMCaseTransferStatusEnum">
+            <summary>Sets the Shim of BOMCaseHandler.UpdateBOMCaseTransferStatus(BOMCase c, BOMCaseTransferStatusEnum newStatus)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.UpdateBOMSubmissionBOMCaseBOMUtilsBOMCaseTransferStatusEnum">
+            <summary>Sets the Shim of BOMCaseHandler.UpdateBOMSubmission(BOMCase c, BOMCaseTransferStatusEnum newStatus)</summary>
+        </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.UpdateEdocCaseBOMCaseUpdateType">
             <summary>Sets the Shim of BOMCaseHandler.UpdateEdocCase(BOMCaseUpdateType c)</summary>
         </member>
@@ -19203,6 +20505,9 @@
         </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.UpdateFileVersionSentToBOMBOMReplyDocument">
             <summary>Sets the Shim of BOMCaseHandler.UpdateFileVersionSentToBOM(BOMReplyDocument doc)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.UpdateReplyBOMCaseBOMCaseStringStringStringString">
+            <summary>Sets the Shim of BOMCaseHandler.UpdateReplyBOMCase(BOMCase c, String PhaseCode, String StatusCode, String InitiativeDuty, String DeadlineNotificationKode)</summary>
         </member>
         <member name="P:Fujitsu.eDoc.BOM.Fakes.ShimBOMCaseHandler.UpdateServiceGoalBOMCaseUpdateType">
             <summary>Sets the Shim of BOMCaseHandler.UpdateServiceGoal(BOMCaseUpdateType c)</summary>

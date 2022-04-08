@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fujitsu.eDoc.BOM.UpdateServiceMaal.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal">
+            <summary>Shim type of Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.ProcessServiceMaal</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.#ctor(Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.ProcessServiceMaal)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.AllInstances.BatchServiceMaals">
+            <summary>Sets the Shim of ProcessServiceMaal.BatchServiceMaals()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.AllInstances.GenerateDictionaryXDocument">
+            <summary>Sets the Shim of ProcessServiceMaal.GenerateDictionary(XDocument xDoc)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.AllInstances.LogProcessingCases">
+            <summary>Sets the Shim of ProcessServiceMaal.LogProcessingCases()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.AllInstances.recnoByCaseIDGet">
+            <summary>Sets the Shim of ProcessServiceMaal.get_recnoByCaseID()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.BatchServiceMaals">
+            <summary>Sets the Shim of ProcessServiceMaal.BatchServiceMaals()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.Constructor">
+            <summary>Sets the Shim of ProcessServiceMaal.ProcessServiceMaal()</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.GenerateDictionaryXDocument">
+            <summary>Sets the Shim of ProcessServiceMaal.GenerateDictionary(XDocument xDoc)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.LogProcessingCases">
+            <summary>Sets the Shim of ProcessServiceMaal.LogProcessingCases()</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.SplitListOf1ListOfM0Int32``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.List{``0},System.Int32,System.Collections.Generic.IEnumerable{System.Collections.Generic.List{``0}}})">
+            <summary>Sets the Shim of ProcessServiceMaal.SplitList(List`1&lt;!!0&gt; ansogeningIDs, Int32 nSize)</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.ShimProcessServiceMaal.recnoByCaseIDGet">
+            <summary>Sets the Shim of ProcessServiceMaal.get_recnoByCaseID()</summary>
+        </member>
+        <member name="T:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.StubProcessServiceMaal">
+            <summary>Stub type of Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.ProcessServiceMaal</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.StubProcessServiceMaal.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.StubProcessServiceMaal.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.StubProcessServiceMaal.InitializeStub">
+            <summary>Initializes a new instance of type StubProcessServiceMaal</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.StubProcessServiceMaal.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Fujitsu.eDoc.BOM.UpdateServiceMaal.ProcessEngine.Fakes.StubProcessServiceMaal.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
